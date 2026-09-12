@@ -9,7 +9,7 @@ import { parseAnm, extractSpriteImage, parseThtkAnm, parseThtx, type ThtkAnmInfo
 import { isThbgm, parseThbgm } from '../formats/bgm.ts';
 import { parseEcl, analyzeBossPhases } from '../formats/ecl.ts';
 import { parseMsg } from '../formats/msg.ts';
-import { createCanvas, decodePng, encodePng } from '../core/png.ts';
+import { createCanvas, cropImage, decodePng, encodePng, type RawImage } from '../core/png.ts';
 import { decodeJpeg, applyBlackAsAlpha } from '../core/jpeg.ts';
 import { analyzeColors } from '../core/color.ts';
 import { detectMagic } from '../core/magic.ts';
@@ -556,6 +556,37 @@ export async function extractGame(req: ExtractRequest, onProgress?: ProgressFn):
     }
 
     const total = parsed.entries.length;
+
+    // 归档内条目索引：thtk 编译格式的 ANM 把贴图外置成独立条目
+    // （xxx.anm 配 xxx.png），需要按名字定位，且不能依赖条目处理顺序。
+    const textureIndex = new Map<string, DatEntry>();
+    for (const e of parsed.entries) {
+      const full = path.basename(e.name.replace(/\\/g, '/')).toLowerCase();
+      if (!full) continue;
+      if (!textureIndex.has(full)) textureIndex.set(full, e);
+      const stem = full.replace(/\.[^.]*$/, '');
+      if (stem && !textureIndex.has(stem)) textureIndex.set(stem, e);
+    }
+
+    const textureCache = new Map<string, RawImage | null>();
+    const lookupTexture = (name: string | null | undefined): { image: RawImage; entryName: string } | null => {
+      if (!name) return null;
+      const key = path.basename(name.replace(/\\/g, '/')).toLowerCase();
+      if (textureCache.has(key)) {
+        const cached = textureCache.get(key);
+        return cached ? { image: cached, entryName: key } : null;
+      }
+      const target = textureIndex.get(key) ?? textureIndex.get(key.replace(/\.[^.]*$/, ''));
+      if (!target) {
+        textureCache.set(key, null);
+        return null;
+      }
+      const payload = readEntryPayload(buf, target, parsed, req.gameId) ?? sliceEntry(buf, target);
+      const image = decodePng(payload) ?? decodeJpeg(payload);
+      textureCache.set(key, image);
+      return image ? { image, entryName: target.name } : null;
+    };
+
     for (let ei = 0; ei < parsed.entries.length; ei++) {
       const entry = parsed.entries[ei];
       if (entry.empty || entry.size === 0) continue;
@@ -588,6 +619,7 @@ export async function extractGame(req: ExtractRequest, onProgress?: ProgressFn):
           insertAnimationFrame,
           insertCharacterAsset,
           saveFile,
+          lookupTexture,
           spritesDir,
           sheetsDir,
           analysisDir,
@@ -830,6 +862,14 @@ interface AnmContext {
   insertAnimationFrame: Stmt;
   insertCharacterAsset: Stmt;
   saveFile: (dir: string, name: string, data: Buffer) => string;
+  /**
+   * 按名字在**归档内**查找贴图条目并解码为 RGBA。
+   *
+   * thtk 编译格式的 ANM 把贴图外置成独立条目（xxx.anm 配 xxx.png），
+   * 必须直接从归档取而不能查数据库 —— 解包按条目顺序进行，
+   * 贴图条目可能排在 ANM 之后，此时尚未入库。
+   */
+  lookupTexture: (name: string | null | undefined) => { image: RawImage; entryName: string } | null;
   spritesDir: string;
   sheetsDir: string;
   analysisDir: string;
@@ -905,13 +945,82 @@ async function processThtkAnm(ctx: AnmContext, thtk: ThtkAnmInfo): Promise<boole
     Buffer.from(JSON.stringify({ source: ctx.entry.name, game: ctx.gameId, thtk }, null, 2)),
   );
 
-  // 贴图来源：优先内嵌 THTX 纹理，其次外置 PNG 路径
   const spriteDir = path.join(ctx.spritesDir, safeFileName(base));
   fs.mkdirSync(spriteDir, { recursive: true });
 
-  let frameImgRid = findResourceByFileName(ctx.gid, thtk.externalName) ?? findResourceByFileName(ctx.gid, thtk.externalAlphaName);
+  let frameImgRid: number | null = null;
+  const sheetFrames: SheetFrame[] = [];
 
-  if (thtk.thtxOffset > 0) {
+  /**
+   * 贴图来源，按可靠性排序：
+   *   1. ANM 内部记录的外置路径 —— thtk 编译时写入的原始资源位置
+   *   2. 与 ANM 同名的兄弟贴图 —— 重编译版惯用 xxx.anm + xxx.png 成对命名
+   *   3. 内嵌 THTX 纹理
+   *   4. 三者皆无 → 布局占位图
+   *
+   * 拿到的贴图是**整张图集**，需按 region 表裁出各个精灵。
+   */
+  let texture = ctx.lookupTexture(thtk.externalName) ?? ctx.lookupTexture(thtk.externalAlphaName);
+  let textureFrom = texture ? '外置路径引用' : '';
+  if (!texture) {
+    for (const cand of [`${base}.png`, `${base}.jpg`, `${base}.bmp`]) {
+      const t = ctx.lookupTexture(cand);
+      if (t) {
+        texture = t;
+        textureFrom = '同名贴图';
+        break;
+      }
+    }
+  }
+
+  if (texture) {
+    const texImg = texture.image;
+    for (const r of thtk.regions) {
+      const w = Math.max(1, Math.round(r.w));
+      const h = Math.max(1, Math.round(r.h));
+      const sprite = cropImage(texImg, Math.round(r.x), Math.round(r.y), w, h);
+      const png = encodePng(sprite);
+      const code = ctx.alloc.next(cls.category);
+      const spriteName = `${base}_${String(r.index).padStart(4, '0')}.png`;
+      const cachePath = ctx.saveFile(spriteDir, spriteName, png);
+
+      const rid = ctx.writeResource({
+        code,
+        archiveId: ctx.archiveId,
+        entryName: `${ctx.entry.name}#${r.index}`,
+        displayName: spriteName,
+        ext: '.png',
+        kind: 'image',
+        category: cls.category === 'unknown' ? 'sprite' : cls.category,
+        role: cls.role,
+        size: png.length,
+        entryOffset: 0,
+        cachePath,
+        hash: '',
+        tags: [...cls.tags, 'ANM精灵', '外置贴图已还原'],
+        meta: {
+          sourceAnm: ctx.entry.name,
+          spriteId: r.index,
+          texture: texture.entryName,
+          region: r,
+        },
+        width: w,
+        height: h,
+        imageFormat: 'PNG',
+        hasAlpha: true,
+      });
+      if (frameImgRid === null) frameImgRid = rid;
+      ctx.summary.sprites++;
+      if (ctx.modes.sheets) {
+        sheetFrames.push({ name: spriteName.replace(/\.png$/, ''), image: sprite, spriteId: r.index });
+      }
+    }
+    ctx.warnings.push(
+      `${ctx.entry.name}：经${textureFrom}「${texture.entryName}」还原 ${thtk.regions.length} 个真实精灵`,
+    );
+  }
+
+  if (!frameImgRid && thtk.thtxOffset > 0) {
     const tex = parseThtx(ctx.slice, thtk.thtxOffset);
     if (tex) {
       const png = encodePng(tex.image);
@@ -997,7 +1106,8 @@ async function processThtkAnm(ctx: AnmContext, thtk: ThtkAnmInfo): Promise<boole
       hasAlpha: false,
     });
     ctx.warnings.push(
-      `${ctx.entry.name}：外置贴图 ${thtk.externalName ?? '(未知)'} 不在本包内（属原版资源），已生成 ${thtk.regions.length} 个精灵区域的布局占位图`,
+      `${ctx.entry.name}：外置贴图「${thtk.externalName ?? '(未记录)'}」在归档内无对应条目，` +
+        `已生成 ${thtk.regions.length} 个精灵区域的布局占位图`,
     );
   }
 
@@ -1022,6 +1132,57 @@ async function processThtkAnm(ctx: AnmContext, thtk: ThtkAnmInfo): Promise<boole
       ctx.insertAnimationFrame.run(animId, frameImgRid, i, 8, r.x, r.y, r.w, r.h, 0, 1);
       ctx.summary.animationFrames++;
     });
+  }
+
+  // ---- Sprite Sheet 生成（把还原出的真实精灵打包成引擎可直接用的图集）
+  if (ctx.modes.sheets && sheetFrames.length > 0) {
+    const sheet = packSheet(sheetFrames, {
+      maxWidth: 2048,
+      maxHeight: 4096,
+      padding: 1,
+      gameId: ctx.gameId,
+      source: ctx.entry.name,
+      nameOf: (f) => f.name,
+    });
+    if (sheet) {
+      const sheetName = `${safeFileName(base)}_sheet.png`;
+      const sheetPath = ctx.saveFile(ctx.sheetsDir, sheetName, sheet.png);
+      const jsonPath = ctx.saveFile(
+        ctx.sheetsDir,
+        `${safeFileName(base)}_sheet.json`,
+        Buffer.from(JSON.stringify(sheet.json, null, 2)),
+      );
+
+      const sheetCode = ctx.alloc.next(cls.category);
+      ctx.writeResource({
+        code: sheetCode,
+        archiveId: ctx.archiveId,
+        entryName: `${ctx.entry.name}#sheet`,
+        displayName: `${base} 精灵图集`,
+        ext: '.png',
+        kind: 'image',
+        category: 'sheet',
+        role: cls.role,
+        size: sheet.png.length,
+        entryOffset: 0,
+        cachePath: sheetPath,
+        hash: '',
+        tags: [...new Set([...cls.tags, 'SpriteSheet', '可直接导入引擎'])],
+        meta: {
+          sourceAnm: ctx.entry.name,
+          frameCount: sheet.frameCount,
+          overflow: sheet.overflow,
+          jsonPath,
+          jsonName: path.basename(jsonPath),
+          atlasSize: { w: sheet.width, h: sheet.height },
+        },
+        width: sheet.width,
+        height: sheet.height,
+        imageFormat: 'PNG',
+        hasAlpha: true,
+      });
+      ctx.summary.sheets++;
+    }
   }
 
   return true;

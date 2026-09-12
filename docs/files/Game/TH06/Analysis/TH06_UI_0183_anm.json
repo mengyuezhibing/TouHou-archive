@@ -1,0 +1,33 @@
+{
+  "source": "select02.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 2,
+    "scripts": 2,
+    "width": 256,
+    "height": 256,
+    "format": 5,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/title/select02.png",
+    "externalAlphaName": "data/title/select02_a.png",
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 96
+      },
+      {
+        "index": 1,
+        "id": 1,
+        "x": 0,
+        "y": 96,
+        "w": 256,
+        "h": 96
+      }
+    ]
+  }
+}

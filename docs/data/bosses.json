@@ -1,144 +1,9 @@
 {
  "items": [
   {
-   "id": 1,
+   "id": 110,
    "game_id": "TH06",
-   "character_id": 3,
-   "name": "立绘角色 03（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face03"
-   },
-   "game_code": "TH06",
-   "spell_count": 0
-  },
-  {
-   "id": 2,
-   "game_id": "TH06",
-   "character_id": 4,
-   "name": "立绘角色 05（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face05"
-   },
-   "game_code": "TH06",
-   "spell_count": 7
-  },
-  {
-   "id": 3,
-   "game_id": "TH06",
-   "character_id": 5,
-   "name": "立绘角色 06（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face06"
-   },
-   "game_code": "TH06",
-   "spell_count": 0
-  },
-  {
-   "id": 4,
-   "game_id": "TH06",
-   "character_id": 6,
-   "name": "立绘角色 08（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face08"
-   },
-   "game_code": "TH06",
-   "spell_count": 7
-  },
-  {
-   "id": 5,
-   "game_id": "TH06",
-   "character_id": 7,
-   "name": "立绘角色 09（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face09"
-   },
-   "game_code": "TH06",
-   "spell_count": 6
-  },
-  {
-   "id": 6,
-   "game_id": "TH06",
-   "character_id": 8,
-   "name": "立绘角色 10（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face10"
-   },
-   "game_code": "TH06",
-   "spell_count": 9
-  },
-  {
-   "id": 7,
-   "game_id": "TH06",
-   "character_id": 9,
-   "name": "立绘角色 12（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face12"
-   },
-   "game_code": "TH06",
-   "spell_count": 0
-  },
-  {
-   "id": 8,
-   "game_id": "TH06",
-   "character_id": 10,
-   "name": "立绘角色 00（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face00"
-   },
-   "game_code": "TH06",
-   "spell_count": 0
-  },
-  {
-   "id": 9,
-   "game_id": "TH06",
-   "character_id": 11,
-   "name": "立绘角色 01（待指派）",
-   "stage": null,
-   "rank": "BOSS",
-   "description": "由立绘文件自动登记，关卡与身份待指派",
-   "meta": {
-    "source": "autoclassify",
-    "key": "face01"
-   },
-   "game_code": "TH06",
-   "spell_count": 0
-  },
-  {
-   "id": 10,
-   "game_id": "TH06",
-   "character_id": 12,
+   "character_id": 96,
    "name": "露米娅",
    "stage": 1,
    "rank": "BOSS",
@@ -148,12 +13,12 @@
     "key": "rumia"
    },
    "game_code": "TH06",
-   "spell_count": 0
+   "spell_count": 3
   },
   {
-   "id": 11,
+   "id": 111,
    "game_id": "TH06",
-   "character_id": 13,
+   "character_id": 97,
    "name": "琪露诺",
    "stage": 2,
    "rank": "BOSS",
@@ -163,12 +28,27 @@
     "key": "cirno"
    },
    "game_code": "TH06",
-   "spell_count": 0
+   "spell_count": 4
   },
   {
-   "id": 12,
+   "id": 112,
    "game_id": "TH06",
-   "character_id": 14,
+   "character_id": 98,
+   "name": "红美铃",
+   "stage": 3,
+   "rank": "BOSS",
+   "description": "華人少女",
+   "meta": {
+    "source": "identified",
+    "key": "meiling"
+   },
+   "game_code": "TH06",
+   "spell_count": 7
+  },
+  {
+   "id": 113,
+   "game_id": "TH06",
+   "character_id": 99,
    "name": "帕秋莉·诺蕾姬",
    "stage": 4,
    "rank": "BOSS",
@@ -178,7 +58,52 @@
     "key": "patchouli"
    },
    "game_code": "TH06",
-   "spell_count": 0
+   "spell_count": 21
+  },
+  {
+   "id": 114,
+   "game_id": "TH06",
+   "character_id": 100,
+   "name": "十六夜咲夜",
+   "stage": 5,
+   "rank": "BOSS",
+   "description": "紅魔館のメイド",
+   "meta": {
+    "source": "identified",
+    "key": "sakuya"
+   },
+   "game_code": "TH06",
+   "spell_count": 7
+  },
+  {
+   "id": 115,
+   "game_id": "TH06",
+   "character_id": 101,
+   "name": "蕾米莉亚·斯卡雷特",
+   "stage": 6,
+   "rank": "BOSS",
+   "description": "永遠に紅い幼き月",
+   "meta": {
+    "source": "identified",
+    "key": "remilia"
+   },
+   "game_code": "TH06",
+   "spell_count": 6
+  },
+  {
+   "id": 116,
+   "game_id": "TH06",
+   "character_id": 102,
+   "name": "芙兰朵露·斯卡雷特",
+   "stage": 7,
+   "rank": "EXTRA",
+   "description": "悪魔の妹",
+   "meta": {
+    "source": "identified",
+    "key": "flandre"
+   },
+   "game_code": "TH06",
+   "spell_count": 9
   }
  ]
 }

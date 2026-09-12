@@ -1,0 +1,94 @@
+{
+  "frames": {
+    "stg4bg_0001": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 80,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 80,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 80,
+        "h": 160
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "spriteId": 1
+    },
+    "stg4bg_0002": {
+      "frame": {
+        "x": 82,
+        "y": 1,
+        "w": 16,
+        "h": 160
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 16,
+        "h": 160
+      },
+      "sourceSize": {
+        "w": 16,
+        "h": 160
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "spriteId": 2
+    },
+    "stg4bg_0000": {
+      "frame": {
+        "x": 99,
+        "y": 1,
+        "w": 32,
+        "h": 32
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 32
+      },
+      "sourceSize": {
+        "w": 32,
+        "h": 32
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "spriteId": 0
+    }
+  },
+  "meta": {
+    "app": "Touhou Resource Studio",
+    "version": "1.0",
+    "image": "sheet.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 133,
+      "h": 163
+    },
+    "scale": "1",
+    "game": "TH06",
+    "source": "stg4bg.anm",
+    "frameCount": 3,
+    "overflow": 0
+  }
+}

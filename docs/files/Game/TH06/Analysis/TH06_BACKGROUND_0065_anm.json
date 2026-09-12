@@ -1,0 +1,49 @@
+{
+  "source": "stg6bg.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 4,
+    "scripts": 8,
+    "width": 256,
+    "height": 256,
+    "format": 3,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/stg1bg/stg6bg.png",
+    "externalAlphaName": null,
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      },
+      {
+        "index": 2,
+        "id": 2,
+        "x": 0,
+        "y": 128,
+        "w": 128,
+        "h": 128
+      },
+      {
+        "index": 3,
+        "id": 3,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 128
+      }
+    ]
+  }
+}

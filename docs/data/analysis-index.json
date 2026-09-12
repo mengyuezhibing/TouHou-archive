@@ -1,9 +1,30 @@
 {
+ "TH06_BACKGROUND_0001": [
+  "Game/TH06/Analysis/TH06_BACKGROUND_0001_anm.json"
+ ],
+ "TH06_BACKGROUND_0035": [
+  "Game/TH06/Analysis/TH06_BACKGROUND_0035_anm.json"
+ ],
+ "TH06_BACKGROUND_0051": [
+  "Game/TH06/Analysis/TH06_BACKGROUND_0051_anm.json"
+ ],
+ "TH06_BACKGROUND_0058": [
+  "Game/TH06/Analysis/TH06_BACKGROUND_0058_anm.json"
+ ],
+ "TH06_BACKGROUND_0065": [
+  "Game/TH06/Analysis/TH06_BACKGROUND_0065_anm.json"
+ ],
+ "TH06_BACKGROUND_0072": [
+  "Game/TH06/Analysis/TH06_BACKGROUND_0072_anm.json"
+ ],
  "TH06_BULLET_0001": [
   "Game/TH06/Analysis/TH06_BULLET_0001_anm.json"
  ],
  "TH06_BULLET_0005": [
   "Game/TH06/Analysis/TH06_BULLET_0005_anm.json"
+ ],
+ "TH06_BULLET_0159": [
+  "Game/TH06/Analysis/TH06_BULLET_0159_anm.json"
  ],
  "TH06_CHARACTER_0001": [
   "Game/TH06/Analysis/TH06_CHARACTER_0001_anm.json"
@@ -11,11 +32,74 @@
  "TH06_CHARACTER_0003": [
   "Game/TH06/Analysis/TH06_CHARACTER_0003_anm.json"
  ],
+ "TH06_CHARACTER_0029": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0029_anm.json"
+ ],
+ "TH06_CHARACTER_0044": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0044_anm.json"
+ ],
+ "TH06_CHARACTER_0082": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0082_anm.json"
+ ],
+ "TH06_CHARACTER_0092": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0092_anm.json"
+ ],
+ "TH06_CHARACTER_0141": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0141_anm.json"
+ ],
+ "TH06_CHARACTER_0192": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0192_anm.json"
+ ],
+ "TH06_CHARACTER_0243": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0243_anm.json"
+ ],
+ "TH06_CHARACTER_0254": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0254_anm.json"
+ ],
+ "TH06_CHARACTER_0312": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0312_anm.json"
+ ],
+ "TH06_CHARACTER_0323": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0323_anm.json"
+ ],
+ "TH06_CHARACTER_0374": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0374_anm.json"
+ ],
+ "TH06_CHARACTER_0390": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0390_anm.json"
+ ],
+ "TH06_CHARACTER_0420": [
+  "Game/TH06/Analysis/TH06_CHARACTER_0420_anm.json"
+ ],
+ "TH06_EFFECT_0001": [
+  "Game/TH06/Analysis/TH06_EFFECT_0001_anm.json"
+ ],
+ "TH06_EFFECT_0005": [
+  "Game/TH06/Analysis/TH06_EFFECT_0005_anm.json"
+ ],
+ "TH06_EFFECT_0009": [
+  "Game/TH06/Analysis/TH06_EFFECT_0009_anm.json"
+ ],
+ "TH06_EFFECT_0013": [
+  "Game/TH06/Analysis/TH06_EFFECT_0013_anm.json"
+ ],
+ "TH06_EFFECT_0017": [
+  "Game/TH06/Analysis/TH06_EFFECT_0017_anm.json"
+ ],
+ "TH06_EFFECT_0021": [
+  "Game/TH06/Analysis/TH06_EFFECT_0021_anm.json"
+ ],
+ "TH06_EFFECT_0025": [
+  "Game/TH06/Analysis/TH06_EFFECT_0025_anm.json"
+ ],
  "TH06_PORTRAIT_0001": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0001_anm.json"
  ],
  "TH06_PORTRAIT_0003": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0003_anm.json"
+ ],
+ "TH06_PORTRAIT_0005": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0005_anm.json"
  ],
  "TH06_PORTRAIT_0009": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0009_anm.json"
@@ -26,6 +110,9 @@
  "TH06_PORTRAIT_0017": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0017_anm.json"
  ],
+ "TH06_PORTRAIT_0019": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0019_anm.json"
+ ],
  "TH06_PORTRAIT_0021": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0021_anm.json"
  ],
@@ -34,6 +121,9 @@
  ],
  "TH06_PORTRAIT_0029": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0029_anm.json"
+ ],
+ "TH06_PORTRAIT_0031": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0031_anm.json"
  ],
  "TH06_PORTRAIT_0033": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0033_anm.json"
@@ -56,11 +146,20 @@
  "TH06_PORTRAIT_0053": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0053_anm.json"
  ],
+ "TH06_PORTRAIT_0055": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0055_anm.json"
+ ],
  "TH06_PORTRAIT_0057": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0057_anm.json"
  ],
+ "TH06_PORTRAIT_0060": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0060_anm.json"
+ ],
  "TH06_PORTRAIT_0061": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0061_anm.json"
+ ],
+ "TH06_PORTRAIT_0064": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0064_anm.json"
  ],
  "TH06_PORTRAIT_0065": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0065_anm.json"
@@ -70,6 +169,24 @@
  ],
  "TH06_PORTRAIT_0073": [
   "Game/TH06/Analysis/TH06_PORTRAIT_0073_anm.json"
+ ],
+ "TH06_PORTRAIT_0078": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0078_anm.json"
+ ],
+ "TH06_PORTRAIT_0084": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0084_anm.json"
+ ],
+ "TH06_PORTRAIT_0090": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0090_anm.json"
+ ],
+ "TH06_PORTRAIT_0096": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0096_anm.json"
+ ],
+ "TH06_PORTRAIT_0102": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0102_anm.json"
+ ],
+ "TH06_PORTRAIT_0108": [
+  "Game/TH06/Analysis/TH06_PORTRAIT_0108_anm.json"
  ],
  "TH06_SCRIPT_0002": [
   "Game/TH06/Analysis/TH06_SCRIPT_0002_ecl.json"
@@ -263,13 +380,91 @@
  "TH06_UI_0034": [
   "Game/TH06/Analysis/TH06_UI_0034_anm.json"
  ],
+ "TH06_UI_0035": [
+  "Game/TH06/Analysis/TH06_UI_0035_anm.json"
+ ],
  "TH06_UI_0045": [
   "Game/TH06/Analysis/TH06_UI_0045_anm.json"
+ ],
+ "TH06_UI_0046": [
+  "Game/TH06/Analysis/TH06_UI_0046_anm.json"
  ],
  "TH06_UI_0050": [
   "Game/TH06/Analysis/TH06_UI_0050_anm.json"
  ],
  "TH06_UI_0054": [
   "Game/TH06/Analysis/TH06_UI_0054_anm.json"
+ ],
+ "TH06_UI_0085": [
+  "Game/TH06/Analysis/TH06_UI_0085_anm.json"
+ ],
+ "TH06_UI_0093": [
+  "Game/TH06/Analysis/TH06_UI_0093_anm.json"
+ ],
+ "TH06_UI_0100": [
+  "Game/TH06/Analysis/TH06_UI_0100_anm.json"
+ ],
+ "TH06_UI_0123": [
+  "Game/TH06/Analysis/TH06_UI_0123_anm.json"
+ ],
+ "TH06_UI_0153": [
+  "Game/TH06/Analysis/TH06_UI_0153_anm.json"
+ ],
+ "TH06_UI_0176": [
+  "Game/TH06/Analysis/TH06_UI_0176_anm.json"
+ ],
+ "TH06_UI_0183": [
+  "Game/TH06/Analysis/TH06_UI_0183_anm.json"
+ ],
+ "TH06_UI_0189": [
+  "Game/TH06/Analysis/TH06_UI_0189_anm.json"
+ ],
+ "TH06_UI_0195": [
+  "Game/TH06/Analysis/TH06_UI_0195_anm.json"
+ ],
+ "TH06_UI_0203": [
+  "Game/TH06/Analysis/TH06_UI_0203_anm.json"
+ ],
+ "TH06_UI_0208": [
+  "Game/TH06/Analysis/TH06_UI_0208_anm.json"
+ ],
+ "TH06_UI_0213": [
+  "Game/TH06/Analysis/TH06_UI_0213_anm.json"
+ ],
+ "TH06_UI_0218": [
+  "Game/TH06/Analysis/TH06_UI_0218_anm.json"
+ ],
+ "TH06_UI_0223": [
+  "Game/TH06/Analysis/TH06_UI_0223_anm.json"
+ ],
+ "TH06_UI_0229": [
+  "Game/TH06/Analysis/TH06_UI_0229_anm.json"
+ ],
+ "TH06_UI_0241": [
+  "Game/TH06/Analysis/TH06_UI_0241_anm.json"
+ ],
+ "TH06_UI_0251": [
+  "Game/TH06/Analysis/TH06_UI_0251_anm.json"
+ ],
+ "TH06_UI_0261": [
+  "Game/TH06/Analysis/TH06_UI_0261_anm.json"
+ ],
+ "TH06_UI_0266": [
+  "Game/TH06/Analysis/TH06_UI_0266_anm.json"
+ ],
+ "TH06_UI_0281": [
+  "Game/TH06/Analysis/TH06_UI_0281_anm.json"
+ ],
+ "TH06_UI_0288": [
+  "Game/TH06/Analysis/TH06_UI_0288_anm.json"
+ ],
+ "TH06_UI_0316": [
+  "Game/TH06/Analysis/TH06_UI_0316_anm.json"
+ ],
+ "TH06_UI_0324": [
+  "Game/TH06/Analysis/TH06_UI_0324_anm.json"
+ ],
+ "TH06_UI_0447": [
+  "Game/TH06/Analysis/TH06_UI_0447_anm.json"
  ]
 }

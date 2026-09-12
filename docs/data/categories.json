@@ -2,23 +2,31 @@
  "items": [
   {
    "category": "ui",
-   "count": 139
+   "count": 540
+  },
+  {
+   "category": "character",
+   "count": 438
+  },
+  {
+   "category": "bullet",
+   "count": 185
   },
   {
    "category": "portrait",
-   "count": 76
+   "count": 93
+  },
+  {
+   "category": "sheet",
+   "count": 77
+  },
+  {
+   "category": "background",
+   "count": 72
   },
   {
    "category": "audio",
    "count": 56
-  },
-  {
-   "category": "character",
-   "count": 56
-  },
-  {
-   "category": "background",
-   "count": 25
   },
   {
    "category": "binary",
@@ -31,10 +39,6 @@
   {
    "category": "script",
    "count": 14
-  },
-  {
-   "category": "bullet",
-   "count": 8
   },
   {
    "category": "text",

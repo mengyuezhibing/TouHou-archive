@@ -1,0 +1,25 @@
+{
+  "source": "face12a.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 1,
+    "scripts": 0,
+    "width": 256,
+    "height": 256,
+    "format": 1,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/face/face12a.png",
+    "externalAlphaName": "data/face/face12a_a.png",
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+      }
+    ]
+  }
+}

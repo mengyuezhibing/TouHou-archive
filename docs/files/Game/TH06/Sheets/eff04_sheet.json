@@ -1,0 +1,44 @@
+{
+  "frames": {
+    "eff04_0000": {
+      "frame": {
+        "x": 1,
+        "y": 1,
+        "w": 384,
+        "h": 448
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 384,
+        "h": 448
+      },
+      "sourceSize": {
+        "w": 384,
+        "h": 448
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 0.5
+      },
+      "spriteId": 0
+    }
+  },
+  "meta": {
+    "app": "Touhou Resource Studio",
+    "version": "1.0",
+    "image": "sheet.png",
+    "format": "RGBA8888",
+    "size": {
+      "w": 387,
+      "h": 451
+    },
+    "scale": "1",
+    "game": "TH06",
+    "source": "eff04.anm",
+    "frameCount": 1,
+    "overflow": 0
+  }
+}

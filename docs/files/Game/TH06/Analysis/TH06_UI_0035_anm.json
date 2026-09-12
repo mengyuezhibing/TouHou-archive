@@ -1,0 +1,73 @@
+{
+  "source": "staff02.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 7,
+    "scripts": 2,
+    "width": 256,
+    "height": 256,
+    "format": 1,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/end/staff02.png",
+    "externalAlphaName": "data/end/staff02_a.png",
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 32
+      },
+      {
+        "index": 1,
+        "id": 1,
+        "x": 0,
+        "y": 32,
+        "w": 256,
+        "h": 32
+      },
+      {
+        "index": 2,
+        "id": 2,
+        "x": 0,
+        "y": 64,
+        "w": 256,
+        "h": 32
+      },
+      {
+        "index": 3,
+        "id": 3,
+        "x": 0,
+        "y": 96,
+        "w": 256,
+        "h": 32
+      },
+      {
+        "index": 4,
+        "id": 4,
+        "x": 0,
+        "y": 128,
+        "w": 256,
+        "h": 32
+      },
+      {
+        "index": 5,
+        "id": 5,
+        "x": 0,
+        "y": 160,
+        "w": 256,
+        "h": 32
+      },
+      {
+        "index": 6,
+        "id": 6,
+        "x": 0,
+        "y": 192,
+        "w": 256,
+        "h": 32
+      }
+    ]
+  }
+}

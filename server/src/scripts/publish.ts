@@ -140,7 +140,25 @@ async function main() {
   let dataBytes = 0;
   const gameCodes = games.map((g) => g.id);
 
-  const resources = listAssets({ limit: 1_000_000 }) as any;
+  /**
+   * listAssets 出于 API 保护把单次返回量限制在 500 条，
+   * 导出全量必须自己翻页。排序固定为 name（即按 code 升序，唯一且稳定），
+   * 否则翻页过程中顺序变化会导致记录重复或遗漏。
+   */
+  const collectAllAssets = () => {
+    const PAGE = 500;
+    const items: any[] = [];
+    let total = 0;
+    for (let offset = 0; ; offset += PAGE) {
+      const page = listAssets({ limit: PAGE, offset, sort: 'name' }) as any;
+      total = page.total;
+      items.push(...page.items);
+      if (page.items.length < PAGE || items.length >= total) break;
+    }
+    return { items, total };
+  };
+
+  const resources = collectAllAssets();
   dataBytes += writeJson('data/resources.json', { items: resources.items, total: resources.total });
   console.log(`  素材        ${resources.items.length} 项`);
 

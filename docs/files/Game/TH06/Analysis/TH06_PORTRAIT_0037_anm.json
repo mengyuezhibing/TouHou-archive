@@ -1,23 +1,31 @@
 {
-  "source": "face10a.anm",
+  "source": "face08b.anm",
   "game": "TH06",
   "thtk": {
-    "sprites": 1,
+    "sprites": 2,
     "scripts": 0,
     "width": 256,
     "height": 256,
     "format": 1,
     "version": 0,
     "thtxOffset": 0,
-    "externalName": "data/face/face10a.png",
-    "externalAlphaName": "data/face/face10a_a.png",
+    "externalName": "data/face/face08b.png",
+    "externalAlphaName": "data/face/face08b_a.png",
     "regions": [
       {
         "index": 0,
         "id": 0,
         "x": 0,
         "y": 0,
-        "w": 256,
+        "w": 128,
+        "h": 256
+      },
+      {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
         "h": 256
       }
     ]

@@ -75,7 +75,15 @@ const NAME_RULES: Rule[] = [
   { test: /\.(std|sht)$/i, category: 'script', role: 'unknown', tags: ['关卡脚本'] },
 ];
 
-/** 文件名中能直接反映角色身份的关键词（用于角色自动归类） */
+/**
+ * 文件名 / AI 标签中能反映角色身份的关键词。
+ *
+ * 两个用途：
+ *   1. 从条目名推断角色（detectCharacterHint）
+ *   2. 把 WD14 的标签名（hakurei_reimu / hong_meiling）映射回角色 key
+ * 因此这里必须覆盖各作的**中 Boss 与道中敌**，只列自机会导致
+ * 露米娅、美铃这类角色无法被 AI 结果关联上。
+ */
 export const CHARACTER_HINTS: Record<string, string> = {
   reimu: '博丽灵梦',
   marisa: '雾雨魔理沙',
@@ -83,6 +91,11 @@ export const CHARACTER_HINTS: Record<string, string> = {
   youmu: '魂魄妖梦',
   remilia: '蕾米莉亚',
   flandre: '芙兰朵露',
+  // 红魔乡的中 Boss 与道中角色
+  rumia: '露米娅',
+  daiyousei: '大妖精',
+  meiling: '红美铃',
+  koakuma: '小恶魔',
   yuyuko: '西行寺幽幽子',
   yukari: '八云紫',
   cirno: '琪露诺',

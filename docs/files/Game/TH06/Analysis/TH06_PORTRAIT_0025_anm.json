@@ -1,5 +1,5 @@
 {
-  "source": "face08b.anm",
+  "source": "face06b.anm",
   "game": "TH06",
   "thtk": {
     "sprites": 2,
@@ -9,8 +9,8 @@
     "format": 1,
     "version": 0,
     "thtxOffset": 0,
-    "externalName": "data/face/face08b.png",
-    "externalAlphaName": "data/face/face08b_a.png",
+    "externalName": "data/face/face06b.png",
+    "externalAlphaName": "data/face/face06b_a.png",
     "regions": [
       {
         "index": 0,

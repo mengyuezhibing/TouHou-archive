@@ -2,9 +2,9 @@
  "byGame": {
   "TH06": [
    {
-    "id": 1,
+    "id": 1039,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "久々のお仕事だわ。",
@@ -13,9 +13,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 2,
+    "id": 1040,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "気持ちいいわね",
@@ -24,9 +24,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 3,
+    "id": 1041,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "毎回、昼間に出発して悪霊が少ない",
@@ -35,9 +35,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 4,
+    "id": 1042,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "から、夜に出てみたんだけど...",
@@ -46,9 +46,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 5,
+    "id": 1043,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "どこに行っていいかわからないわ",
@@ -57,9 +57,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 6,
+    "id": 1044,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "暗くて",
@@ -68,9 +68,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 7,
+    "id": 1045,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "でも...",
@@ -79,9 +79,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 8,
+    "id": 1046,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "夜の境内裏はロマンティックね",
@@ -90,9 +90,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 9,
+    "id": 1047,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "（←のんき）",
@@ -101,9 +101,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 10,
+    "id": 1048,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "そうなのよね～",
@@ -112,9 +112,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 11,
+    "id": 1049,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "お化けも出るし、たまんないわ",
@@ -123,9 +123,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 12,
+    "id": 1050,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "って、",
@@ -134,9 +134,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 13,
+    "id": 1051,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "あんた誰？",
@@ -145,9 +145,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 14,
+    "id": 1052,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "宵闇の妖怪",
@@ -156,9 +156,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 15,
+    "id": 1053,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "ルーミア",
@@ -167,9 +167,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 16,
+    "id": 1054,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "さっき会ったじゃない",
@@ -178,9 +178,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 17,
+    "id": 1055,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "あんた、もしかして鳥目？",
@@ -189,9 +189,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 18,
+    "id": 1056,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "人は暗いところでは物が",
@@ -200,9 +200,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 19,
+    "id": 1057,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "良く見えないのよ",
@@ -211,9 +211,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 20,
+    "id": 1058,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "あら？夜しか活動しない人も",
@@ -222,9 +222,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 21,
+    "id": 1059,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "見たことある気がするわ",
@@ -233,9 +233,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 22,
+    "id": 1060,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "それは取って食べたりしても",
@@ -244,9 +244,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 23,
+    "id": 1061,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "いいのよ",
@@ -255,9 +255,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 24,
+    "id": 1062,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "そーなのかー",
@@ -266,9 +266,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 25,
+    "id": 1063,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "で、邪魔なんですけど",
@@ -277,9 +277,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 26,
+    "id": 1064,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "目の前が取って食べれる人類？",
@@ -288,9 +288,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 27,
+    "id": 1065,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "良薬は口に苦し",
@@ -299,9 +299,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 28,
+    "id": 1066,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "って言葉知ってる？",
@@ -310,9 +310,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 29,
+    "id": 1067,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "良薬っていっても",
@@ -321,9 +321,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 30,
+    "id": 1068,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "飲んでみなけりゃわかんないけどね",
@@ -332,9 +332,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 31,
+    "id": 1069,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "こういう気持ち、なんというか･･･",
@@ -343,9 +343,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 32,
+    "id": 1070,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": "あいつだったら",
     "text": "あいつだったら「気持ちいいわね」",
@@ -354,9 +354,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 33,
+    "id": 1071,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "とかいいそうだな",
@@ -365,9 +365,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 34,
+    "id": 1072,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "わたしは夜は嫌いだけどな",
@@ -376,9 +376,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 35,
+    "id": 1073,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "変な奴しかいないし",
@@ -387,9 +387,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 36,
+    "id": 1074,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "変な奴って誰のことよ",
@@ -398,9 +398,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 37,
+    "id": 1075,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "誰もあんたのことって言ってないぜ",
@@ -409,9 +409,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 38,
+    "id": 1076,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "宵闇の妖怪",
@@ -420,9 +420,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 39,
+    "id": 1077,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "ルーミア",
@@ -431,9 +431,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 40,
+    "id": 1078,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "それはまぁ、当然",
@@ -442,9 +442,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 41,
+    "id": 1079,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "で、何でそんな手広げてるのさ",
@@ -453,9 +453,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 42,
+    "id": 1080,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "「聖者は十字架に磔られました」",
@@ -464,9 +464,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 43,
+    "id": 1081,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "っていってるように見える？",
@@ -475,9 +475,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 44,
+    "id": 1082,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "「人類は十進法を採用しました」",
@@ -486,9 +486,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 45,
+    "id": 1083,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "って見えるな",
@@ -497,9 +497,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 46,
+    "id": 1084,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "人類以外は",
@@ -508,9 +508,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 47,
+    "id": 1085,
     "game_id": 1,
-    "resource_id": 15,
+    "resource_id": 2024,
     "character_id": null,
     "speaker": null,
     "text": "指は十本じゃないのかしら",
@@ -519,9 +519,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 48,
+    "id": 1086,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "この湖こんなに広かったかしら？",
@@ -530,9 +530,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 49,
+    "id": 1087,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "霧で見通しが悪くて困ったわ。",
@@ -541,9 +541,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 50,
+    "id": 1088,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "もしかして私って方向音痴？",
@@ -552,9 +552,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 51,
+    "id": 1089,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "道に迷うは、妖精の所為なの",
@@ -563,9 +563,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 52,
+    "id": 1090,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "湖上の氷精",
@@ -574,9 +574,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 53,
+    "id": 1091,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "チルノ",
@@ -585,9 +585,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 54,
+    "id": 1092,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "あらそう？、じゃ、案内して？",
@@ -596,9 +596,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 55,
+    "id": 1093,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "ここら辺に島があったでしょ？",
@@ -607,9 +607,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 56,
+    "id": 1094,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "あんた、ちったぁ驚きなさいよ",
@@ -618,9 +618,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 57,
+    "id": 1095,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "目の前に強敵がいるのよ？",
@@ -629,9 +629,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 58,
+    "id": 1096,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "標的？",
@@ -640,9 +640,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 59,
+    "id": 1097,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "こいつはびっくりだぁね",
@@ -651,9 +651,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 60,
+    "id": 1098,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "ふざけやがって～",
@@ -662,9 +662,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 61,
+    "id": 1099,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "あんたなんて、英吉利牛と一緒に",
@@ -673,9 +673,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 62,
+    "id": 1100,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "冷凍保存してやるわ！！",
@@ -684,9 +684,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 63,
+    "id": 1101,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "ああ、冷えてきたわ",
@@ -695,9 +695,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 64,
+    "id": 1102,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "冷房病になっちゃうわ",
@@ -706,9 +706,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 65,
+    "id": 1103,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "島は確かこの辺だったような気が",
@@ -717,9 +717,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 66,
+    "id": 1104,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "するが・・・",
@@ -728,9 +728,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 67,
+    "id": 1105,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "もしかして移動してるのか？",
@@ -739,9 +739,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 68,
+    "id": 1106,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "それにしても・・・",
@@ -750,9 +750,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 69,
+    "id": 1107,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "おおよそ夏だぜ",
@@ -761,9 +761,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 70,
+    "id": 1108,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "なんでこんなに冷えるんだ？",
@@ -772,9 +772,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 71,
+    "id": 1109,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "もう二度と陸には上がらせないよ！",
@@ -783,9 +783,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 72,
+    "id": 1110,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "湖上の氷精",
@@ -794,9 +794,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 73,
+    "id": 1111,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "チルノ",
@@ -805,9 +805,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 74,
+    "id": 1112,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "あんたね。寒いのは",
@@ -816,9 +816,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 75,
+    "id": 1113,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "暑いよりはいいでしょ？",
@@ -827,9 +827,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 76,
+    "id": 1114,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "寒い奴",
@@ -838,9 +838,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 77,
+    "id": 1115,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "それはなにか違う・・・",
@@ -849,9 +849,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 78,
+    "id": 1116,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "いっぱいいっぱいなんだろ？",
@@ -860,9 +860,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 79,
+    "id": 1117,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "ああ、半袖じゃ体に悪いわ",
@@ -871,9 +871,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 80,
+    "id": 1118,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "早く、お茶でも出してくれるお屋敷",
@@ -882,9 +882,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 81,
+    "id": 1119,
     "game_id": 1,
-    "resource_id": 37,
+    "resource_id": 2091,
     "character_id": null,
     "speaker": null,
     "text": "探そう、っと",
@@ -893,9 +893,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 82,
+    "id": 1120,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "ついてくるなよ～",
@@ -904,9 +904,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 83,
+    "id": 1121,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "道案内ありがと～",
@@ -915,9 +915,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 84,
+    "id": 1122,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "あら、私について来ても",
@@ -926,9 +926,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 85,
+    "id": 1123,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "こっちには何もなくてよ？",
@@ -937,9 +937,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 86,
+    "id": 1124,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "華人小娘",
@@ -948,9 +948,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 87,
+    "id": 1125,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "紅 美鈴",
@@ -959,9 +959,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 88,
+    "id": 1126,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "何もないところに逃げないでしょ？",
@@ -970,9 +970,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 89,
+    "id": 1127,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "うーん、逃げるときは逃げる",
@@ -981,9 +981,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 90,
+    "id": 1128,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "と思うけどなぁ",
@@ -992,9 +992,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 91,
+    "id": 1129,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "ちなみに、あなた、何者？",
@@ -1003,9 +1003,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 92,
+    "id": 1130,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "えー、普通の人よ",
@@ -1014,9 +1014,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 93,
+    "id": 1131,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "さっき攻撃仕掛けてきたでしょ？",
@@ -1025,9 +1025,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 94,
+    "id": 1132,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "それは、普通に攻撃したの",
@@ -1036,9 +1036,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 95,
+    "id": 1133,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "でも、あんたが先に攻撃したのよ",
@@ -1047,9 +1047,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 96,
+    "id": 1134,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "あんたが、普通以外なのよ",
@@ -1058,9 +1058,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 97,
+    "id": 1135,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "私は巫女をしている普通の人よ",
@@ -1069,9 +1069,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 98,
+    "id": 1136,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "それはよかった",
@@ -1080,9 +1080,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 99,
+    "id": 1137,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "たしか．．．",
@@ -1091,9 +1091,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 100,
+    "id": 1138,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "巫女は食べてもいい人類だって",
@@ -1102,9 +1102,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 101,
+    "id": 1139,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "言い伝えが．．．",
@@ -1113,9 +1113,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 102,
+    "id": 1140,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "言い伝えるな！",
@@ -1124,9 +1124,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 103,
+    "id": 1141,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "さぁて、道案内してもらいますよ",
@@ -1135,9 +1135,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 104,
+    "id": 1142,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "済みません、お嬢様～",
@@ -1146,9 +1146,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 105,
+    "id": 1143,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "くそ、背水の陣だ！",
@@ -1157,9 +1157,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 106,
+    "id": 1144,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": "あんた一人で",
     "text": "あんた一人で「陣」なのか？",
@@ -1168,9 +1168,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 107,
+    "id": 1145,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "あ、さっきはどうも",
@@ -1179,9 +1179,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 108,
+    "id": 1146,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "お久しぶりですわ",
@@ -1190,9 +1190,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 109,
+    "id": 1147,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "って、私たちいつから知り合いに",
@@ -1201,9 +1201,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 110,
+    "id": 1148,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "なったのよ～",
@@ -1212,9 +1212,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 111,
+    "id": 1149,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "華人小娘",
@@ -1223,9 +1223,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 112,
+    "id": 1150,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "紅 美鈴",
@@ -1234,9 +1234,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 113,
+    "id": 1151,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "さっきだろ？",
@@ -1245,9 +1245,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 114,
+    "id": 1152,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "うーん、変な奴と会っちゃった",
@@ -1256,9 +1256,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 115,
+    "id": 1153,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "なぁ",
@@ -1267,9 +1267,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 116,
+    "id": 1154,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "いいから邪魔だよ",
@@ -1278,9 +1278,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 117,
+    "id": 1155,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "ここの番人なんだろ？",
@@ -1289,9 +1289,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 118,
+    "id": 1156,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "番人だから、邪魔するのよ",
@@ -1300,9 +1300,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 119,
+    "id": 1157,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "やっぱ、あんた、番人なのか？",
@@ -1311,9 +1311,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 120,
+    "id": 1158,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "番人してるだけの普通の人よ",
@@ -1322,9 +1322,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 121,
+    "id": 1159,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "つまり、普通の人ね",
@@ -1333,9 +1333,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 122,
+    "id": 1160,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "ここで成敗してくれるわ",
@@ -1344,9 +1344,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 123,
+    "id": 1161,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "あんた、どういう教育を受けたのよ",
@@ -1355,9 +1355,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 124,
+    "id": 1162,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "やっぱり普通の人と戦うのは、",
@@ -1366,9 +1366,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 125,
+    "id": 1163,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "私の性にあわないわ",
@@ -1377,9 +1377,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 126,
+    "id": 1164,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "絶対うそだ～",
@@ -1388,9 +1388,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 127,
+    "id": 1165,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "くそ、とりあえず逃げるぞ！",
@@ -1399,9 +1399,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 128,
+    "id": 1166,
     "game_id": 1,
-    "resource_id": 57,
+    "resource_id": 2171,
     "character_id": null,
     "speaker": null,
     "text": "逃すぜ",
@@ -1410,9 +1410,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 129,
+    "id": 1167,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "この家には窓が無いのかしら？",
@@ -1421,9 +1421,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 130,
+    "id": 1168,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "それに外から見たとき",
@@ -1432,9 +1432,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 131,
+    "id": 1169,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "こんなに広かったっけ？",
@@ -1443,9 +1443,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 132,
+    "id": 1170,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "そこの紅白！",
@@ -1454,9 +1454,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 133,
+    "id": 1171,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "私の書斎で暴れない",
@@ -1465,9 +1465,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 134,
+    "id": 1172,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "書斎？（紅白？）",
@@ -1476,9 +1476,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 135,
+    "id": 1173,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "これらの本はあなたの神社の",
@@ -1487,9 +1487,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 136,
+    "id": 1174,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "５年分の賽銭程度の価値があるわ",
@@ -1498,9 +1498,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 137,
+    "id": 1175,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "知識と日陰の少女",
@@ -1509,9 +1509,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 138,
+    "id": 1176,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "パチュリー・ノーレッジ",
@@ -1520,9 +1520,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 139,
+    "id": 1177,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "うちは年中無休で参拝客が無いわよ",
@@ -1531,9 +1531,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 140,
+    "id": 1178,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "まぁその程度の価値しか無いんだよ",
@@ -1542,9 +1542,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 141,
+    "id": 1179,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "それにしてもこんな暗い部屋で",
@@ -1553,9 +1553,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 142,
+    "id": 1180,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "本なんか読めるのか？",
@@ -1564,9 +1564,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 143,
+    "id": 1181,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "私はあなたみたいに鳥目",
@@ -1575,9 +1575,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 144,
+    "id": 1182,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "じゃないわ",
@@ -1586,9 +1586,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 145,
+    "id": 1183,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "だから～、私は鳥目じゃない",
@@ -1597,9 +1597,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 146,
+    "id": 1184,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "って",
@@ -1608,9 +1608,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 147,
+    "id": 1185,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "って、そうじゃなくて、",
@@ -1619,9 +1619,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 148,
+    "id": 1186,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "あなたが、ここのご主人？",
@@ -1630,9 +1630,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 149,
+    "id": 1187,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "お嬢様になんの用？",
@@ -1641,9 +1641,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 150,
+    "id": 1188,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "霧の出しすぎで、困る",
@@ -1652,9 +1652,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 151,
+    "id": 1189,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "じゃぁ、お嬢様には絶対会わせ",
@@ -1663,9 +1663,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 152,
+    "id": 1190,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "ないわ",
@@ -1674,9 +1674,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 153,
+    "id": 1191,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "邪魔させないわ",
@@ -1685,9 +1685,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 154,
+    "id": 1192,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "・・・ところで、あんた、誰？",
@@ -1696,9 +1696,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 155,
+    "id": 1193,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "それにしてもこの館って、外から",
@@ -1707,9 +1707,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 156,
+    "id": 1194,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "見て、こんなに広かったっけ？",
@@ -1718,9 +1718,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 157,
+    "id": 1195,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "家には空間をいじるのが好きな人が",
@@ -1729,9 +1729,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 158,
+    "id": 1196,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "いるのよ",
@@ -1740,9 +1740,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 159,
+    "id": 1197,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "わぁ、本がいっぱいだぁ",
@@ -1751,9 +1751,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 160,
+    "id": 1198,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "後で、さっくり貰っていこ",
@@ -1762,9 +1762,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 161,
+    "id": 1199,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "持ってかないでー",
@@ -1773,9 +1773,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 162,
+    "id": 1200,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "持ってくぜ",
@@ -1784,9 +1784,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 163,
+    "id": 1201,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "えぇーと、目の前の黒いのを",
@@ -1795,9 +1795,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 164,
+    "id": 1202,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "消極的にやっつけるには・・・",
@@ -1806,9 +1806,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 165,
+    "id": 1203,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "知識と日陰の少女",
@@ -1817,9 +1817,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 166,
+    "id": 1204,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "パチュリー・ノーレッジ",
@@ -1828,9 +1828,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 167,
+    "id": 1205,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "（載ってるのか？）",
@@ -1839,9 +1839,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 168,
+    "id": 1206,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "うーん、最近、目が悪くなったわ",
@@ -1850,9 +1850,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 169,
+    "id": 1207,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "部屋が暗いんじゃないのか？",
@@ -1861,9 +1861,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 170,
+    "id": 1208,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "鉄分が足りないのかしら",
@@ -1872,9 +1872,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 171,
+    "id": 1209,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "どっちかっつーとビタミンＡだな",
@@ -1883,9 +1883,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 172,
+    "id": 1210,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "あなたは？",
@@ -1894,9 +1894,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 173,
+    "id": 1211,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "足りてるぜ、色々とな",
@@ -1905,9 +1905,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 174,
+    "id": 1212,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "じゃぁ、頂こうかしら",
@@ -1916,9 +1916,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 175,
+    "id": 1213,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "私は美味しいぜ",
@@ -1927,9 +1927,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 176,
+    "id": 1214,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "えぇーと、簡単に素材のアクを",
@@ -1938,9 +1938,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 177,
+    "id": 1215,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "取り除く調理法は・・・",
@@ -1949,9 +1949,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 178,
+    "id": 1216,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "魔法が得意のようだな",
@@ -1960,9 +1960,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 179,
+    "id": 1217,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "まだ、隠しもってんじゃないのか？",
@@ -1971,9 +1971,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 180,
+    "id": 1218,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "しくしく、貧血でスペルが",
@@ -1982,9 +1982,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 181,
+    "id": 1219,
     "game_id": 1,
-    "resource_id": 79,
+    "resource_id": 2248,
     "character_id": null,
     "speaker": null,
     "text": "唱え切れないの",
@@ -1993,9 +1993,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 182,
+    "id": 1220,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "また、お掃除の邪魔する～",
@@ -2004,9 +2004,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 183,
+    "id": 1221,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あなたー",
@@ -2015,9 +2015,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 184,
+    "id": 1222,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "は、ここの主人じゃなさそうね",
@@ -2026,9 +2026,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 185,
+    "id": 1223,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "なんなの？",
@@ -2037,9 +2037,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 186,
+    "id": 1224,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "お嬢様のお客様？",
@@ -2048,9 +2048,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 187,
+    "id": 1225,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "紅魔館のメイド",
@@ -2059,9 +2059,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 188,
+    "id": 1226,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "十六夜 咲夜",
@@ -2070,9 +2070,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 189,
+    "id": 1227,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "（倒しに来たってっても通してくれ",
@@ -2081,9 +2081,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 190,
+    "id": 1228,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "ないよな）",
@@ -2092,9 +2092,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 191,
+    "id": 1229,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "通さないよ",
@@ -2103,9 +2103,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 192,
+    "id": 1230,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "お嬢様は滅多に人に会うような",
@@ -2114,9 +2114,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 193,
+    "id": 1231,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "ことはないわ",
@@ -2125,9 +2125,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 194,
+    "id": 1232,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "軟禁されてるの？",
@@ -2136,9 +2136,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 195,
+    "id": 1233,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "お嬢様は暗いところが好きなのよ",
@@ -2147,9 +2147,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 196,
+    "id": 1234,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "暗くないあなたでもいいわ",
@@ -2158,9 +2158,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 197,
+    "id": 1235,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "ここら辺一帯に霧を出してるの",
@@ -2169,9 +2169,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 198,
+    "id": 1236,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あなた達でしょ？",
@@ -2180,9 +2180,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 199,
+    "id": 1237,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あれが迷惑なの",
@@ -2191,9 +2191,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 200,
+    "id": 1238,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "何が目的なの？",
@@ -2202,9 +2202,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 201,
+    "id": 1239,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "日光が邪魔だからよ",
@@ -2213,9 +2213,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 202,
+    "id": 1240,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "お嬢様、冥い好きだし",
@@ -2224,9 +2224,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 203,
+    "id": 1241,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "私は好きじゃないわ",
@@ -2235,9 +2235,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 204,
+    "id": 1242,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "止めてくれる？",
@@ -2246,9 +2246,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 205,
+    "id": 1243,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "それはお嬢様に言ってよ",
@@ -2257,9 +2257,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 206,
+    "id": 1244,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "じゃ呼んできて",
@@ -2268,9 +2268,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 207,
+    "id": 1245,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "って、ご主人様を危険な目に",
@@ -2279,9 +2279,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 208,
+    "id": 1246,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "遭わせる訳無いでしょ？",
@@ -2290,9 +2290,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 209,
+    "id": 1247,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "ここで騒ぎを起こせば出て",
@@ -2301,9 +2301,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 210,
+    "id": 1248,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "くるかしら？",
@@ -2312,9 +2312,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 211,
+    "id": 1249,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "もう十分騒がしいわ",
@@ -2323,9 +2323,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 212,
+    "id": 1250,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "でも、あなたはお嬢様には",
@@ -2334,9 +2334,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 213,
+    "id": 1251,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "会えない",
@@ -2345,9 +2345,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 214,
+    "id": 1252,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "それこそ、時間を止めてでも",
@@ -2356,9 +2356,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 215,
+    "id": 1253,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "時間稼ぎが出来るから",
@@ -2367,9 +2367,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 216,
+    "id": 1254,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "さぁ、会わせてくれるかしら",
@@ -2378,9 +2378,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 217,
+    "id": 1255,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "強い・・・",
@@ -2389,9 +2389,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 218,
+    "id": 1256,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "でも、お嬢様ならあるいは",
@@ -2400,9 +2400,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 219,
+    "id": 1257,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あー、お掃除が進まない！",
@@ -2411,9 +2411,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 220,
+    "id": 1258,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "お嬢様に怒られるじゃない！！",
@@ -2422,9 +2422,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 221,
+    "id": 1259,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "さぁ、どおだ！",
@@ -2433,9 +2433,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 222,
+    "id": 1260,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "その程度で、なにいきがってんのよ",
@@ -2444,9 +2444,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 223,
+    "id": 1261,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "まだまだだわ",
@@ -2455,9 +2455,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 224,
+    "id": 1262,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "２時間前に出直してきな",
@@ -2466,9 +2466,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 225,
+    "id": 1263,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "また、お掃除の邪魔する～",
@@ -2477,9 +2477,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 226,
+    "id": 1264,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "いやはやメイドとは",
@@ -2488,9 +2488,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 227,
+    "id": 1265,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "捕まえるとワシントン条約に",
@@ -2499,9 +2499,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 228,
+    "id": 1266,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "引っかかるな",
@@ -2510,9 +2510,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 229,
+    "id": 1267,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "ああ、魔法使いは生類哀れみの令",
@@ -2521,9 +2521,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 230,
+    "id": 1268,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "だあね",
@@ -2532,9 +2532,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 231,
+    "id": 1269,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "紅魔館のメイド",
@@ -2543,9 +2543,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 232,
+    "id": 1270,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "十六夜 咲夜",
@@ -2554,9 +2554,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 233,
+    "id": 1271,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "哀れんでぇ",
@@ -2565,9 +2565,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 234,
+    "id": 1272,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あなたもこの館に雇われたの",
@@ -2576,9 +2576,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 235,
+    "id": 1273,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "かしら？",
@@ -2587,9 +2587,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 236,
+    "id": 1274,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "ああ、そうでもいいな",
@@ -2598,9 +2598,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 237,
+    "id": 1275,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "でも、あんたじゃ掃除も出来そう",
@@ -2609,9 +2609,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 238,
+    "id": 1276,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "に無いわね",
@@ -2620,9 +2620,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 239,
+    "id": 1277,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "出来ないぜ",
@@ -2631,9 +2631,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 240,
+    "id": 1278,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "じゃぁ、何係？",
@@ -2642,9 +2642,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 241,
+    "id": 1279,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "恋愛係？",
@@ -2653,9 +2653,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 242,
+    "id": 1280,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "むしろ営繕係だな",
@@ -2664,9 +2664,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 243,
+    "id": 1281,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "何だよそれ",
@@ -2675,9 +2675,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 244,
+    "id": 1282,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "小学校でもあるまいし",
@@ -2686,9 +2686,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 245,
+    "id": 1283,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "恋愛係は中等部なのか？",
@@ -2697,9 +2697,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 246,
+    "id": 1284,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "さて、早速仕事に取りかかって",
@@ -2708,9 +2708,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 247,
+    "id": 1285,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "貰おうかしら",
@@ -2719,9 +2719,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 248,
+    "id": 1286,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "言い忘れたけど私は、ここの",
@@ -2730,9 +2730,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 249,
+    "id": 1287,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "メイド長の咲夜。",
@@ -2741,9 +2741,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 250,
+    "id": 1288,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "ってことは、私があなたを倒せば",
@@ -2752,9 +2752,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 251,
+    "id": 1289,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "メイド長ってことね",
@@ -2763,9 +2763,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 252,
+    "id": 1290,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "そういって返り討ちに会った人は",
@@ -2774,9 +2774,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 253,
+    "id": 1291,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "トリウム崩壊系列の数より多いわ",
@@ -2785,9 +2785,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 254,
+    "id": 1292,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あ、結構普通なんだな",
@@ -2796,9 +2796,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 255,
+    "id": 1293,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "そういうことって",
@@ -2807,9 +2807,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 256,
+    "id": 1294,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あなたの時間も私のもの・・・",
@@ -2818,9 +2818,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 257,
+    "id": 1295,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "古風な魔女に勝ち目は、ない",
@@ -2829,9 +2829,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 258,
+    "id": 1296,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "メイドじゃなくても、メイド長に",
@@ -2840,9 +2840,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 259,
+    "id": 1297,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "なれるのか？",
@@ -2851,9 +2851,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 260,
+    "id": 1298,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "なれるわけ無いじゃない",
@@ -2862,9 +2862,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 261,
+    "id": 1299,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あー、お掃除が進まない！",
@@ -2873,9 +2873,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 262,
+    "id": 1300,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "お嬢様に怒られるじゃない！！",
@@ -2884,9 +2884,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 263,
+    "id": 1301,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "あー、疲れた",
@@ -2895,9 +2895,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 264,
+    "id": 1302,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "そろそろ帰ったら？",
@@ -2906,9 +2906,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 265,
+    "id": 1303,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "私も仕事あるし",
@@ -2917,9 +2917,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 266,
+    "id": 1304,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "そうします",
@@ -2928,9 +2928,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 267,
+    "id": 1305,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "そう？",
@@ -2939,9 +2939,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 268,
+    "id": 1306,
     "game_id": 1,
-    "resource_id": 105,
+    "resource_id": 2336,
     "character_id": null,
     "speaker": null,
     "text": "じゃ",
@@ -2950,9 +2950,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 269,
+    "id": 1307,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "そろそろ姿、見せてもいいん",
@@ -2961,9 +2961,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 270,
+    "id": 1308,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "じゃない？",
@@ -2972,9 +2972,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 271,
+    "id": 1309,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "お嬢さん？",
@@ -2983,9 +2983,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 272,
+    "id": 1310,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "やっぱり、人間って使えないわね",
@@ -2994,9 +2994,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 273,
+    "id": 1311,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "永遠の紅い幼き月",
@@ -3005,9 +3005,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 274,
+    "id": 1312,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "レミリア・スカーレット",
@@ -3016,9 +3016,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 275,
+    "id": 1313,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "さっきのメイドは人間だったのか",
@@ -3027,9 +3027,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 276,
+    "id": 1314,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "あなた、殺人犯ね",
@@ -3038,9 +3038,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 277,
+    "id": 1315,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "一人までなら大量殺人犯じゃない",
@@ -3049,9 +3049,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 278,
+    "id": 1316,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "から大丈夫よ",
@@ -3060,9 +3060,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 279,
+    "id": 1317,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "そうそう、迷惑なの",
@@ -3071,9 +3071,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 280,
+    "id": 1318,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "あんたが",
@@ -3082,9 +3082,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 281,
+    "id": 1319,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "短絡ね。しかも理由が分からない",
@@ -3093,9 +3093,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 282,
+    "id": 1320,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "とにかく、ここから出ていって",
@@ -3104,9 +3104,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 283,
+    "id": 1321,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "くれる？",
@@ -3115,9 +3115,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 284,
+    "id": 1322,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "ここは、私の城よ？",
@@ -3126,9 +3126,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 285,
+    "id": 1323,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "出ていくのはあなただわ。",
@@ -3137,9 +3137,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 286,
+    "id": 1324,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "この世から出てってほしいのよ",
@@ -3148,9 +3148,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 287,
+    "id": 1325,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "しょうがないわね",
@@ -3159,9 +3159,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 288,
+    "id": 1326,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "今、お腹いっぱいだけど・・・",
@@ -3170,9 +3170,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 289,
+    "id": 1327,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "護衛にあのメイドを",
@@ -3181,9 +3181,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 290,
+    "id": 1328,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "雇っていたんでしょ？",
@@ -3192,9 +3192,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 291,
+    "id": 1329,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "そんな、箱入りお嬢様なんて",
@@ -3203,9 +3203,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 292,
+    "id": 1330,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "一撃よ！",
@@ -3214,9 +3214,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 293,
+    "id": 1331,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "咲夜は優秀な掃除係",
@@ -3225,9 +3225,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 294,
+    "id": 1332,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "おかげで、首一つ落ちてないわ",
@@ -3236,9 +3236,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 295,
+    "id": 1333,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "あなたはつよいの？",
@@ -3247,9 +3247,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 296,
+    "id": 1334,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "さあね。",
@@ -3258,9 +3258,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 297,
+    "id": 1335,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "あんまり外に出して貰えないの",
@@ -3269,9 +3269,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 298,
+    "id": 1336,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "私が日光に弱いから",
@@ -3280,9 +3280,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 299,
+    "id": 1337,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "・・・",
@@ -3291,9 +3291,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 300,
+    "id": 1338,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "なかなか出来るわね",
@@ -3302,9 +3302,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 301,
+    "id": 1339,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "こんなに月も紅いから",
@@ -3313,9 +3313,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 302,
+    "id": 1340,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "本気で殺すわよ",
@@ -3324,9 +3324,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 303,
+    "id": 1341,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "こんなに月も紅いのに",
@@ -3335,9 +3335,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 304,
+    "id": 1342,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "楽しい夜になりそうね",
@@ -3346,9 +3346,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 305,
+    "id": 1343,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "永い夜になりそうね",
@@ -3357,9 +3357,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 306,
+    "id": 1344,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "お嬢様の怒られる前に",
@@ -3368,9 +3368,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 307,
+    "id": 1345,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "せめて１ボムでも潰させないと～",
@@ -3379,9 +3379,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 308,
+    "id": 1346,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "黙って、お使いにでも出たら？",
@@ -3390,9 +3390,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 309,
+    "id": 1347,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "いるいる",
@@ -3401,9 +3401,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 310,
+    "id": 1348,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "悪寒が走るわ、この妖気",
@@ -3412,9 +3412,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 311,
+    "id": 1349,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "何で強力な奴ほど隠れるんだ？",
@@ -3423,9 +3423,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 312,
+    "id": 1350,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "能ある鷹は尻尾隠さず...",
@@ -3434,9 +3434,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 313,
+    "id": 1351,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "永遠の紅い幼き月",
@@ -3445,9 +3445,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 314,
+    "id": 1352,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "レミリア・スカーレット",
@@ -3456,9 +3456,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 315,
+    "id": 1353,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "...脳なさそうだな",
@@ -3467,9 +3467,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 316,
+    "id": 1354,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "人間だけよ",
@@ -3478,9 +3478,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 317,
+    "id": 1355,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "脳なんて単純で化学的な",
@@ -3489,9 +3489,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 318,
+    "id": 1356,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "思考中枢が必要なのは",
@@ -3500,9 +3500,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 319,
+    "id": 1357,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "おまえ、アレだろ？",
@@ -3511,9 +3511,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 320,
+    "id": 1358,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "ほら日光とか臭い野菜とか",
@@ -3522,9 +3522,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 321,
+    "id": 1359,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "銀のアレとか",
@@ -3533,9 +3533,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 322,
+    "id": 1360,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "夜の支配者なのに",
@@ -3544,9 +3544,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 323,
+    "id": 1361,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "なぜか弱点の多いという...",
@@ -3555,9 +3555,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 324,
+    "id": 1362,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "そうよ、病弱っ娘なのよ",
@@ -3566,9 +3566,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 325,
+    "id": 1363,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "面白そうだな、やっぱ飲むのか？",
@@ -3577,9 +3577,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 326,
+    "id": 1364,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "アレ",
@@ -3588,9 +3588,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 327,
+    "id": 1365,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "当たり前じゃない",
@@ -3599,9 +3599,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 328,
+    "id": 1366,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "私は小食でいつも残すけどね",
@@ -3610,9 +3610,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 329,
+    "id": 1367,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "今まで何人の血を吸ってきた？",
@@ -3621,9 +3621,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 330,
+    "id": 1368,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "あなたは今まで食べてきたパンの",
@@ -3632,9 +3632,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 331,
+    "id": 1369,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "枚数を覚えてるの？",
@@ -3643,9 +3643,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 332,
+    "id": 1370,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "私は和食ですわ",
@@ -3654,9 +3654,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 333,
+    "id": 1371,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "で、何しに来たの？",
@@ -3665,9 +3665,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 334,
+    "id": 1372,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "もう、私お腹いっぱいだけど・・",
@@ -3676,9 +3676,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 335,
+    "id": 1373,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "そうだな、私はお腹がすいたぜ",
@@ -3687,9 +3687,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 336,
+    "id": 1374,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "・・・食べても、いいのよ",
@@ -3698,9 +3698,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 337,
+    "id": 1375,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "ああ、そうかい",
@@ -3709,9 +3709,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 338,
+    "id": 1376,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "今の、植物の名前だぜ",
@@ -3720,9 +3720,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 339,
+    "id": 1377,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "「亜阿相界」",
@@ -3731,9 +3731,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 340,
+    "id": 1378,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "人間って楽しいわね",
@@ -3742,9 +3742,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 341,
+    "id": 1379,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "それともあなたは人間じゃ",
@@ -3753,9 +3753,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 342,
+    "id": 1380,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "ないのかしら？",
@@ -3764,9 +3764,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 343,
+    "id": 1381,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "楽しい人間だぜ",
@@ -3775,9 +3775,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 344,
+    "id": 1382,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "ふふふ、こんなに月も紅いから？",
@@ -3786,9 +3786,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 345,
+    "id": 1383,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "暑い夜になりそうね",
@@ -3797,9 +3797,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 346,
+    "id": 1384,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "涼しい夜になりそうだな",
@@ -3808,9 +3808,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 347,
+    "id": 1385,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "あなたみたいな人も珍しいわね",
@@ -3819,9 +3819,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 348,
+    "id": 1386,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "こっちには何もないわよ？",
@@ -3830,9 +3830,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 349,
+    "id": 1387,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "おまえもな",
@@ -3841,9 +3841,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 350,
+    "id": 1388,
     "game_id": 1,
-    "resource_id": 130,
+    "resource_id": 2431,
     "character_id": null,
     "speaker": null,
     "text": "ほんとにメイドなのか？",
@@ -3852,9 +3852,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 351,
+    "id": 1389,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "今日はいつにもまして暑いわね",
@@ -3863,9 +3863,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 352,
+    "id": 1390,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "こんなに攻撃が激しいのは",
@@ -3874,9 +3874,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 353,
+    "id": 1391,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "さっきの女の子がおかしくなっ",
@@ -3885,9 +3885,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 354,
+    "id": 1392,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ちゃったから？",
@@ -3896,9 +3896,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 355,
+    "id": 1393,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "甘いわ！",
@@ -3907,9 +3907,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 356,
+    "id": 1394,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "そこの紅白！",
@@ -3918,9 +3918,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 357,
+    "id": 1395,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "他にもおかしい奴が居るのね？",
@@ -3929,9 +3929,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 358,
+    "id": 1396,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "おまたせ",
@@ -3940,9 +3940,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 359,
+    "id": 1397,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "悪魔の妹",
@@ -3951,9 +3951,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 360,
+    "id": 1398,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "フランドール・スカーレット",
@@ -3962,9 +3962,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 361,
+    "id": 1399,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "誰？前来た時は居なかったような",
@@ -3973,9 +3973,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 362,
+    "id": 1400,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "気がするけど・・・",
@@ -3984,9 +3984,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 363,
+    "id": 1401,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "居たけど、見えなかったの",
@@ -3995,9 +3995,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 364,
+    "id": 1402,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "で、あなたはもしかして人間？",
@@ -4006,9 +4006,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 365,
+    "id": 1403,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ああ、そうよ",
@@ -4017,9 +4017,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 366,
+    "id": 1404,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "だましたりしてない？",
@@ -4028,9 +4028,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 367,
+    "id": 1405,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "人間って飲み物の形でしか見たこと",
@@ -4039,9 +4039,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 368,
+    "id": 1406,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "無いの",
@@ -4050,9 +4050,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 369,
+    "id": 1407,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ああ、人間だよ",
@@ -4061,9 +4061,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 370,
+    "id": 1408,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "人間は、紅茶よりは複雑なもの",
@@ -4072,9 +4072,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 371,
+    "id": 1409,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "なのよ。殆どの人はね",
@@ -4083,9 +4083,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 372,
+    "id": 1410,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ほら、鶏って",
@@ -4094,9 +4094,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 373,
+    "id": 1411,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あー？",
@@ -4105,9 +4105,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 374,
+    "id": 1412,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "捌いたり出来ない人でも",
@@ -4116,9 +4116,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 375,
+    "id": 1413,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "美味しく頂けるの",
@@ -4127,9 +4127,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 376,
+    "id": 1414,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あんたんところは、人間を誰が",
@@ -4138,9 +4138,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 377,
+    "id": 1415,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "捌くの？",
@@ -4149,9 +4149,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 378,
+    "id": 1416,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "さー？　お姉様がやってる",
@@ -4160,9 +4160,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 379,
+    "id": 1417,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "わけ無いし・・・",
@@ -4171,9 +4171,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 380,
+    "id": 1418,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "お姉様？",
@@ -4182,9 +4182,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 381,
+    "id": 1419,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "レプリカとかいう、悪魔のこと？",
@@ -4193,9 +4193,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 382,
+    "id": 1420,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "レミリア！",
@@ -4204,9 +4204,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 383,
+    "id": 1421,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "レミリアお姉様よ",
@@ -4215,9 +4215,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 384,
+    "id": 1422,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あいつは絶対に、調理は出来ない",
@@ -4226,9 +4226,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 385,
+    "id": 1423,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "と思うよ",
@@ -4237,9 +4237,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 386,
+    "id": 1424,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "しないわ",
@@ -4248,9 +4248,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 387,
+    "id": 1425,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "妹君に言いたいけど",
@@ -4259,9 +4259,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 388,
+    "id": 1426,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "お姉様はいつも家の神社に入り",
@@ -4270,9 +4270,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 389,
+    "id": 1427,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "浸って迷惑なの",
@@ -4281,9 +4281,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 390,
+    "id": 1428,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "何とか言ってやってよ",
@@ -4292,9 +4292,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 391,
+    "id": 1429,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "知ってるわよ。",
@@ -4303,9 +4303,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 392,
+    "id": 1430,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "私も行こうとしたら・・・",
@@ -4314,9 +4314,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 393,
+    "id": 1431,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "するな",
@@ -4325,9 +4325,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 394,
+    "id": 1432,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "止められた",
@@ -4336,9 +4336,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 395,
+    "id": 1433,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "お外は豪雨で歩けない",
@@ -4347,9 +4347,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 396,
+    "id": 1434,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "要注意人物なんだね",
@@ -4358,9 +4358,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 397,
+    "id": 1435,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "過去になんかやらかしたの？",
@@ -4369,9 +4369,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 398,
+    "id": 1436,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "何も出来るはずがないわ",
@@ -4380,9 +4380,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 399,
+    "id": 1437,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "私は４９５年間一回も、お外に出て",
@@ -4391,9 +4391,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 400,
+    "id": 1438,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ないのよ",
@@ -4402,9 +4402,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 401,
+    "id": 1439,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ほんとに、問題児なのね",
@@ -4413,9 +4413,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 402,
+    "id": 1440,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "そこに飛び込む遊び道具・・・",
@@ -4424,9 +4424,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 403,
+    "id": 1441,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "何して遊ぶ？",
@@ -4435,9 +4435,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 404,
+    "id": 1442,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "弾幕ごっこ",
@@ -4446,9 +4446,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 405,
+    "id": 1443,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ああ、パターン作りごっこね",
@@ -4457,9 +4457,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 406,
+    "id": 1444,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "それは私の得意分野だわ",
@@ -4468,9 +4468,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 407,
+    "id": 1445,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "見た？",
@@ -4479,9 +4479,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 408,
+    "id": 1446,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "これが神に仕えるものの力なのよ！",
@@ -4490,9 +4490,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 409,
+    "id": 1447,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "そんなんで勝ったと思っちゃうんだ",
@@ -4501,9 +4501,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 410,
+    "id": 1448,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "まだまだこれからよ！",
@@ -4512,9 +4512,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 411,
+    "id": 1449,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "って、もうそんな余裕も無いくせに",
@@ -4523,9 +4523,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 412,
+    "id": 1450,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "はい、もう、煙も出ません",
@@ -4534,9 +4534,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 413,
+    "id": 1451,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "いつでも遊びに来てあげるから",
@@ -4545,9 +4545,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 414,
+    "id": 1452,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "頼むから、神社に遊びに来ないで",
@@ -4556,9 +4556,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 415,
+    "id": 1453,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あら、お礼にケーキと紅茶を",
@@ -4567,9 +4567,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 416,
+    "id": 1454,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "持って行こうと思ってたのに。",
@@ -4578,9 +4578,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 417,
+    "id": 1455,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あんたの所の食べ物は人間の所に",
@@ -4589,9 +4589,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 418,
+    "id": 1456,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "もってきちゃだめだって",
@@ -4600,9 +4600,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 419,
+    "id": 1457,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "甘さ控えめよ？",
@@ -4611,9 +4611,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 420,
+    "id": 1458,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ノンシュガーでも！",
@@ -4622,9 +4622,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 421,
+    "id": 1459,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "良い子はおとなしく帰って",
@@ -4633,9 +4633,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 422,
+    "id": 1460,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "寝てなさい",
@@ -4644,9 +4644,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 423,
+    "id": 1461,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "・・・ここは私の家よ？",
@@ -4655,9 +4655,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 424,
+    "id": 1462,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "じゃぁ帰らなくてもいいわ",
@@ -4666,9 +4666,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 425,
+    "id": 1463,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "悪い子は",
@@ -4677,9 +4677,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 426,
+    "id": 1464,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "私はそろそろ帰るけど",
@@ -4688,9 +4688,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 427,
+    "id": 1465,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "悪い子は、帰らなくてもいいのよ",
@@ -4699,9 +4699,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 428,
+    "id": 1466,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "・・・神社にもう一人悪い子",
@@ -4710,9 +4710,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 429,
+    "id": 1467,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "置いてきたから",
@@ -4721,9 +4721,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 430,
+    "id": 1468,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "悪い子って、誰のこと？",
@@ -4732,9 +4732,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 431,
+    "id": 1469,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あんたと姉さんだ！！",
@@ -4743,9 +4743,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 432,
+    "id": 1470,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "なによ",
@@ -4754,9 +4754,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 433,
+    "id": 1471,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "また来たの？",
@@ -4765,9 +4765,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 434,
+    "id": 1472,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "また来たの",
@@ -4776,9 +4776,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 435,
+    "id": 1473,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "今日は、喘息も調子良いから、",
@@ -4787,9 +4787,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 436,
+    "id": 1474,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "とっておきの魔法",
@@ -4798,9 +4798,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 437,
+    "id": 1475,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "見せてあげるわ！",
@@ -4809,9 +4809,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 438,
+    "id": 1476,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "どうしちゃったんだ？",
@@ -4820,9 +4820,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 439,
+    "id": 1477,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "この館",
@@ -4831,9 +4831,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 440,
+    "id": 1478,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "今はレミリアは神社に居るはずだぜ",
@@ -4842,9 +4842,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 441,
+    "id": 1479,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "なんで、こんなに館の攻撃が",
@@ -4853,9 +4853,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 442,
+    "id": 1480,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "激しいんだ？",
@@ -4864,9 +4864,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 443,
+    "id": 1481,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "なんかお呼びかしら？",
@@ -4875,9 +4875,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 444,
+    "id": 1482,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "呼んでないぜ",
@@ -4886,9 +4886,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 445,
+    "id": 1483,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "おまたせ",
@@ -4897,9 +4897,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 446,
+    "id": 1484,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あんた誰？",
@@ -4908,9 +4908,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 447,
+    "id": 1485,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "人に名前を聞くときは・・・",
@@ -4919,9 +4919,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 448,
+    "id": 1486,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ああ、私？",
@@ -4930,9 +4930,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 449,
+    "id": 1487,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "そうだな、博麗霊夢、巫女だぜ",
@@ -4941,9 +4941,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 450,
+    "id": 1488,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "フランドールよ",
@@ -4952,9 +4952,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 451,
+    "id": 1489,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "魔理沙さん（巫女は無理があるわ）",
@@ -4963,9 +4963,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 452,
+    "id": 1490,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "悪魔の妹",
@@ -4974,9 +4974,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 453,
+    "id": 1491,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "フランドール・スカーレット",
@@ -4985,9 +4985,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 454,
+    "id": 1492,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あんた、なにもん？",
@@ -4996,9 +4996,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 455,
+    "id": 1493,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "（看護婦の方が良かったか？）",
@@ -5007,9 +5007,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 456,
+    "id": 1494,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "私はずっと家に居たわ",
@@ -5018,9 +5018,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 457,
+    "id": 1495,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あなたがこの家に入り浸ってる",
@@ -5029,9 +5029,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 458,
+    "id": 1496,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ときもね",
@@ -5040,9 +5040,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 459,
+    "id": 1497,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "居たっけ？",
@@ -5051,9 +5051,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 460,
+    "id": 1498,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ずっと地下で休んでいたわ",
@@ -5062,9 +5062,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 461,
+    "id": 1499,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "４９５年くらいね",
@@ -5073,9 +5073,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 462,
+    "id": 1500,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "いいねぇ、私は週休２日だぜ",
@@ -5084,9 +5084,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 463,
+    "id": 1501,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "いつもお姉様とやり取りして",
@@ -5095,9 +5095,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 464,
+    "id": 1502,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "いるの、聞いていたわ",
@@ -5106,9 +5106,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 465,
+    "id": 1503,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "お姉様？",
@@ -5117,9 +5117,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 466,
+    "id": 1504,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "妹君かえ",
@@ -5128,9 +5128,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 467,
+    "id": 1505,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "私も人間と言うものが見たく",
@@ -5139,9 +5139,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 468,
+    "id": 1506,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "なって、外に出ようとしたの",
@@ -5150,9 +5150,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 469,
+    "id": 1507,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "良かったじゃないか",
@@ -5161,9 +5161,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 470,
+    "id": 1508,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ほれほれ、思う存分見るが良い",
@@ -5172,9 +5172,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 471,
+    "id": 1509,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "一緒に遊んでくれるのかしら？",
@@ -5183,9 +5183,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 472,
+    "id": 1510,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "いくら出す？",
@@ -5194,9 +5194,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 473,
+    "id": 1511,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "コインいっこ",
@@ -5205,9 +5205,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 474,
+    "id": 1512,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "一個じゃ、",
@@ -5216,9 +5216,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 475,
+    "id": 1513,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "人命も買えないぜ",
@@ -5227,9 +5227,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 476,
+    "id": 1514,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あなたが、コンティニュー",
@@ -5238,9 +5238,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 477,
+    "id": 1515,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "出来ないのさ！",
@@ -5249,9 +5249,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 478,
+    "id": 1516,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "さー、満足した？",
@@ -5260,9 +5260,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 479,
+    "id": 1517,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "嘘みたい",
@@ -5271,9 +5271,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 480,
+    "id": 1518,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "私が負けるなんて・・・",
@@ -5282,9 +5282,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 481,
+    "id": 1519,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ああ、割と嘘かもな",
@@ -5293,9 +5293,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 482,
+    "id": 1520,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "今日は、私はもう帰るけど",
@@ -5304,9 +5304,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 483,
+    "id": 1521,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ああ、満足したわ",
@@ -5315,9 +5315,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 484,
+    "id": 1522,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "でも、結局また一人になるのか",
@@ -5326,9 +5326,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 485,
+    "id": 1523,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "一人になったら首を吊るんだろ？",
@@ -5337,9 +5337,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 486,
+    "id": 1524,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "何でよ？",
@@ -5348,9 +5348,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 487,
+    "id": 1525,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "She went and hanged herself",
@@ -5359,9 +5359,9 @@
     "encoding": "ascii"
    },
    {
-    "id": 488,
+    "id": 1526,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "and then there were none.",
@@ -5370,9 +5370,9 @@
     "encoding": "ascii"
    },
    {
-    "id": 489,
+    "id": 1527,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "（一人が首を吊って",
@@ -5381,9 +5381,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 490,
+    "id": 1528,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "そして誰もいなくなった）",
@@ -5392,9 +5392,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 491,
+    "id": 1529,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "誰からそれを聞いたのよー",
@@ -5403,9 +5403,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 492,
+    "id": 1530,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "有名な童謡だぜ",
@@ -5414,9 +5414,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 493,
+    "id": 1531,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "私の予定では最後の一人は",
@@ -5425,9 +5425,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 494,
+    "id": 1532,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あなただったのよ？",
@@ -5436,9 +5436,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 495,
+    "id": 1533,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "さっきの攻撃で、おまえが",
@@ -5447,9 +5447,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 496,
+    "id": 1534,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "消えたときだな",
@@ -5458,9 +5458,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 497,
+    "id": 1535,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "She died by the bullet",
@@ -5469,9 +5469,9 @@
     "encoding": "ascii"
    },
    {
-    "id": 498,
+    "id": 1536,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "and then there were none.",
@@ -5480,9 +5480,9 @@
     "encoding": "ascii"
    },
    {
-    "id": 499,
+    "id": 1537,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "（一人が弾幕を避けきれず",
@@ -5491,9 +5491,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 500,
+    "id": 1538,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "そして誰もいなくなった）",
@@ -5502,9 +5502,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 501,
+    "id": 1539,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "当てが外れて悪かったな。",
@@ -5513,9 +5513,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 502,
+    "id": 1540,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あいにく、弾避けは得意なんでねぇ",
@@ -5524,9 +5524,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 503,
+    "id": 1541,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "ま、いいけどね",
@@ -5535,9 +5535,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 504,
+    "id": 1542,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "首吊ったって死ねないから",
@@ -5546,9 +5546,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 505,
+    "id": 1543,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "首吊り死体は醜いぜ",
@@ -5557,9 +5557,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 506,
+    "id": 1544,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "大人しく本当の歌どおりにしとけよ",
@@ -5568,9 +5568,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 507,
+    "id": 1545,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "本当の歌って？",
@@ -5579,9 +5579,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 508,
+    "id": 1546,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "おいおい、知らんのか？",
@@ -5590,9 +5590,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 509,
+    "id": 1547,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "She got married",
@@ -5601,9 +5601,9 @@
     "encoding": "ascii"
    },
    {
-    "id": 510,
+    "id": 1548,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "and then there were none...",
@@ -5612,9 +5612,9 @@
     "encoding": "ascii"
    },
    {
-    "id": 511,
+    "id": 1549,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "誰とよ",
@@ -5623,9 +5623,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 512,
+    "id": 1550,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "神社の娘でも紹介するぜ",
@@ -5634,9 +5634,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 513,
+    "id": 1551,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "なによ",
@@ -5645,9 +5645,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 514,
+    "id": 1552,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "また来たの？",
@@ -5656,9 +5656,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 515,
+    "id": 1553,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あんたかい？",
@@ -5667,9 +5667,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 516,
+    "id": 1554,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "これらの仕業は？",
@@ -5678,9 +5678,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 517,
+    "id": 1555,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "今それどころじゃないのよー",
@@ -5689,9 +5689,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 518,
+    "id": 1556,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "あんたといい、妹様といい",
@@ -5700,9 +5700,9 @@
     "encoding": "shift_jis"
    },
    {
-    "id": 519,
+    "id": 1557,
     "game_id": 1,
-    "resource_id": 154,
+    "resource_id": 2521,
     "character_id": null,
     "speaker": null,
     "text": "今日は厄日だわ！",

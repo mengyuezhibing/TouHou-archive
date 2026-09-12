@@ -91,6 +91,10 @@ function main() {
 
   const apply = db.transaction(() => {
     for (const r of rows) {
+      // 图集是流水线派生资源（由精灵打包而成），类别在生成时已确定，
+      // 不属于「按条目名判定」的范畴，跳过以免被规则误改
+      if (r.category === 'sheet') continue;
+
       // 条目名可能带 #spriteId 后缀（ANM 内部精灵），归档名参与关键词判定
       const cls = classifyEntry({
         entryName: r.entry_name,

@@ -1,5 +1,6 @@
 import { db, nowIso, gameIdByCode } from '../db/index.ts';
 import { rosterOf, identifyBySpell, wikiUrl, type CharacterKnowledge } from '../core/knowledge.ts';
+import { CHARACTER_HINTS } from './classify.ts';
 
 /**
  * 角色身份识别与关联。
@@ -38,32 +39,101 @@ export interface IdentifyResult {
 }
 
 /**
- * TH06 原版立绘编号 → 角色 key。
+ * TH06 立绘编号 → 角色 key 的**兜底**映射。
  *
- * 依据游戏内角色表顺序，**已用主色分析验证**：
- *   face00 主色 黑/红/白 → 博丽灵梦（红白巫女）
- *   face01 主色 黑/白    → 雾雨魔理沙（黑白魔法使）
- *
- * 注意编号里夹着自机（00/01）与中 Boss（03 大妖精、06 小恶魔），
- * 它们没有符卡，因此不能按「关卡顺序」与识别结果配对——这正是之前的错误来源。
+ * 仅在没有 AI 打标结果时使用。曾经把它当作权威数据，但经 WD14 交叉验证后发现
+ * 整表偏移（例如第 8 号被写成 sakuya，而图像是紫发持书的帕秋莉）。
+ * 现在以 buildFaceMapFromAi 的动态推导为准。
  */
-const TH06_FACE_MAP: Record<number, string> = {
+const TH06_FACE_MAP_FALLBACK: Record<number, string> = {
   0: 'reimu',
   1: 'marisa',
-  2: 'rumia',
-  3: 'daiyousei',
-  4: 'cirno',
-  5: 'meiling',
-  6: 'koakuma',
-  7: 'patchouli',
-  8: 'sakuya',
-  9: 'remilia',
-  10: 'flandre',
+  3: 'rumia',
+  5: 'cirno',
+  6: 'meiling',
+  8: 'patchouli',
+  9: 'sakuya',
+  10: 'remilia',
+  12: 'flandre',
 };
 
-function faceIdOfKey(key: string): number | undefined {
-  for (const [id, k] of Object.entries(TH06_FACE_MAP)) if (k === key) return Number(id);
-  return undefined;
+/** 把 WD14 的标签名（hakurei_reimu / izayoi_sakuya）映射回角色 key（reimu / sakuya） */
+function keyFromAiTag(tag: string): string | null {
+  const t = tag.toLowerCase();
+  for (const key of Object.keys(CHARACTER_HINTS)) {
+    // 加词边界，避免 rumia 命中 rumiko 这类前缀相同的误判
+    if (new RegExp(`(^|[^a-z])${key}([^a-z]|$)`).test(t)) return key;
+  }
+  return null;
+}
+
+export interface FaceMapping {
+  faceId: number;
+  key: string;
+  score: number;
+  method: string;
+}
+
+/**
+ * 从 WD14 打标结果推导「立绘编号 → 角色 key」。
+ *
+ * 相比硬编码编号表的两点优势：
+ *   1. AI 判断的是**图像内容**（发色 / 服饰 / 道具），不受重打包导致的编号重排影响
+ *   2. 每个判断都带分数与票数，可人工复核；硬编码表无从验证
+ *
+ * 只保留该作品角色表内的角色，避免把其他作品的误报（如 kisume）写进映射。
+ */
+export function buildFaceMapFromAi(gameCode: string, gid: number): Map<number, FaceMapping> {
+  const roster = new Set(rosterOf(gameCode).map((k) => k.key));
+  const rows = db
+    .prepare(
+      `SELECT display_name, meta FROM resource
+       WHERE game_id = ? AND category = 'portrait'
+         AND display_name LIKE 'face%' AND meta LIKE '%aiTags%'`,
+    )
+    .all(gid) as Array<{ display_name: string; meta: string }>;
+
+  // faceId → (role key → 累计分数 / 票数)
+  const votes = new Map<number, Map<string, { score: number; n: number }>>();
+
+  for (const r of rows) {
+    const m = r.display_name.match(/^face(\d+)/i);
+    if (!m) continue;
+    const faceId = Number(m[1]);
+
+    let chars: Array<{ name: string; score: number }> = [];
+    try {
+      const meta = JSON.parse(r.meta || '{}');
+      const raw = meta.aiTags?.characters;
+      chars = typeof raw === 'string' ? JSON.parse(raw) : (raw ?? []);
+    } catch {
+      continue;
+    }
+    if (!Array.isArray(chars)) continue;
+
+    for (const c of chars) {
+      const key = keyFromAiTag(c.name);
+      if (!key || !roster.has(key)) continue;
+      if (!votes.has(faceId)) votes.set(faceId, new Map());
+      const bucket = votes.get(faceId)!;
+      const cur = bucket.get(key) ?? { score: 0, n: 0 };
+      cur.score += c.score;
+      cur.n += 1;
+      bucket.set(key, cur);
+    }
+  }
+
+  const out = new Map<number, FaceMapping>();
+  for (const [faceId, bucket] of votes) {
+    const ranked = [...bucket.entries()].sort((a, b) => b[1].score - a[1].score);
+    if (ranked.length === 0) continue;
+    const [key, agg] = ranked[0];
+    const avg = agg.score / agg.n;
+    // 平均分过低说明模型对该立绘没有把握，宁可不映射
+    if (avg < 0.6) continue;
+    out.set(faceId, { faceId, key, score: Number(avg.toFixed(3)), method: `ai-tag×${agg.n}` });
+  }
+  return out;
 }
 
 interface CharRow {
@@ -98,6 +168,37 @@ export function identifyCharacters(gameCode: string): IdentifyResult {
   if (!roster.length) {
     warnings.push(`暂无 ${gameCode} 的角色知识库数据，无法识别身份`);
     return result;
+  }
+
+  // 立绘编号 → 角色：优先由 AI 打标推导（看图像内容），硬编码表仅作兜底
+  const aiFaceMap = buildFaceMapFromAi(gameCode, gid);
+  const fallbackMap: Record<number, string> = gameCode === 'TH06' ? TH06_FACE_MAP_FALLBACK : {};
+  /**
+   * 只有在**完全没有 AI 数据**时才用兜底表。
+   * 半吊子地混合两者更危险：兜底表本身有整体偏移，
+   * 一旦它在 AI 未覆盖的角色上生效，就会给同一个人配到错误立绘。
+   */
+  const useFallback = aiFaceMap.size === 0;
+  const faceIdOf = (key: string): number | undefined => {
+    for (const [id, v] of aiFaceMap) if (v.key === key) return id;
+    if (useFallback) {
+      for (const [id, k] of Object.entries(fallbackMap)) if (k === key) return Number(id);
+    }
+    return undefined;
+  };
+
+  // 立绘索引（autoClassify 建立的 "kind":"face" 记录）是配对的依据，必须保留；
+  // 只清理**上一次识别**指派过的角色（带 mappingMethod 标记），
+  // 否则映射修正后旧归属会残留成重复记录。
+  db.prepare('UPDATE spell_card SET boss_id = NULL WHERE game_id = ?').run(gid);
+  db.prepare('DELETE FROM boss WHERE game_id = ?').run(gid);
+  db.prepare("DELETE FROM character WHERE game_id = ? AND meta LIKE '%mappingMethod%'").run(gid);
+  if (aiFaceMap.size > 0) {
+    const desc = [...aiFaceMap.values()]
+      .sort((a, b) => a.faceId - b.faceId)
+      .map((v) => `face${String(v.faceId).padStart(2, '0')}→${v.key}(${v.score})`)
+      .join(' ');
+    warnings.push(`立绘映射由 AI 打标推导：${desc}`);
   }
 
   /* ---------------- 1. 用符卡确定角色 ---------------- */
@@ -207,6 +308,9 @@ export function identifyCharacters(gameCode: string): IdentifyResult {
 
   const identified = [...hitByKey.values()].sort((a, b) => (a.knowledge.stage ?? 99) - (b.knowledge.stage ?? 99));
 
+  /** 已被符卡链路认领的角色记录，补全阶段跳过它们 */
+  const handledCharIds = new Set<number>();
+
   const updateChar = db.prepare(`
     UPDATE character SET name = ?, nickname = ?, type = ?, description = ?, colors = ?, meta = ? WHERE id = ?
   `);
@@ -218,9 +322,10 @@ export function identifyCharacters(gameCode: string): IdentifyResult {
 
   for (let i = 0; i < identified.length; i++) {
     const { knowledge, spells: spellIds } = identified[i];
-    // 按原版立绘编号精确配对；编号不存在的角色（如露米娅/琪露诺/帕秋莉）立绘不在包内
-    const faceId = faceIdOfKey(knowledge.key);
+    // 按立绘编号配对：编号来自 AI 打标推导（推导失败时回退到内置表）
+    const faceId = faceIdOf(knowledge.key);
     const paired = faceId !== undefined ? (faceByFaceId.get(faceId) ?? null) : null;
+    const pairedByAi = paired !== null && aiFaceMap.has(faceId as number);
 
     // 符卡的关联链路是 符卡 → Boss → Character，因此先确保 Boss 记录存在
     let bossId = (ensureBoss.get(gid, paired?.id ?? -1) as { id: number } | undefined)?.id ?? null;
@@ -262,12 +367,13 @@ export function identifyCharacters(gameCode: string): IdentifyResult {
       stage: knowledge.stage,
       wiki: wikiUrl(knowledge),
       faceId: paired ? JSON.parse(paired.meta || '{}').faceId : null,
-      mappingMethod: paired ? 'face-id-map' : 'no-portrait',
+      mappingMethod: paired ? (pairedByAi ? 'ai-face-map' : 'face-id-map') : 'no-portrait',
       confidence: paired ? 0.85 : 0.9,
       spellCount: spellIds.length,
     };
 
     if (paired) {
+      handledCharIds.add(paired.id);
       updateChar.run(
         knowledge.name,
         knowledge.nameJp,
@@ -330,19 +436,110 @@ export function identifyCharacters(gameCode: string): IdentifyResult {
     });
   }
 
-  /* ---------------- 3. 清理未被识别的占位角色 ---------------- */
+  /* ---------------- 2.5 无符卡角色（自机等）：靠 AI 立绘映射补全 ---------------- */
+
+  // 自机没有符卡，走不到上面的「符卡名 → 角色」链路；但它们有立绘，
+  // 而 AI 能稳定认出画面是谁 —— 因此直接依据立绘归属落名。
+  for (const [faceId, mapping] of aiFaceMap) {
+    const row = faceByFaceId.get(faceId);
+    if (!row || handledCharIds.has(row.id)) continue;
+    const k = roster.find((x) => x.key === mapping.key);
+    if (!k) continue;
+
+    const meta = {
+      source: 'identified',
+      key: k.key,
+      nameJp: k.nameJp,
+      nameEn: k.nameEn,
+      title: k.title,
+      stage: k.stage,
+      wiki: wikiUrl(k),
+      faceId,
+      mappingMethod: 'ai-face-map',
+      confidence: mapping.score,
+      spellCount: 0,
+    };
+
+    updateChar.run(
+      k.name,
+      k.nameJp,
+      k.type,
+      `${k.title}｜由 AI 立绘识别确定（该角色无符卡）`,
+      JSON.stringify([]),
+      JSON.stringify(meta),
+      row.id,
+    );
+    handledCharIds.add(row.id);
+    result.renamed++;
+
+    const assetCount = (
+      db.prepare('SELECT COUNT(*) AS c FROM character_asset WHERE character_id = ?').get(row.id) as any
+    ).c as number;
+    details.push({
+      key: k.key,
+      name: k.name,
+      nameJp: k.nameJp,
+      type: k.type,
+      stage: k.stage,
+      spells: 0,
+      patterns: 0,
+      animations: 0,
+      assets: assetCount,
+      wiki: wikiUrl(k),
+      mappingMethod: 'ai-face-map',
+    });
+  }
+
+  /* ---------------- 3. 清理占位角色 ---------------- */
 
   const matchedFaceIds = new Set(
-    details.filter((d) => d.mappingMethod === 'face-id-map').map((d) => faceIdOfKey(d.key)),
+    details
+      .filter((d) => d.mappingMethod === 'ai-face-map' || d.mappingMethod === 'face-id-map')
+      .map((d) => faceIdOf(d.key))
+      .filter((id): id is number => id !== undefined),
   );
+
+  /**
+   * 同一立绘若已识别出正式角色，其余带该 faceId 的占位记录就多余了。
+   *
+   * 注意必须遍历**全部**角色而非只遍历 faceChars：
+   * autoClassify 给自机建的占位角色 kind 是 "player" 而不是 "face"，
+   * 但它们同样挂着 faceId，只看 faceChars 会漏掉、留下重名占位。
+   * 同理 faceId 可能是字符串 "00"，一律用 Number 归一后再比较。
+   */
+  let prunedFaces = 0;
+  const allChars = db.prepare('SELECT id, meta FROM character WHERE game_id = ?').all(gid) as Array<{
+    id: number;
+    meta: string;
+  }>;
+
+  for (const c of allChars) {
+    let m: Record<string, unknown>;
+    try {
+      m = JSON.parse(c.meta || '{}');
+    } catch {
+      continue;
+    }
+    const raw = m.faceId;
+    if (raw === undefined || raw === null || raw === '') continue;
+    const faceId = Number(raw);
+    if (Number.isNaN(faceId) || !matchedFaceIds.has(faceId)) continue;
+    if (handledCharIds.has(c.id)) continue;
+    if (m.mappingMethod) continue;
+    db.prepare('DELETE FROM character_asset WHERE character_id = ?').run(c.id);
+    db.prepare('DELETE FROM character WHERE id = ?').run(c.id);
+    prunedFaces++;
+  }
+
   const unmatchedFaces = faceChars
     .filter((c) => !matchedFaceIds.has(Number(JSON.parse(c.meta || '{}').faceId)))
     .map((c) => `face${String(JSON.parse(c.meta || '{}').faceId ?? '?').padStart(2, '0')}`);
 
   if (unmatchedFaces.length) {
-    warnings.push(
-      `未配对的立绘：${unmatchedFaces.join(', ')}（多为自机与中 Boss，没有符卡可用于识别）`,
-    );
+    warnings.push(`未配对的立绘：${unmatchedFaces.join(', ')}（无符卡且 AI 未给出稳定判断）`);
+  }
+  if (prunedFaces > 0) {
+    warnings.push(`已清理 ${prunedFaces} 条多余的立绘占位记录`);
   }
 
   db.prepare('UPDATE game SET status = ? WHERE id = ?').run('extracted', gid);

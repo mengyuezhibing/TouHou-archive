@@ -5,7 +5,7 @@
    "code": "TH06_SCRIPT_0014_FAN",
    "game_id": "TH06",
    "spell_id": null,
-   "resource_id": 153,
+   "resource_id": 2520,
    "name": "ecldata7.ecl · 扇形散射",
    "type": "fan",
    "duration": 37.3,
@@ -49,8 +49,8 @@
     "弹幕分析"
    ],
    "note": "平均弹数 4.0，角度跨度 0°，符合扇形定向散射特征",
-   "created_time": "2026-09-12T11:51:57.249Z",
-   "updated_time": "2026-09-12T11:51:57.249Z",
+   "created_time": "2026-09-12T12:47:17.415Z",
+   "updated_time": "2026-09-12T12:47:17.415Z",
    "game_code": "TH06",
    "source_code": "TH06_SCRIPT_0014",
    "action_count": 4,
@@ -61,7 +61,7 @@
    "code": "TH06_SCRIPT_0008_FAN",
    "game_id": "TH06",
    "spell_id": null,
-   "resource_id": 78,
+   "resource_id": 2247,
    "name": "ecldata4.ecl · 扇形散射",
    "type": "fan",
    "duration": 32.82,
@@ -112,8 +112,8 @@
     "弹幕分析"
    ],
    "note": "平均弹数 4.0，角度跨度 0°，符合扇形定向散射特征",
-   "created_time": "2026-09-12T11:51:57.099Z",
-   "updated_time": "2026-09-12T11:51:57.099Z",
+   "created_time": "2026-09-12T12:47:16.697Z",
+   "updated_time": "2026-09-12T12:47:16.697Z",
    "game_code": "TH06",
    "source_code": "TH06_SCRIPT_0008",
    "action_count": 65,
@@ -124,7 +124,7 @@
    "code": "TH06_SCRIPT_0004_FAN",
    "game_id": "TH06",
    "spell_id": null,
-   "resource_id": 39,
+   "resource_id": 2093,
    "name": "ecldata2.ecl · 扇形散射",
    "type": "fan",
    "duration": 9.42,
@@ -141,8 +141,8 @@
     "弹幕分析"
    ],
    "note": "平均弹数 5.0，角度跨度 0°，符合扇形定向散射特征",
-   "created_time": "2026-09-12T11:51:57.026Z",
-   "updated_time": "2026-09-12T11:51:57.026Z",
+   "created_time": "2026-09-12T12:47:16.398Z",
+   "updated_time": "2026-09-12T12:47:16.398Z",
    "game_code": "TH06",
    "source_code": "TH06_SCRIPT_0004",
    "action_count": 1,
@@ -153,7 +153,7 @@
    "code": "TH06_SCRIPT_0002_FAN",
    "game_id": "TH06",
    "spell_id": null,
-   "resource_id": 14,
+   "resource_id": 2023,
    "name": "ecldata1.ecl · 扇形散射",
    "type": "fan",
    "duration": 10.73,
@@ -184,8 +184,8 @@
     "弹幕分析"
    ],
    "note": "平均弹数 6.0，角度跨度 0°，符合扇形定向散射特征",
-   "created_time": "2026-09-12T11:51:56.981Z",
-   "updated_time": "2026-09-12T11:51:56.981Z",
+   "created_time": "2026-09-12T12:47:16.227Z",
+   "updated_time": "2026-09-12T12:47:16.227Z",
    "game_code": "TH06",
    "source_code": "TH06_SCRIPT_0002",
    "action_count": 2,
@@ -198,7 +198,7 @@
    "code": "TH06_SCRIPT_0014_FAN",
    "game_id": "TH06",
    "spell_id": null,
-   "resource_id": 153,
+   "resource_id": 2520,
    "name": "ecldata7.ecl · 扇形散射",
    "type": "fan",
    "duration": 37.3,
@@ -242,16 +242,16 @@
     "弹幕分析"
    ],
    "note": "平均弹数 4.0，角度跨度 0°，符合扇形定向散射特征",
-   "created_time": "2026-09-12T11:51:57.249Z",
-   "updated_time": "2026-09-12T11:51:57.249Z",
-   "rid": 4,
+   "created_time": "2026-09-12T12:47:17.415Z",
+   "updated_time": "2026-09-12T12:47:17.415Z",
+   "rid": 12,
    "game_code": "TH06",
    "source_code": "TH06_SCRIPT_0014",
    "source_asset": "TH06_SCRIPT_0014",
    "actions": [
     {
-     "id": 71,
-     "pattern_id": 4,
+     "id": 215,
+     "pattern_id": 12,
      "time": 0.5,
      "action_type": "spawn",
      "parameter": {
@@ -264,8 +264,8 @@
      }
     },
     {
-     "id": 72,
-     "pattern_id": 4,
+     "id": 216,
+     "pattern_id": 12,
      "time": 0.5,
      "action_type": "spawn",
      "parameter": {
@@ -278,8 +278,8 @@
      }
     },
     {
-     "id": 69,
-     "pattern_id": 4,
+     "id": 213,
+     "pattern_id": 12,
      "time": 4,
      "action_type": "spawn",
      "parameter": {
@@ -292,8 +292,8 @@
      }
     },
     {
-     "id": 70,
-     "pattern_id": 4,
+     "id": 214,
+     "pattern_id": 12,
      "time": 4.033,
      "action_type": "spawn",
      "parameter": {
@@ -312,7 +312,7 @@
    "code": "TH06_SCRIPT_0008_FAN",
    "game_id": "TH06",
    "spell_id": null,
-   "resource_id": 78,
+   "resource_id": 2247,
    "name": "ecldata4.ecl · 扇形散射",
    "type": "fan",
    "duration": 32.82,
@@ -363,16 +363,16 @@
     "弹幕分析"
    ],
    "note": "平均弹数 4.0，角度跨度 0°，符合扇形定向散射特征",
-   "created_time": "2026-09-12T11:51:57.099Z",
-   "updated_time": "2026-09-12T11:51:57.099Z",
-   "rid": 3,
+   "created_time": "2026-09-12T12:47:16.697Z",
+   "updated_time": "2026-09-12T12:47:16.697Z",
+   "rid": 11,
    "game_code": "TH06",
    "source_code": "TH06_SCRIPT_0008",
    "source_asset": "TH06_SCRIPT_0008",
    "actions": [
     {
-     "id": 5,
-     "pattern_id": 3,
+     "id": 149,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -385,8 +385,8 @@
      }
     },
     {
-     "id": 6,
-     "pattern_id": 3,
+     "id": 150,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -399,8 +399,8 @@
      }
     },
     {
-     "id": 7,
-     "pattern_id": 3,
+     "id": 151,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -413,8 +413,8 @@
      }
     },
     {
-     "id": 8,
-     "pattern_id": 3,
+     "id": 152,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -427,8 +427,8 @@
      }
     },
     {
-     "id": 9,
-     "pattern_id": 3,
+     "id": 153,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -441,8 +441,8 @@
      }
     },
     {
-     "id": 10,
-     "pattern_id": 3,
+     "id": 154,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -455,8 +455,8 @@
      }
     },
     {
-     "id": 11,
-     "pattern_id": 3,
+     "id": 155,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -469,8 +469,8 @@
      }
     },
     {
-     "id": 12,
-     "pattern_id": 3,
+     "id": 156,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -483,8 +483,8 @@
      }
     },
     {
-     "id": 13,
-     "pattern_id": 3,
+     "id": 157,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -497,8 +497,8 @@
      }
     },
     {
-     "id": 14,
-     "pattern_id": 3,
+     "id": 158,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -511,8 +511,8 @@
      }
     },
     {
-     "id": 15,
-     "pattern_id": 3,
+     "id": 159,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -525,8 +525,8 @@
      }
     },
     {
-     "id": 16,
-     "pattern_id": 3,
+     "id": 160,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -539,8 +539,8 @@
      }
     },
     {
-     "id": 17,
-     "pattern_id": 3,
+     "id": 161,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -553,8 +553,8 @@
      }
     },
     {
-     "id": 18,
-     "pattern_id": 3,
+     "id": 162,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -567,8 +567,8 @@
      }
     },
     {
-     "id": 19,
-     "pattern_id": 3,
+     "id": 163,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -581,8 +581,8 @@
      }
     },
     {
-     "id": 20,
-     "pattern_id": 3,
+     "id": 164,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -595,8 +595,8 @@
      }
     },
     {
-     "id": 21,
-     "pattern_id": 3,
+     "id": 165,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -609,8 +609,8 @@
      }
     },
     {
-     "id": 22,
-     "pattern_id": 3,
+     "id": 166,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -623,8 +623,8 @@
      }
     },
     {
-     "id": 23,
-     "pattern_id": 3,
+     "id": 167,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -637,8 +637,8 @@
      }
     },
     {
-     "id": 24,
-     "pattern_id": 3,
+     "id": 168,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -651,8 +651,8 @@
      }
     },
     {
-     "id": 25,
-     "pattern_id": 3,
+     "id": 169,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -665,8 +665,8 @@
      }
     },
     {
-     "id": 26,
-     "pattern_id": 3,
+     "id": 170,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -679,8 +679,8 @@
      }
     },
     {
-     "id": 27,
-     "pattern_id": 3,
+     "id": 171,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -693,8 +693,8 @@
      }
     },
     {
-     "id": 28,
-     "pattern_id": 3,
+     "id": 172,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -707,8 +707,8 @@
      }
     },
     {
-     "id": 29,
-     "pattern_id": 3,
+     "id": 173,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -721,8 +721,8 @@
      }
     },
     {
-     "id": 30,
-     "pattern_id": 3,
+     "id": 174,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -735,8 +735,8 @@
      }
     },
     {
-     "id": 31,
-     "pattern_id": 3,
+     "id": 175,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -749,8 +749,8 @@
      }
     },
     {
-     "id": 32,
-     "pattern_id": 3,
+     "id": 176,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -763,8 +763,8 @@
      }
     },
     {
-     "id": 33,
-     "pattern_id": 3,
+     "id": 177,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -777,8 +777,8 @@
      }
     },
     {
-     "id": 34,
-     "pattern_id": 3,
+     "id": 178,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -791,8 +791,8 @@
      }
     },
     {
-     "id": 35,
-     "pattern_id": 3,
+     "id": 179,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -805,8 +805,8 @@
      }
     },
     {
-     "id": 36,
-     "pattern_id": 3,
+     "id": 180,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -819,8 +819,8 @@
      }
     },
     {
-     "id": 37,
-     "pattern_id": 3,
+     "id": 181,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -833,8 +833,8 @@
      }
     },
     {
-     "id": 38,
-     "pattern_id": 3,
+     "id": 182,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -847,8 +847,8 @@
      }
     },
     {
-     "id": 39,
-     "pattern_id": 3,
+     "id": 183,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -861,8 +861,8 @@
      }
     },
     {
-     "id": 40,
-     "pattern_id": 3,
+     "id": 184,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -875,8 +875,8 @@
      }
     },
     {
-     "id": 41,
-     "pattern_id": 3,
+     "id": 185,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -889,8 +889,8 @@
      }
     },
     {
-     "id": 42,
-     "pattern_id": 3,
+     "id": 186,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -903,8 +903,8 @@
      }
     },
     {
-     "id": 43,
-     "pattern_id": 3,
+     "id": 187,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -917,8 +917,8 @@
      }
     },
     {
-     "id": 44,
-     "pattern_id": 3,
+     "id": 188,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -931,8 +931,8 @@
      }
     },
     {
-     "id": 45,
-     "pattern_id": 3,
+     "id": 189,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -945,8 +945,8 @@
      }
     },
     {
-     "id": 46,
-     "pattern_id": 3,
+     "id": 190,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -959,8 +959,8 @@
      }
     },
     {
-     "id": 47,
-     "pattern_id": 3,
+     "id": 191,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -973,8 +973,8 @@
      }
     },
     {
-     "id": 48,
-     "pattern_id": 3,
+     "id": 192,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -987,8 +987,8 @@
      }
     },
     {
-     "id": 49,
-     "pattern_id": 3,
+     "id": 193,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1001,8 +1001,8 @@
      }
     },
     {
-     "id": 50,
-     "pattern_id": 3,
+     "id": 194,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1015,8 +1015,8 @@
      }
     },
     {
-     "id": 51,
-     "pattern_id": 3,
+     "id": 195,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1029,8 +1029,8 @@
      }
     },
     {
-     "id": 52,
-     "pattern_id": 3,
+     "id": 196,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1043,8 +1043,8 @@
      }
     },
     {
-     "id": 53,
-     "pattern_id": 3,
+     "id": 197,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1057,8 +1057,8 @@
      }
     },
     {
-     "id": 54,
-     "pattern_id": 3,
+     "id": 198,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1071,8 +1071,8 @@
      }
     },
     {
-     "id": 55,
-     "pattern_id": 3,
+     "id": 199,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1085,8 +1085,8 @@
      }
     },
     {
-     "id": 56,
-     "pattern_id": 3,
+     "id": 200,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1099,8 +1099,8 @@
      }
     },
     {
-     "id": 57,
-     "pattern_id": 3,
+     "id": 201,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1113,8 +1113,8 @@
      }
     },
     {
-     "id": 58,
-     "pattern_id": 3,
+     "id": 202,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1127,8 +1127,8 @@
      }
     },
     {
-     "id": 59,
-     "pattern_id": 3,
+     "id": 203,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1141,8 +1141,8 @@
      }
     },
     {
-     "id": 60,
-     "pattern_id": 3,
+     "id": 204,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1155,8 +1155,8 @@
      }
     },
     {
-     "id": 61,
-     "pattern_id": 3,
+     "id": 205,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1169,8 +1169,8 @@
      }
     },
     {
-     "id": 62,
-     "pattern_id": 3,
+     "id": 206,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1183,8 +1183,8 @@
      }
     },
     {
-     "id": 63,
-     "pattern_id": 3,
+     "id": 207,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1197,8 +1197,8 @@
      }
     },
     {
-     "id": 64,
-     "pattern_id": 3,
+     "id": 208,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1211,8 +1211,8 @@
      }
     },
     {
-     "id": 65,
-     "pattern_id": 3,
+     "id": 209,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1225,8 +1225,8 @@
      }
     },
     {
-     "id": 66,
-     "pattern_id": 3,
+     "id": 210,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1239,8 +1239,8 @@
      }
     },
     {
-     "id": 67,
-     "pattern_id": 3,
+     "id": 211,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1253,8 +1253,8 @@
      }
     },
     {
-     "id": 68,
-     "pattern_id": 3,
+     "id": 212,
+     "pattern_id": 11,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1267,8 +1267,8 @@
      }
     },
     {
-     "id": 4,
-     "pattern_id": 3,
+     "id": 148,
+     "pattern_id": 11,
      "time": 2,
      "action_type": "spawn",
      "parameter": {
@@ -1287,7 +1287,7 @@
    "code": "TH06_SCRIPT_0004_FAN",
    "game_id": "TH06",
    "spell_id": null,
-   "resource_id": 39,
+   "resource_id": 2093,
    "name": "ecldata2.ecl · 扇形散射",
    "type": "fan",
    "duration": 9.42,
@@ -1304,16 +1304,16 @@
     "弹幕分析"
    ],
    "note": "平均弹数 5.0，角度跨度 0°，符合扇形定向散射特征",
-   "created_time": "2026-09-12T11:51:57.026Z",
-   "updated_time": "2026-09-12T11:51:57.026Z",
-   "rid": 2,
+   "created_time": "2026-09-12T12:47:16.398Z",
+   "updated_time": "2026-09-12T12:47:16.398Z",
+   "rid": 10,
    "game_code": "TH06",
    "source_code": "TH06_SCRIPT_0004",
    "source_asset": "TH06_SCRIPT_0004",
    "actions": [
     {
-     "id": 3,
-     "pattern_id": 2,
+     "id": 147,
+     "pattern_id": 10,
      "time": 0,
      "action_type": "spawn",
      "parameter": {
@@ -1332,7 +1332,7 @@
    "code": "TH06_SCRIPT_0002_FAN",
    "game_id": "TH06",
    "spell_id": null,
-   "resource_id": 14,
+   "resource_id": 2023,
    "name": "ecldata1.ecl · 扇形散射",
    "type": "fan",
    "duration": 10.73,
@@ -1363,16 +1363,16 @@
     "弹幕分析"
    ],
    "note": "平均弹数 6.0，角度跨度 0°，符合扇形定向散射特征",
-   "created_time": "2026-09-12T11:51:56.981Z",
-   "updated_time": "2026-09-12T11:51:56.981Z",
-   "rid": 1,
+   "created_time": "2026-09-12T12:47:16.227Z",
+   "updated_time": "2026-09-12T12:47:16.227Z",
+   "rid": 9,
    "game_code": "TH06",
    "source_code": "TH06_SCRIPT_0002",
    "source_asset": "TH06_SCRIPT_0002",
    "actions": [
     {
-     "id": 1,
-     "pattern_id": 1,
+     "id": 145,
+     "pattern_id": 9,
      "time": 2,
      "action_type": "spawn",
      "parameter": {
@@ -1385,8 +1385,8 @@
      }
     },
     {
-     "id": 2,
-     "pattern_id": 1,
+     "id": 146,
+     "pattern_id": 9,
      "time": 2,
      "action_type": "spawn",
      "parameter": {

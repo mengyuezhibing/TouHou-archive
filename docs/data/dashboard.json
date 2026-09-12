@@ -2,43 +2,51 @@
  "counts": {
   "games": 1,
   "archives": 6,
-  "assets": 431,
-  "sprites": 235,
-  "sheets": 0,
+  "assets": 1532,
+  "sprites": 1336,
+  "sheets": 77,
   "animations": 77,
   "animationFrames": 1096,
   "patterns": 4,
   "patternActions": 72,
   "spells": 64,
-  "bosses": 12,
+  "bosses": 7,
   "enemies": 12,
   "bgm": 17,
   "msgLines": 519,
-  "characters": 14,
-  "characterAssets": 84,
-  "tags": 27,
-  "totalSize": 333559920
+  "characters": 9,
+  "characterAssets": 113,
+  "tags": 705,
+  "totalSize": 341601275
  },
  "byCategory": [
   {
    "category": "ui",
-   "count": 139
+   "count": 540
+  },
+  {
+   "category": "character",
+   "count": 438
+  },
+  {
+   "category": "bullet",
+   "count": 185
   },
   {
    "category": "portrait",
-   "count": 76
+   "count": 93
+  },
+  {
+   "category": "sheet",
+   "count": 77
+  },
+  {
+   "category": "background",
+   "count": 72
   },
   {
    "category": "audio",
    "count": 56
-  },
-  {
-   "category": "character",
-   "count": 56
-  },
-  {
-   "category": "background",
-   "count": 25
   },
   {
    "category": "binary",
@@ -51,10 +59,6 @@
   {
    "category": "script",
    "count": 14
-  },
-  {
-   "category": "bullet",
-   "count": 8
   },
   {
    "category": "text",
@@ -72,7 +76,7 @@
    "year": 2002,
    "status": "extracted",
    "path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h",
-   "asset_count": 431,
+   "asset_count": 1532,
    "bgm_count": 17
   }
  ]

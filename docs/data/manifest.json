@@ -1,6 +1,6 @@
 {
  "schema": "touhou-resource-studio.publish/1",
- "generatedAt": "2026-09-12T12:27:36.710Z",
+ "generatedAt": "2026-09-12T13:10:52.744Z",
  "games": [
   {
    "code": "TH06",
@@ -10,9 +10,9 @@
   }
  ],
  "counts": {
-  "resources": 431,
-  "files": 505,
-  "characters": 14,
+  "resources": 1532,
+  "files": 2051,
+  "characters": 9,
   "animations": 77,
   "patterns": 4,
   "spells": 64,
@@ -26,13 +26,18 @@
  "zips": [
   {
    "name": "TH06-sprites.zip",
-   "size": 40625,
-   "label": "精灵图（ANM 拆图） · 78 个文件"
+   "size": 4749423,
+   "label": "精灵图（ANM 拆图） · 1174 个文件"
+  },
+  {
+   "name": "TH06-sheets.zip",
+   "size": 3674859,
+   "label": "图集（Sprite Sheet + JSON） · 154 个文件"
   },
   {
    "name": "TH06-images.zip",
-   "size": 6424079,
-   "label": "图片素材（立绘 / UI / 子弹） · 303 个文件"
+   "size": 11909134,
+   "label": "图片素材（立绘 / UI / 子弹） · 534 个文件"
   },
   {
    "name": "TH06-audio.zip",
@@ -41,13 +46,13 @@
   },
   {
    "name": "TH06-analysis.zip",
-   "size": 165345,
-   "label": "分析结果（ECL / 清单 / 图集元数据） · 91 个文件"
+   "size": 199712,
+   "label": "分析结果（ECL / 清单 / 图集元数据） · 156 个文件"
   },
   {
    "name": "TH06-all.zip",
-   "size": 7256522,
-   "label": "完整资源包 · 505 个文件"
+   "size": 21159579,
+   "label": "完整资源包 · 2051 个文件"
   }
  ],
  "filesBase": "files",

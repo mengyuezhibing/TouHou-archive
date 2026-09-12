@@ -294,6 +294,32 @@ export function createCanvas(width: number, height: number, fill: [number, numbe
   return { width, height, data };
 }
 
+/**
+ * 从图像中裁出一块矩形区域。
+ *
+ * ANM 的 region 表用浮点描述精灵在贴图中的位置与尺寸，因此:
+ *   · 坐标与尺寸都做四舍五入，避免亚像素导致 1px 抖动
+ *   · 越界部分留空（透明），不抛错 —— 个别版本的 region 会略微超出画布
+ */
+export function cropImage(src: RawImage, x: number, y: number, w: number, h: number): RawImage {
+  const out = createCanvas(w, h);
+  for (let j = 0; j < h; j++) {
+    const sy = y + j;
+    if (sy < 0 || sy >= src.height) continue;
+    for (let i = 0; i < w; i++) {
+      const sx = x + i;
+      if (sx < 0 || sx >= src.width) continue;
+      const si = (sy * src.width + sx) * 4;
+      const di = (j * w + i) * 4;
+      out.data[di] = src.data[si];
+      out.data[di + 1] = src.data[si + 1];
+      out.data[di + 2] = src.data[si + 2];
+      out.data[di + 3] = src.data[si + 3];
+    }
+  }
+  return out;
+}
+
 /** 把 src 贴到 dst 的 (dx, dy) 处（alpha 混合，out-of-bounds 安全） */
 export function blitImage(dst: RawImage, src: RawImage, dx: number, dy: number): void {
   for (let y = 0; y < src.height; y++) {
