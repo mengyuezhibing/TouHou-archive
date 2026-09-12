@@ -11,6 +11,7 @@ import {
   removeResourceTag,
   tagsOfResource,
 } from '../db/index.ts';
+import { analyzeEnemyIntel } from './enemyIntel.ts';
 
 /**
  * 数据查询层。
@@ -383,6 +384,80 @@ export function listEnemies(gameCode?: string) {
     ? (db.prepare(`${sql} WHERE g.code = ? ORDER BY e.type, e.name`).all(gameCode) as any[])
     : (db.prepare(`${sql} ORDER BY e.type, e.name`).all() as any[]);
   return rows.map((r) => ({ ...r, game_id: r.game_code ?? r.game_id, meta: jsonParse(r.meta, {}) }));
+}
+
+/**
+ * 怪物库数据：敌机记录 + 精灵预览 + 该关的 ECL 情报。
+ *
+ * 三部分来源不同，按关卡号拼接：
+ *   · 敌机记录与精灵关联 —— Enemy 表 / Resource 表
+ *   · 行为属性（波次、角度、速度）—— ECL 脚本解析
+ *
+ * 精灵预览只挑小尺寸的：一个敌机图集里既有本体也有弹幕与特效贴图，
+ * 按面积升序取前若干张，命中本体的概率最高。
+ */
+export function listEnemyIntel(gameCode: string) {
+  const enemies = listEnemies(gameCode) as any[];
+  const intel = analyzeEnemyIntel(gameCode);
+  const byStage = new Map(intel.map((i) => [i.stage, i]));
+
+  // 汇总全部待查资源码，一次查完，避免逐条查询
+  const codes = new Set<string>();
+  for (const e of enemies) {
+    const list = e.meta?.assetCodes;
+    if (Array.isArray(list)) for (const c of list) codes.add(String(c));
+  }
+
+  const byCode = new Map<string, any>();
+  if (codes.size > 0) {
+    const arr = [...codes];
+    const CHUNK = 400;
+    for (let i = 0; i < arr.length; i += CHUNK) {
+      const chunk = arr.slice(i, i + CHUNK);
+      const ph = chunk.map(() => '?').join(',');
+      const rows = db
+        .prepare(
+          `SELECT r.code, r.display_name, r.path, r.category, COALESCE(i.width,0) AS width, COALESCE(i.height,0) AS height
+           FROM resource r LEFT JOIN asset_image i ON i.resource_id = r.id
+           WHERE r.code IN (${ph}) AND r.kind = 'image'`,
+        )
+        .all(...chunk) as any[];
+      for (const row of rows) byCode.set(row.code, row);
+    }
+  }
+
+  return enemies.map((e) => {
+    const meta = e.meta ?? {};
+    const stage = Number(meta.stage) || 0;
+    const list: string[] = Array.isArray(meta.assetCodes) ? meta.assetCodes : [];
+
+    const sprites = list
+      .map((c) => byCode.get(c))
+      .filter((s) => s && s.width >= 16 && s.height >= 16)
+      .sort((a, b) => a.width * a.height - b.width * b.height)
+      .slice(0, 16)
+      .map((s) => ({
+        code: s.code,
+        name: s.display_name,
+        path: s.path,
+        category: s.category,
+        width: s.width,
+        height: s.height,
+      }));
+
+    return {
+      id: e.id,
+      name: e.name,
+      type: e.type,
+      hp: e.hp,
+      speed: e.speed,
+      description: e.description,
+      stage,
+      spriteCount: list.length,
+      sprites,
+      ecl: byStage.get(stage) ?? null,
+    };
+  });
 }
 
 export function listBosses(gameCode?: string) {

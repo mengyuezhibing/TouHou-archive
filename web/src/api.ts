@@ -449,6 +449,9 @@ export const api = {
   characters: (gameId?: string) => get<{ items: Character[] }>(`/characters${gameId ? `?gameId=${gameId}` : ''}`),
   character: (id: string) => get<{ character: Character | null; items: Asset[] }>(`/characters/${id}`),
   enemies: (gameId?: string) => get<{ items: Array<Record<string, any>> }>(`/enemies${gameId ? `?gameId=${gameId}` : ''}`),
+  /** 怪物库增强数据：敌机 + 精灵预览 + ECL 行为属性 */
+  enemyIntel: (gameId: string) =>
+    get<{ items: EnemyIntel[] }>(`/enemies/intel?gameId=${encodeURIComponent(gameId)}`),
   patterns: (gameId?: string, type?: string) => {
     const q = new URLSearchParams();
     if (gameId) q.set('gameId', gameId);
@@ -567,6 +570,66 @@ export const CATEGORY_LABELS: Record<string, string> = {
   binary: '二进制',
   unknown: '未分类',
 };
+
+// ---------------------------------------------------------------- 敌机情报
+
+/** 一次敌机生成事件（从 ECL 主时间线解析） */
+export interface EnemyWave {
+  index: number;
+  frame: number;
+  time: number;
+  x: number;
+  y: number;
+  typeId: number;
+  /** -1 表示不设显式血量，生死由行为脚本控制 */
+  hp: number;
+  score: number;
+  opcode: number;
+  entry: string;
+}
+
+/** 某个关卡的 ECL 行为特征 */
+export interface StageEcl {
+  stage: number;
+  eclFile: string;
+  waves: EnemyWave[];
+  waveCount: number;
+  durationFrames: number;
+  durationSeconds: number;
+  subCount: number;
+  totalInstructions: number;
+  typeIds: number[];
+  scoreTotal: number;
+  explicitHpWaves: number;
+  /** 角度候选（弧度） */
+  angleHints: number[];
+  speedHints: number[];
+  opcodeHistogram: Array<{ opcode: number; count: number }>;
+  warnings: string[];
+}
+
+export interface EnemySprite {
+  code: string;
+  name: string;
+  path: string;
+  category: string;
+  width: number;
+  height: number;
+}
+
+export interface EnemyIntel {
+  id: number;
+  name: string;
+  type: string;
+  hp: number;
+  speed: number;
+  description: string;
+  stage: number;
+  spriteCount: number;
+  sprites: EnemySprite[];
+  ecl: StageEcl | null;
+  gameCode?: string;
+}
 
 /** 用途分组：与服务端 classify.ts 的 ROLE_LABELS 保持一致 */
 export const ROLE_LABELS: Record<string, string> = {

@@ -27,6 +27,7 @@ import {
   listCharacters,
   getCharacterAssets,
   listEnemies,
+  listEnemyIntel,
   listBosses,
   listSpells,
   listPatterns,
@@ -178,7 +179,12 @@ async function main() {
   dataBytes += writeJson('data/characters.json', { items: characters, details: characterDetails });
   console.log(`  角色        ${characters.length} 个`);
 
-  dataBytes += writeJson('data/enemies.json', { items: listEnemies() });
+  // 怪物库：ECL 属性需要在导出时算好（静态站点没有运行时解析能力）
+  const enemyIntel = gameCodes.flatMap((code) =>
+    (listEnemyIntel(code) as any[]).map((e) => ({ ...e, gameCode: code })),
+  );
+  dataBytes += writeJson('data/enemies.json', { items: enemyIntel });
+  console.log(`  敌机        ${enemyIntel.length} 条`);
   dataBytes += writeJson('data/bosses.json', { items: listBosses() });
   dataBytes += writeJson('data/spells.json', { items: listSpells() });
   console.log(`  符卡        ${(listSpells() as any[]).length} 张`);

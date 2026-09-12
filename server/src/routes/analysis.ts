@@ -2,6 +2,7 @@ import { Router } from 'express';
 import {
   listCharacters,
   listEnemies,
+  listEnemyIntel,
   getCharacterAssets,
   listPatterns,
   getPattern,
@@ -35,6 +36,19 @@ analysisRouter.get('/characters/:id', (req, res) => {
 
 analysisRouter.get('/enemies', (req, res) => {
   res.json({ items: listEnemies((req.query as any).gameId) });
+});
+
+/**
+ * 怪物库增强数据：敌机记录 + 精灵预览 + 该关的 ECL 行为属性。
+ * 放在 /enemies/:id 之前注册，避免 'intel' 被当成 id 匹配。
+ */
+analysisRouter.get('/enemies/intel', (req, res) => {
+  const gameId = (req.query as any).gameId as string | undefined;
+  if (!gameId) {
+    res.status(400).json({ error: '缺少 gameId 参数' });
+    return;
+  }
+  res.json({ items: listEnemyIntel(gameId) });
 });
 
 // ---------------------------------------------------------------- 弹幕模式

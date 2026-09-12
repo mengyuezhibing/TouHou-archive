@@ -252,6 +252,11 @@ export async function staticRequest<T>(path: string, init?: RequestInit): Promis
 
     case 'enemies': {
       const { items } = await loadJson<{ items: Dict[] }>('enemies.json');
+      // /enemies/intel：怪物库增强数据（含精灵预览与 ECL 属性，导出时已算好）
+      if (arg === 'intel') {
+        const gameId = q.get('gameId');
+        return { items: gameId ? items.filter((e) => e.gameCode === gameId) : items } as T;
+      }
       return { items: arg ? items.filter((e) => e.game_id === arg) : items } as T;
     }
 
