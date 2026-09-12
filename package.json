@@ -11,7 +11,9 @@
     "dev:web": "npm --prefix web run dev",
     "build": "npm --prefix server run build && npm --prefix web run build",
     "seed": "npm --prefix server run seed",
-    "start": "npm --prefix server run start"
+    "start": "npm --prefix server run start",
+    "publish:site": "VITE_TRS_STATIC=1 npm --prefix web run build && npm --prefix server run publish",
+    "preview:site": "npx --yes serve docs -l 8899"
   },
   "devDependencies": {
     "concurrently": "^9.1.0"

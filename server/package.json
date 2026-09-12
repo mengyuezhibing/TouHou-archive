@@ -8,7 +8,8 @@
     "start": "tsx src/index.ts",
     "build": "tsc -p tsconfig.json --noEmit",
     "seed": "tsx src/scripts/seed-demo.ts",
-    "verify": "tsx src/scripts/verify.ts"
+    "verify": "tsx src/scripts/verify.ts",
+    "publish": "tsx src/scripts/publish.ts"
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",

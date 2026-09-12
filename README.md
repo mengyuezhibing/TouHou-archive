@@ -92,6 +92,43 @@ npm --prefix server run verify
 
 ---
 
+## 发布在线站点
+
+本地解包成果可以导出为**纯静态站点**，部署后任何人打开即可浏览与下载：
+
+```bash
+npm run publish:site     # 构建静态前端 + 导出数据与资源 → docs/
+npm run preview:site     # 本地预览（http://localhost:8899）
+```
+
+导出内容：
+
+| 部分 | 说明 |
+|---|---|
+| 数据 | 数据库导出的 JSON，复用查询层，形状与 API 响应逐字段一致 |
+| 资源 | 解包产物（精灵 / 图片 / 音效 / 分析结果），走 `files/` 静态目录 |
+| 打包 | 按类型与整包的 zip（sprites / images / audio / analysis / all） |
+
+导出选项：
+
+```bash
+npx tsx src/scripts/publish.ts --no-audio      # 排除音频（再分发风险较高）
+npx tsx src/scripts/publish.ts --no-zip        # 不生成打包 zip
+npx tsx src/scripts/publish.ts --out 站点目录   # 自定义输出位置
+```
+
+部署到 GitHub Pages：仓库 **Settings → Pages → Source** 选 `Deploy from a branch`，
+分支 `main`、目录 `/docs`。
+
+> **在线站点是只读的**（浏览 + 下载）。解包、扫描、编辑这些依赖本地文件系统的
+> 能力只在本地工作台可用——这也正是「研究在本地、成果给访客看」的分工。
+
+> **版权提示**：游戏素材版权归上海爱丽丝幻乐团（ZUN）。东方二次创作规约允许
+> 同人创作，但直接再分发原作素材处于灰色地带。发布前请自行判断范围，
+> 必要时用 `--no-audio` 等方式收敛。
+
+---
+
 ## 项目结构
 
 ```
