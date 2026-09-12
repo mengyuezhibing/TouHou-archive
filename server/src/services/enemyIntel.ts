@@ -27,8 +27,6 @@ type EclAnalysis = ReturnType<typeof parseEcl>;
 
 /** 主时间线中「生成敌机」类指令的 opcode 范围（TH06） */
 const ENEMY_SPAWN_OPCODES = new Set([0x00, 0x02, 0x04, 0x06]);
-const MAIN_HEADER_SIZE = 8;
-const MAIN_ARG_SIZE = 20;
 
 export interface EnemyWave {
   index: number;
@@ -36,14 +34,19 @@ export interface EnemyWave {
   frame: number;
   /** 出现时刻（秒） */
   time: number;
+  /** ★ 行为脚本索引：敌机出场后执行哪个子程序（thecl_enemy_t.sub） */
+  sub: number;
+  /** 编队 flags：0 普通 / 2 镜像 / 4 随机位置 / 6 镜像+随机 */
+  typeFlags: number;
   x: number;
   y: number;
-  /** 敌机类型编号（ECL 内部标识） */
-  typeId: number;
-  /** 血量；-1 表示由行为脚本控制生死 */
+  /** 血量（生成指令里 life 为负时按 1 处理） */
   hp: number;
+  /** 是否在生成指令里显式设定了血量 */
+  hpExplicit: boolean;
+  /** 掉落：-1 随机 / 0~6 对应道具 / 其他无 */
+  dropped: number;
   score: number;
-  opcode: number;
   /** 从进入方向推断的编队侧 */
   entry: 'left' | 'right' | 'top' | 'bottom';
 }
@@ -61,8 +64,8 @@ export interface StageIntel {
   subCount: number;
   /** 行为脚本指令总数 */
   totalInstructions: number;
-  /** 涉及的敌机类型编号 */
-  typeIds: number[];
+  /** 涉及的行为脚本索引（敌机出场后执行哪些子程序） */
+  subIds: number[];
   /** 累计分数（击杀该关全部敌机的理论分值） */
   scoreTotal: number;
   /** 带显式血量的波次数 */
@@ -79,46 +82,68 @@ export interface StageIntel {
 /**
  * 从主时间线解析敌机波次。
  *
- * 只处理 opcode 属于「生成敌机」且 size 与预期参数区吻合的指令，
- * 其余指令（对话、BGM、Boss 等）原样跳过 —— 宁可少提取，也不要错提取。
+ * 布局来自 pytouhou 的 TH06 ECL 权威文档（thecl_enemy_t），
+ * 整条 28 字节指令被引擎以「敌机结构」解读，与 thecl_main_instr_t 的头 8 字节叠加：
+ *
+ *   @0  u16  time（= 帧号，终止标记 0xffff）
+ *   @2  u16  sub            ★ 行为脚本索引 —— 敌机出场后执行哪个子程序
+ *   @4  u16  type           编队 flags：0 普通 / 2 镜像 / 4 随机位置 / 6 镜像+随机
+ *   @6  u16  size
+ *   @8  f32  x
+ *   @12 f32  y
+ *   @16 f32  z              恒 0（未使用）
+ *   @20 i16  life           血量，0~0x7fff；负值按 1 处理
+ *   @22 i16  object_dropped 掉落：-1 随机 / 0~6 对应道具 / 其他无
+ *   @24 u32  die_score      击破分数
+ *
+ * 之前启发式版本的误读（typeId/hp/dropped 的位置全部偏移）已被此结构修正：
+ * 修正后 sub 引用全部落在 [0, subCount) 内、HP 出现 40/400 这类真实数值、
+ * 掉落值精确符合「-1 随机 / 0~6 道具」的枚举——三重交叉印证。
  */
-function parseWaves(buf: Buffer, mainOffset: number): { waves: EnemyWave[]; skipped: number } {
+function parseWaves(buf: Buffer, mainOffset: number, subCount: number): { waves: EnemyWave[]; skipped: number } {
   const waves: EnemyWave[] = [];
   let skipped = 0;
   let p = mainOffset;
   let guard = 0;
 
-  while (p + MAIN_HEADER_SIZE <= buf.length && guard++ < 100000) {
-    const frame = buf.readUInt32LE(p);
-    const opcode = buf.readUInt16LE(p + 4);
+  while (p + 8 <= buf.length && guard++ < 100000) {
+    // 头 8 字节里，frame/time 与 sub/type/size 按敌机结构叠加解读
+    const frame = buf.readUInt16LE(p);
+    const sub = buf.readUInt16LE(p + 2);
+    const typeFlags = buf.readUInt16LE(p + 4);
     const size = buf.readUInt16LE(p + 6);
 
     // 终止标记：frame 全 1
-    if (frame === 0xffffffff) break;
-    if (size < MAIN_HEADER_SIZE || p + size > buf.length) break;
+    if (frame === 0xffff) break;
+    if (size < 8 || p + size > buf.length) break;
 
-    if (ENEMY_SPAWN_OPCODES.has(opcode) && size - MAIN_HEADER_SIZE >= MAIN_ARG_SIZE) {
-      const a = p + MAIN_HEADER_SIZE;
-      const x = buf.readFloatLE(a);
-      const y = buf.readFloatLE(a + 4);
-      const typeId = buf.readUInt16LE(a + 12);
-      const hp = buf.readInt16LE(a + 14);
-      const score = buf.readUInt32LE(a + 16);
+    if (ENEMY_SPAWN_OPCODES.has(opcodeOf(buf, p)) && size >= 28) {
+      const x = buf.readFloatLE(p + 8);
+      const y = buf.readFloatLE(p + 12);
+      const lifeRaw = buf.readInt16LE(p + 20);
+      const dropped = buf.readInt16LE(p + 22);
+      const score = buf.readUInt32LE(p + 24);
 
       // 合理性校验：TH06 游戏区为 384×448，敌机生成点会在边界外一些，
       // 但不会离屏数千像素 —— 超出这个范围说明该指令不是敌机生成，
       // 或参数布局与本作品不符，宁可丢弃也不要输出误导性数据。
-      if (Number.isFinite(x) && Number.isFinite(y) && Math.abs(x) < 520 && Math.abs(y) < 1200) {
+      if (
+        Number.isFinite(x) && Number.isFinite(y) &&
+        Math.abs(x) < 520 && Math.abs(y) < 1200 &&
+        sub < subCount
+      ) {
         waves.push({
           index: waves.length,
           frame,
           time: Number((frame / 60).toFixed(2)),
+          sub,
+          typeFlags,
           x: Number(x.toFixed(2)),
           y: Number(y.toFixed(2)),
-          typeId,
-          hp,
+          hp: lifeRaw < 0 ? 1 : lifeRaw,
+          hpExplicit: lifeRaw >= 0,
+          dropped,
           score,
-          opcode,
           entry: y < -8 ? 'top' : y > 456 ? 'bottom' : x < 0 ? 'left' : x > 384 ? 'right' : 'top',
         });
       } else {
@@ -130,6 +155,11 @@ function parseWaves(buf: Buffer, mainOffset: number): { waves: EnemyWave[]; skip
     p += size;
   }
   return { waves, skipped };
+}
+
+/** main 指令的 opcode 在 @4（u16） */
+function opcodeOf(buf: Buffer, p: number): number {
+  return buf.readUInt16LE(p + 4);
 }
 
 /** 从参数字节里挑出像角度 / 速度的值（启发式，仅作参考） */
@@ -189,7 +219,7 @@ export function analyzeEnemyIntel(gameCode: string): StageIntel[] {
     const m = row.filename.match(/(\d+)/);
     const stage = m ? Number(m[1]) : 0;
 
-    const { waves, skipped } = parseWaves(buf, analysis.mainOffset);
+    const { waves, skipped } = parseWaves(buf, analysis.mainOffset, analysis.subCount);
     const hints = extractNumericHints(analysis);
 
     // 时长取合理范围内的最大值：脚本尾部常用极大的 frame 值表达
@@ -197,7 +227,7 @@ export function analyzeEnemyIntel(gameCode: string): StageIntel[] {
     const REASONABLE_FRAMES = 60 * 60 * 8; // 8 分钟，TH06 单关实际时长远小于此
     const frames = waves.map((w) => w.frame).filter((f) => f > 0 && f < REASONABLE_FRAMES);
     const durationFrames = frames.length ? Math.max(...frames) : 0;
-    const typeIds = [...new Set(waves.map((w) => w.typeId))].sort((a, b) => a - b);
+    const subIds = [...new Set(waves.map((w) => w.sub))].sort((a, b) => a - b);
 
     const opcodeHistogram = [...analysis.opcodeHistogram]
       .sort((a, b) => b.count - a.count)
@@ -223,9 +253,9 @@ export function analyzeEnemyIntel(gameCode: string): StageIntel[] {
       durationSeconds: Number((durationFrames / 60).toFixed(1)),
       subCount: analysis.subCount,
       totalInstructions: analysis.totalInstructions,
-      typeIds,
+      subIds,
       scoreTotal: waves.reduce((a, w) => a + (w.score > 0 && w.score < 1e7 ? w.score : 0), 0),
-      explicitHpWaves: waves.filter((w) => w.hp > 0).length,
+      explicitHpWaves: waves.filter((w) => w.hpExplicit).length,
       angleHints: hints.angles,
       speedHints: hints.speeds,
       opcodeHistogram,

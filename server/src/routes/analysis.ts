@@ -19,6 +19,7 @@ import {
 } from '../services/query.ts';
 import { harvestSpellCandidates, importSpellCandidates, seedKnownSpells } from '../services/spellcards.ts';
 import { collectSequences, buildStageFields } from '../services/danmakuSequences.ts';
+import { buildSpellIntel } from '../services/spellIntel.ts';
 import { actionsToBir, inferBirPattern, validateBir, birToSimParams, birToGodot, birToUnity } from '../core/bir.ts';
 
 export const analysisRouter = Router();
@@ -147,6 +148,19 @@ analysisRouter.get('/danmaku/fields', (req, res) => {
     return;
   }
   res.json({ stages: buildStageFields(gameId) });
+});
+
+/**
+ * 符卡情报：从 ECL 定位 Boss 战，给出每场符卡的难度覆盖、持续时间与弹幕特征。
+ * 顺序与游戏内符卡出现顺序一致，供与 MSG 挖掘的符卡名并排核对。
+ */
+analysisRouter.get('/spells/intel', (req, res) => {
+  const gameId = (req.query as any).gameId as string | undefined;
+  if (!gameId) {
+    res.status(400).json({ error: '缺少 gameId 参数' });
+    return;
+  }
+  res.json(buildSpellIntel(gameId));
 });
 
 /** BIR → 引擎格式 */

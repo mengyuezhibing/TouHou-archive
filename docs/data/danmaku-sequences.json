@@ -332,6 +332,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -665,6 +671,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -911,6 +923,12 @@
        9
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1069,6 +1087,12 @@
        4
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1225,6 +1249,12 @@
        8
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1327,6 +1357,12 @@
        8
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1418,6 +1454,12 @@
        68
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1486,6 +1528,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1532,6 +1580,12 @@
        3
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1698,6 +1752,12 @@
        132
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1811,6 +1871,98 @@
        132
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 26,
+      "offset": 8572,
+      "durationFrames": 10,
+      "durationSeconds": 0.17,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 10,
+        "time": 0.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 5,
+        "opcode": 71,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 5,
+      "totalBullets": 6,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4,
+       5
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -1879,74 +2031,12 @@
        3
       ],
       "spiral": true,
-      "warnings": [
-       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
-       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
-      ]
-     },
-     {
-      "subIndex": 26,
-      "offset": 8572,
-      "durationFrames": 0,
-      "durationSeconds": 0,
-      "events": [
-       {
-        "frame": 0,
-        "time": 0,
-        "count": 1,
-        "speed": 1,
-        "angle": 0,
-        "spin": 0,
-        "bulletType": 4,
-        "opcode": 69,
-        "confidence": 0.95
-       },
-       {
-        "frame": 0,
-        "time": 0,
-        "count": 1,
-        "speed": 1,
-        "angle": 0,
-        "spin": 0,
-        "bulletType": 4,
-        "opcode": 69,
-        "confidence": 0.95
-       },
-       {
-        "frame": 0,
-        "time": 0,
-        "count": 1,
-        "speed": 1,
-        "angle": 0,
-        "spin": 0,
-        "bulletType": 4,
-        "opcode": 69,
-        "confidence": 0.95
-       },
-       {
-        "frame": 0,
-        "time": 0,
-        "count": 2,
-        "speed": 1,
-        "angle": 0,
-        "spin": 0,
-        "bulletType": 4,
-        "opcode": 69,
-        "confidence": 0.95
-       }
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
       ],
-      "eventCount": 4,
-      "totalBullets": 5,
-      "angles": [
-       0
-      ],
-      "speeds": [
-       1
-      ],
-      "bulletTypes": [
-       4
-      ],
-      "spiral": false,
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2004,6 +2094,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2050,20 +2146,292 @@
        4
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
       ]
      }
     ],
-    "totalEvents": 33,
-    "totalBullets": 55,
+    "totalEvents": 34,
+    "totalBullets": 56,
     "spiralCount": 3
    },
    {
     "stage": 3,
     "eclFile": "ecldata3.ecl",
     "sequences": [
+     {
+      "subIndex": 28,
+      "offset": 13416,
+      "durationFrames": 71,
+      "durationSeconds": 1.18,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 66,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 66,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 66,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 66,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 71,
+        "time": 1.18,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 66,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 71,
+        "time": 1.18,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 66,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 71,
+        "time": 1.18,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 66,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 71,
+        "time": 1.18,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 66,
+        "opcode": 70,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 8,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       2
+      ],
+      "bulletTypes": [
+       66
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 11,
+      "offset": 4916,
+      "durationFrames": 20,
+      "durationSeconds": 0.33,
+      "events": [
+       {
+        "frame": 20,
+        "time": 0.33,
+        "count": 1,
+        "speed": 1.7,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 74,
+        "confidence": 0.95
+       },
+       {
+        "frame": 20,
+        "time": 0.33,
+        "count": 1,
+        "speed": 1.7,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 74,
+        "confidence": 0.95
+       },
+       {
+        "frame": 20,
+        "time": 0.33,
+        "count": 1,
+        "speed": 1.7,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 74,
+        "confidence": 0.95
+       },
+       {
+        "frame": 20,
+        "time": 0.33,
+        "count": 1,
+        "speed": 1.7,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 74,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1.7
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 12,
+      "offset": 5416,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.6,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.6,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.6,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.6,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 70,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.6
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
      {
       "subIndex": 5,
       "offset": 1892,
@@ -2105,6 +2473,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2151,6 +2525,12 @@
        4
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2197,6 +2577,12 @@
        4
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2243,14 +2629,20 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
       ]
      }
     ],
-    "totalEvents": 8,
-    "totalBullets": 10,
+    "totalEvents": 24,
+    "totalBullets": 26,
     "spiralCount": 2
    },
    {
@@ -2365,6 +2757,12 @@
        4
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2477,6 +2875,185 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 52,
+      "offset": 42204,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 67,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 67,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.4488,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.3927,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 5,
+      "totalBullets": 6,
+      "angles": [
+       0,
+       3.142
+      ],
+      "speeds": [
+       1,
+       1.2
+      ],
+      "bulletTypes": [
+       4,
+       67
+      ],
+      "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 56,
+      "offset": 45060,
+      "durationFrames": 122,
+      "durationSeconds": 2.03,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 122,
+        "time": 2.03,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 122,
+        "time": 2.03,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 122,
+        "time": 2.03,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 122,
+        "time": 2.03,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 5,
+      "totalBullets": 5,
+      "angles": [
+       2.635
+      ],
+      "speeds": [
+       0.3
+      ],
+      "bulletTypes": [
+       19
+      ],
+      "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2545,6 +3122,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2613,6 +3196,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2681,6 +3270,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2749,6 +3344,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2817,6 +3418,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2885,6 +3492,12 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -2953,6 +3566,12 @@
        5
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3021,17 +3640,205 @@
        4
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
       ]
      },
      {
-      "subIndex": 52,
-      "offset": 42204,
+      "subIndex": 48,
+      "offset": 38728,
+      "durationFrames": 122,
+      "durationSeconds": 2.03,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 1.0647,
+        "spin": 0.5061,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 122,
+        "time": 2.03,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 1.0647,
+        "spin": 0.5061,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 122,
+        "time": 2.03,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 1.0647,
+        "spin": 0.5061,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 122,
+        "time": 2.03,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 1.0647,
+        "spin": 0.5061,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 4,
+      "angles": [
+       1.065
+      ],
+      "speeds": [
+       0.3
+      ],
+      "bulletTypes": [
+       19
+      ],
+      "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 49,
+      "offset": 39934,
       "durationFrames": 120,
       "durationSeconds": 2,
       "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 1.0647,
+        "spin": 0.5061,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 1.0647,
+        "spin": 0.5061,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 4,
+      "angles": [
+       1.065,
+       2.635
+      ],
+      "speeds": [
+       0.3
+      ],
+      "bulletTypes": [
+       19
+      ],
+      "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 51,
+      "offset": 41594,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 2.3,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 67,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 2.3,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 67,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 2.3,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 67,
+        "opcode": 75,
+        "confidence": 0.95
+       },
        {
         "frame": 120,
         "time": 2,
@@ -3042,42 +3849,169 @@
         "bulletType": 4,
         "opcode": 67,
         "confidence": 0.95
-       },
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 5,
+      "angles": [
+       0,
+       3.142
+      ],
+      "speeds": [
+       1.2,
+       2.3
+      ],
+      "bulletTypes": [
+       4,
+       67
+      ],
+      "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 59,
+      "offset": 48258,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
        {
         "frame": 120,
         "time": 2,
         "count": 1,
-        "speed": 1.2,
-        "angle": 0,
-        "spin": 0.4488,
+        "speed": 0.8,
+        "angle": 1.5708,
+        "spin": 0,
         "bulletType": 4,
-        "opcode": 69,
+        "opcode": 70,
         "confidence": 0.95
        },
        {
         "frame": 120,
         "time": 2,
         "count": 1,
+        "speed": 0.8,
+        "angle": 1.5708,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.8,
+        "angle": 1.5708,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.8,
+        "angle": 1.5708,
+        "spin": 0.5236,
+        "bulletType": 4,
+        "opcode": 68,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 4,
+      "angles": [
+       1.571
+      ],
+      "speeds": [
+       0.8
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 50,
+      "offset": 41028,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 67,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 67,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
         "speed": 1.2,
         "angle": 0,
-        "spin": 0.3927,
+        "spin": 0.3491,
         "bulletType": 4,
-        "opcode": 69,
+        "opcode": 67,
         "confidence": 0.95
        }
       ],
       "eventCount": 3,
       "totalBullets": 4,
       "angles": [
-       0
+       0,
+       3.142
       ],
       "speeds": [
+       1,
        1.2
       ],
       "bulletTypes": [
-       4
+       4,
+       67
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3124,15 +4058,73 @@
        4
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 47,
+      "offset": 37694,
+      "durationFrames": 122,
+      "durationSeconds": 2.03,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 122,
+        "time": 2.03,
+        "count": 1,
+        "speed": 0.3,
+        "angle": 2.6354,
+        "spin": 2.0769,
+        "bulletType": 19,
+        "opcode": 75,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 2,
+      "angles": [
+       2.635
+      ],
+      "speeds": [
+       0.3
+      ],
+      "bulletTypes": [
+       19
+      ],
+      "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
       ]
      }
     ],
-    "totalEvents": 53,
-    "totalBullets": 117,
-    "spiralCount": 9
+    "totalEvents": 81,
+    "totalBullets": 147,
+    "spiralCount": 16
    },
    {
     "stage": 5,
@@ -3248,6 +4240,12 @@
        2052
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3363,6 +4361,12 @@
        2052
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3431,6 +4435,86 @@
        516
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 1,
+      "offset": 668,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.8,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.8,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.8,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.8,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 75,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 7,
+      "angles": [
+       3.142
+      ],
+      "speeds": [
+       0.8
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3499,6 +4583,12 @@
        516
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3568,6 +4658,12 @@
        516
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3637,6 +4733,12 @@
        516
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3706,6 +4808,12 @@
        516
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3774,6 +4882,12 @@
        516
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -3842,14 +4956,125 @@
        516
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 45,
+      "offset": 20110,
+      "durationFrames": 144,
+      "durationSeconds": 2.4,
+      "events": [
+       {
+        "frame": 144,
+        "time": 2.4,
+        "count": 1,
+        "speed": 2.2,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 512,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 144,
+        "time": 2.4,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 512,
+        "opcode": 75,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 2,
+      "angles": [
+       3.142
+      ],
+      "speeds": [
+       1.2,
+       2.2
+      ],
+      "bulletTypes": [
+       512
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 47,
+      "offset": 21434,
+      "durationFrames": 144,
+      "durationSeconds": 2.4,
+      "events": [
+       {
+        "frame": 144,
+        "time": 2.4,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 512,
+        "opcode": 70,
+        "confidence": 0.95
+       },
+       {
+        "frame": 144,
+        "time": 2.4,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 512,
+        "opcode": 70,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 8,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1.2
+      ],
+      "bulletTypes": [
+       512
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
       ]
      }
     ],
-    "totalEvents": 44,
-    "totalBullets": 83,
+    "totalEvents": 52,
+    "totalBullets": 100,
     "spiralCount": 4
    },
    {
@@ -3964,6 +5189,12 @@
        528
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -4032,6 +5263,86 @@
        4
       ],
       "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 14,
+      "offset": 4524,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 3,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 3,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 3,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 75,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 3,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 75,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 4,
+      "angles": [
+       3.142
+      ],
+      "speeds": [
+       3
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -4078,20 +5389,269 @@
        516
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
       ]
      }
     ],
-    "totalEvents": 14,
-    "totalBullets": 19,
+    "totalEvents": 18,
+    "totalBullets": 23,
     "spiralCount": 2
    },
    {
     "stage": 7,
     "eclFile": "ecldata7.ecl",
     "sequences": [
+     {
+      "subIndex": 62,
+      "offset": 40940,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": -1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.9
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.7,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.7,
+        "angle": 1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.7,
+        "angle": -1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.9
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 28,
+      "angles": [
+       -1.571,
+       0,
+       1.571,
+       3.142
+      ],
+      "speeds": [
+       0.7,
+       1
+      ],
+      "bulletTypes": [
+       8
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 63,
+      "offset": 42660,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": -1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.9
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 1.0472,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 1.0472,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 1.5708,
+        "spin": 1.0472,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": -1.5708,
+        "spin": 1.0472,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.9
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 24,
+      "angles": [
+       -1.571,
+       0,
+       1.571,
+       3.142
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       8
+      ],
+      "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
      {
       "subIndex": 57,
       "offset": 34292,
@@ -4103,11 +5663,33 @@
         "time": 3.5,
         "count": 1,
         "speed": 1.2,
+        "angle": -1.5708,
+        "spin": 0.1309,
+        "bulletType": 0,
+        "opcode": 68,
+        "confidence": 0.9
+       },
+       {
+        "frame": 210,
+        "time": 3.5,
+        "count": 1,
+        "speed": 1.2,
         "angle": 0,
         "spin": 0.1571,
         "bulletType": 0,
         "opcode": 67,
         "confidence": 0.95
+       },
+       {
+        "frame": 321,
+        "time": 5.35,
+        "count": 1,
+        "speed": 1.2,
+        "angle": -1.5708,
+        "spin": 0.1309,
+        "bulletType": 0,
+        "opcode": 68,
+        "confidence": 0.9
        },
        {
         "frame": 321,
@@ -4125,6 +5707,17 @@
         "time": 7.03,
         "count": 1,
         "speed": 1.2,
+        "angle": -1.5708,
+        "spin": 0.1309,
+        "bulletType": 0,
+        "opcode": 68,
+        "confidence": 0.9
+       },
+       {
+        "frame": 422,
+        "time": 7.03,
+        "count": 1,
+        "speed": 1.2,
         "angle": 0,
         "spin": 0.1571,
         "bulletType": 0,
@@ -4132,9 +5725,10 @@
         "confidence": 0.95
        }
       ],
-      "eventCount": 3,
-      "totalBullets": 3,
+      "eventCount": 6,
+      "totalBullets": 6,
       "angles": [
+       -1.571,
        0
       ],
       "speeds": [
@@ -4144,6 +5738,243 @@
        0
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 61,
+      "offset": 39092,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": -1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.9
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 20,
+      "angles": [
+       -1.571,
+       0,
+       1.571,
+       3.142
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       8
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 64,
+      "offset": 44380,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": -1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.9
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 20,
+      "angles": [
+       -1.571,
+       0,
+       1.571,
+       3.142
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       8
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 65,
+      "offset": 46160,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 3.1416,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": -1.5708,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.9
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 8,
+        "opcode": 68,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 20,
+      "angles": [
+       -1.571,
+       0,
+       1.571,
+       3.142
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       8
+      ],
+      "spiral": false,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -4191,6 +6022,12 @@
        3
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
@@ -4238,15 +6075,21 @@
        3
       ],
       "spiral": true,
+      "difficulties": [
+       "Easy",
+       "Normal",
+       "Hard",
+       "Lunatic"
+      ],
       "warnings": [
        "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
        "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
       ]
      }
     ],
-    "totalEvents": 7,
-    "totalBullets": 17,
-    "spiralCount": 3
+    "totalEvents": 38,
+    "totalBullets": 132,
+    "spiralCount": 4
    }
   ]
  }
