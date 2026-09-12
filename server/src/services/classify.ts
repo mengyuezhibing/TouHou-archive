@@ -21,34 +21,58 @@ interface Rule {
   skipExt?: string[];
 }
 
-/** 按条目名匹配的分类规则（顺序敏感，越靠前优先级越高） */
+/**
+ * 按条目名匹配的分类规则（顺序敏感，越靠前优先级越高）。
+ *
+ * role 表示「用途」，必须是可用作界面筛选项的有限集合；
+ * category 表示「是什么」，描述素材本身的形态。两者是两个维度，
+ * 不能混用（音频的 category 是 audio，用途上它属于「音效」而非 ui）。
+ */
 const NAME_RULES: Rule[] = [
-  { test: /etama|bullet|\btama\b|shot_?type|danmaku/i, category: 'bullet', role: 'effect', tags: ['子弹', '弹幕素材'] },
-  { test: /^effect|_?eff\b|effect\./i, category: 'effect', role: 'effect', tags: ['特效'] },
-  { test: /laser|beam/i, category: 'bullet', role: 'effect', tags: ['激光'] },
-  { test: /face|portrait|cutin|\bkao\b|chara_?select/i, category: 'portrait', role: 'ui', tags: ['立绘', '头像'] },
+  // 敌机贴图：红魔乡系把敌机图集命名为 stgNenm.anm（enm = enemy），
+  // 只写 enemy 会漏掉全部敌机素材，必须把 enm 缩写纳入关键词。
+  { test: /enm|enemy|zako|fairy/i, category: 'character', role: 'enemy', tags: ['敌机'] },
+  { test: /\bboss\b|spell_?card|spellcard/i, category: 'character', role: 'boss', tags: ['Boss'] },
+  { test: /etama|bullet|(^|[^a-z])tama\d*(?![a-z])|shot_?type|danmaku/i, category: 'bullet', role: 'bullet', tags: ['子弹', '弹幕素材'] },
+  { test: /laser|beam/i, category: 'bullet', role: 'bullet', tags: ['激光'] },
+  // eff01 / eff02 … 是特效贴图；\beff\b 匹配不到它们（字母与数字间无词边界）
+  { test: /(^|[^a-z])eff(ect)?\d*(?![a-z])|effect\./i, category: 'effect', role: 'effect', tags: ['特效'] },
+  { test: /face|portrait|cutin|\bkao\b|chara_?select/i, category: 'portrait', role: 'portrait', tags: ['立绘', '头像'] },
+  { test: /player|reimu|marisa|sakuya|youmu|sanae|cirno|aya|reisen/i, category: 'character', role: 'player', tags: ['自机'] },
   { test: /\.msg$|^msg\d*\.(dat|msg)$|^msg\d+$/i, category: 'text', role: 'unknown', tags: ['剧情文本'] },
   { test: /ecldata|\.ecl$|^ecl$/i, category: 'script', role: 'unknown', tags: ['敌机脚本'] },
   { test: /\.std$|\.sht$|stage\d*\.std/i, category: 'script', role: 'unknown', tags: ['关卡脚本'] },
-  { test: /player|reimu|marisa|sakuya|youmu|sanae|cirno|aya|reisen/i, category: 'character', role: 'player', tags: ['自机'] },
-  { test: /enemy|zako|fairy/i, category: 'character', role: 'enemy', tags: ['敌机'] },
-  { test: /\bboss\b|spell_?card|spellcard/i, category: 'character', role: 'boss', tags: ['Boss'] },
-  { test: /ascii|font|outline|menu|title|logo|load|gameover|cursor|window|number|hud|score|staff/i, category: 'ui', role: 'ui', tags: ['界面'] },
-  { test: /stage|background|\bbg\b|map|tile|grass|tree|cave|sky|cloud/i, category: 'background', role: 'ui', tags: ['背景'] },
-  // 注意：music.jpg / music00.png 是界面贴图而非音频，必须按扩展名排除
+  { test: /item|point|power|star_?item|spell_?item|full_?power/i, category: 'item', role: 'item', tags: ['道具'] },
+  // music00.png / bgm 是音乐室的界面贴图，不是音频本身。
+  // 因此 UI 规则要先于音频规则，并用 skipExt 把真正的音频文件让给下面的音频规则。
   {
-    test: /music|bgm|sound|se_|_se\b|voice|title_?demo/i,
-    category: 'audio',
+    // end00~end13 是结局演出 CG；capture / text 是截图与文本显示界面。
+    // end 用「行首或非字母 + end + 数字」限定，避免误伤 legend / weekend 这类词。
+    test: /music|bgm|title_?demo|ascii|font|outline|menu|title|logo|load|gameover|cursor|window|number|hud|score|staff|ending|result|best|ranking|select|front|replay|slpl|demo|capture|(^|[^a-z])end\d*(?![a-z])|(^|[^a-z])text(?![a-z])/i,
+    category: 'ui',
     role: 'ui',
+    tags: ['界面'],
+    skipExt: ['.wav', '.ogg', '.mid', '.midi', '.mp3', '.m4a'],
+  },
+  // 注意：\bbg\b 匹配不到 stg1bg —— 数字与字母之间不构成词边界，
+  // 所以这里显式允许「非字母 + bg + 数字」的形式。
+  {
+    test: /stage|background|(^|[^a-z])bg\d*(?![a-z])|map|tile|grass|tree|cave|sky|cloud/i,
+    category: 'background',
+    role: 'background',
+    tags: ['背景'],
+  },
+  {
+    test: /music|bgm|sound|se_|_se\b|voice|title_?demo|\.wav$|\.ogg$|\.mid$/i,
+    category: 'audio',
+    role: 'audio',
     tags: ['音频'],
     skipExt: ['.anm', '.png', '.jpg', '.jpeg', '.bmp', '.gif', '.webp', '.txt', '.std'],
   },
-  { test: /item|point|power|star_?item|spell_?item|full_?power/i, category: 'item', role: 'effect', tags: ['道具'] },
   { test: /\.anm$/i, category: 'sprite', role: 'unknown', tags: ['动画贴图'] },
   { test: /\.ecl$/i, category: 'script', role: 'unknown', tags: ['敌机脚本'] },
   { test: /\.msg$/i, category: 'text', role: 'unknown', tags: ['剧情文本'] },
   { test: /\.(std|sht)$/i, category: 'script', role: 'unknown', tags: ['关卡脚本'] },
-  { test: /staff|ending|demo|result|best|ranking/i, category: 'ui', role: 'ui', tags: ['界面'] },
 ];
 
 /** 文件名中能直接反映角色身份的关键词（用于角色自动归类） */
@@ -208,6 +232,12 @@ export function classifyEntry(input: ClassifyInput): Classification {
 
   const kind = fromAnm ? 'image' : magicKindToKind(magic.kind, entryName);
 
+  // 脚本 / 文本 / 二进制数据本身没有「美术用途」，
+  // 统一归为 data，避免它们全部压进「未分类」淹没有效信息
+  if (role === 'unknown' && ['script', 'text', 'binary'].includes(category)) {
+    role = 'data';
+  }
+
   return { kind, category, role, tags: dedupe(tags) };
 }
 
@@ -265,16 +295,28 @@ export const ROLE_LABELS: Record<string, string> = {
   player: 'Player 自机',
   enemy: 'Enemy 敌机',
   boss: 'Boss',
+  portrait: '立绘 / 头像',
+  bullet: '子弹 / 弹幕',
   effect: 'Effect 特效',
+  background: 'Background 背景',
+  item: '道具',
   ui: 'UI 界面',
+  audio: '音效',
+  data: '数据 / 脚本',
   unknown: '未分类',
 };
 
-const ROLE_HINTS: Record<string, string> = {
-  player: '判定依据：文件名含 player / 角色名关键词，或尺寸符合自机立绘特征',
-  enemy: '判定依据：文件名含 enemy / fairy / zako 等关键词',
-  boss: '判定依据：文件名含 boss / spell 等关键词',
-  effect: '判定依据：来源指向 effect / etama 等弹幕特效贴图',
-  ui: '判定依据：尺寸较大且来源指向 face / ascii / title 等界面资源',
-  unknown: '未能自动判定用途，可手动指派角色',
+export const ROLE_HINTS: Record<string, string> = {
+  player: '判定依据：文件名含 player / 角色名关键词',
+  enemy: '判定依据：文件名含 enm（红魔乡系敌机图集缩写）/ enemy / fairy / zako',
+  boss: '判定依据：文件名含 boss / spell。注意多数作品的 Boss 与敌机共用图集（如 stg6enm.anm），需人工标注',
+  portrait: '判定依据：来源指向 face / portrait / cutin 等立绘资源',
+  bullet: '判定依据：来源指向 etama / bullet / laser 等弹幕贴图',
+  effect: '判定依据：来源指向 effect 等特效贴图',
+  background: '判定依据：来源指向 stgNbg / stage / tile 等场景资源',
+  item: '判定依据：来源指向 item / power / point 等道具资源',
+  ui: '判定依据：来源指向 ascii / title / menu / staff 等界面资源',
+  audio: '判定依据：来源为音频文件（wav / ogg / mid）',
+  data: 'ECL / STD 脚本、MSG 文本与二进制数据 —— 本身没有美术用途',
+  unknown: '未能从文件名判定用途，可在详情面板手动指派',
 };

@@ -568,11 +568,32 @@ export const CATEGORY_LABELS: Record<string, string> = {
   unknown: '未分类',
 };
 
+/** 用途分组：与服务端 classify.ts 的 ROLE_LABELS 保持一致 */
 export const ROLE_LABELS: Record<string, string> = {
   player: '自机',
   enemy: '敌机',
   boss: 'Boss',
+  portrait: '立绘',
+  bullet: '子弹弹幕',
   effect: '特效',
+  background: '背景',
+  item: '道具',
   ui: '界面',
+  audio: '音效',
   unknown: '未分类',
+};
+
+/** 用途分组的判定依据（详情面板与筛选提示用） */
+export const ROLE_HINTS: Record<string, string> = {
+  player: '文件名含 player / 角色名关键词',
+  enemy: '文件名含 enm（红魔乡系敌机图集缩写）/ enemy / fairy',
+  boss: '文件名含 boss / spell；多数作品的 Boss 与敌机共用图集，需人工标注',
+  portrait: '来源指向 face / portrait / cutin 等立绘',
+  bullet: '来源指向 etama / bullet / laser 等弹幕贴图',
+  effect: '来源指向 effect 等特效贴图',
+  background: '来源指向 stgNbg / stage / tile 等场景',
+  item: '来源指向 item / power / point 等道具',
+  ui: '来源指向 ascii / title / menu / staff 等界面',
+  audio: '音频文件（wav / ogg / mid）',
+  unknown: '未能从文件名判定，可在详情面板手动指派',
 };

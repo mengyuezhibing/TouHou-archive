@@ -9,6 +9,7 @@
     "build": "tsc -p tsconfig.json --noEmit",
     "seed": "tsx src/scripts/seed-demo.ts",
     "verify": "tsx src/scripts/verify.ts",
+    "reclassify": "tsx src/scripts/reclassify.ts",
     "publish": "tsx src/scripts/publish.ts"
   },
   "dependencies": {

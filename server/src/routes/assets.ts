@@ -14,11 +14,12 @@ import {
   getAnimation,
   listTagsGrouped,
   listBosses,
+  countByRole,
 } from '../services/query.ts';
 import { DATA_DIR } from '../core/paths.ts';
 import { decodePng, encodePng, createCanvas, blitImage } from '../core/png.ts';
 import { analyzeColors } from '../core/color.ts';
-import { groupByRole } from '../services/classify.ts';
+import { ROLE_LABELS, ROLE_HINTS } from '../services/classify.ts';
 
 export const assetsRouter = Router();
 
@@ -74,21 +75,17 @@ assetsRouter.get('/bosses', (req, res) => {
   res.json({ items: listBosses((req.query as any).gameId) });
 });
 
-/** 角色归类总览（对应第七节） */
+/** 用途分组总览（对应第七节）：直接聚合，保证计数与筛选结果一致 */
 assetsRouter.get('/roles', (req, res) => {
   const gameId = (req.query as any).gameId as string | undefined;
-  const rows = listAssets({ gameId, limit: 500, hasPreview: true });
-  const groups = groupByRole(
-    rows.items.map((a: any) => ({
-      id: a.id,
-      entryName: a.entry_name,
-      category: a.category,
-      role: a.role,
-      width: a.width,
-      height: a.height,
-    })),
-  );
-  res.json({ items: groups, sampled: rows.items.length, total: rows.total });
+  const rows = countByRole(gameId) as Array<{ role: string; count: number }>;
+  const items = rows.map((r) => ({
+    role: r.role,
+    label: ROLE_LABELS[r.role] ?? r.role,
+    count: r.count,
+    hint: ROLE_HINTS[r.role] ?? '',
+  }));
+  res.json({ items, total: rows.reduce((sum, r) => sum + r.count, 0) });
 });
 
 /** ANM 动画包拆出的全部精灵（动画分析器使用） */

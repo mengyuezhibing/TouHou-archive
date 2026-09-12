@@ -125,6 +125,16 @@ export async function staticRequest<T>(path: string, init?: RequestInit): Promis
 
     case 'assets': {
       const { items } = await loadJson<{ items: Dict[] }>('resources.json');
+
+      // 注意：/assets/categories 必须先于详情路由判断，
+      // 否则 'categories' 会被当成素材 ID 去查找并报「素材不存在」，
+      // 表现为界面上的分类下拉只有「全部分类」一项。
+      if (arg === 'categories') {
+        const scoped = q.get('gameId') ? items.filter((a) => a.game_id === q.get('gameId')) : items;
+        const counted = countBy(scoped, (a) => String(a.category ?? 'unknown'));
+        return { items: counted.map((c) => ({ category: c.value, count: c.count })) } as T;
+      }
+
       // 详情：/assets/:id 及其子资源
       if (arg) {
         const asset = items.find((a) => a.id === arg);
@@ -225,6 +235,8 @@ export async function staticRequest<T>(path: string, init?: RequestInit): Promis
       const items2 = [...grouped.entries()].map(([role, list]) => ({
         role,
         label: role,
+        // count 用于界面展示分组数量，assetIds 仅在需要时取前若干项
+        count: list.length,
         assetIds: list.slice(0, 200).map((a) => a.id),
         hint: `${list.length} 项素材`,
       }));

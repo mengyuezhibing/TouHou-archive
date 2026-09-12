@@ -21,12 +21,8 @@
  },
  "byCategory": [
   {
-   "category": "sprite",
-   "count": 88
-  },
-  {
-   "category": "image",
-   "count": 85
+   "category": "ui",
+   "count": 139
   },
   {
    "category": "portrait",
@@ -37,11 +33,19 @@
    "count": 56
   },
   {
-   "category": "ui",
-   "count": 55
+   "category": "character",
+   "count": 56
+  },
+  {
+   "category": "background",
+   "count": 25
   },
   {
    "category": "binary",
+   "count": 23
+  },
+  {
+   "category": "effect",
    "count": 23
   },
   {
@@ -49,16 +53,12 @@
    "count": 14
   },
   {
-   "category": "text",
-   "count": 14
-  },
-  {
    "category": "bullet",
    "count": 8
   },
   {
-   "category": "character",
-   "count": 8
+   "category": "text",
+   "count": 7
   },
   {
    "category": "item",

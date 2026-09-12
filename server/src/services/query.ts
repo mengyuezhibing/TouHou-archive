@@ -317,6 +317,19 @@ export function listCategories(gameCode?: string) {
   return gameCode ? db.prepare(sql).all(gameCode) : db.prepare(sql).all();
 }
 
+/**
+ * 各用途分组的素材数量。
+ * 用 SQL 直接聚合，而不是取一页素材再前端统计 ——
+ * 后者会受分页上限与预览过滤影响，导致下拉里的数量与筛选结果对不上。
+ */
+export function countByRole(gameCode?: string) {
+  const sql = gameCode
+    ? `SELECT r.role AS role, COUNT(*) AS count FROM resource r LEFT JOIN game g ON g.id = r.game_id
+       WHERE g.code = ? GROUP BY r.role ORDER BY count DESC`
+    : 'SELECT role, COUNT(*) AS count FROM resource GROUP BY role ORDER BY count DESC';
+  return gameCode ? db.prepare(sql).all(gameCode) : db.prepare(sql).all();
+}
+
 /** 标签清单（含使用次数），直接来自 Tag / Resource_Tag 关联表 */
 export function listTags(gameCode?: string, limit = 120) {
   const sql = gameCode

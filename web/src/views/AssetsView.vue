@@ -1,6 +1,16 @@
 <script setup lang="ts">
 import { computed, onMounted, reactive, ref, watch } from 'vue';
-import { api, formatSize, CATEGORY_LABELS, ROLE_LABELS, previewUrl, fileUrl, isPlayableAudio, type Asset } from '../api.ts';
+import {
+  api,
+  formatSize,
+  CATEGORY_LABELS,
+  ROLE_LABELS,
+  ROLE_HINTS,
+  previewUrl,
+  fileUrl,
+  isPlayableAudio,
+  type Asset,
+} from '../api.ts';
 import { store } from '../store.ts';
 
 const filters = reactive({
@@ -18,6 +28,8 @@ const loading = ref(false);
 const err = ref('');
 const categories = ref<Array<{ category: string; count: number }>>([]);
 const tags = ref<Array<{ tag: string; count: number }>>([]);
+/** 各用途分组的素材数量，用于在下拉里标注（数量为 0 说明该作品没有此类素材） */
+const roleCounts = ref<Record<string, number>>({});
 
 const detail = ref<Asset | null>(null);
 const detailTab = ref<'info' | 'tags' | 'analysis' | 'colors'>('info');
@@ -58,12 +70,19 @@ async function load(reset = true) {
 }
 
 async function loadMeta() {
+  const game = store.currentGameId || undefined;
   try {
-    const [c, t] = await Promise.all([api.categories(store.currentGameId || undefined), api.tags(store.currentGameId || undefined)]);
+    const [c, t, r] = await Promise.all([api.categories(game), api.tags(game), api.roles(game)]);
     categories.value = c.items;
     tags.value = t.items;
+    const counts: Record<string, number> = {};
+    for (const item of r.items) {
+      // 服务端可能只回传部分 assetIds，优先用显式计数
+      counts[item.role] = (item as { count?: number }).count ?? item.assetIds?.length ?? 0;
+    }
+    roleCounts.value = counts;
   } catch {
-    /* ignore */
+    /* 元数据加载失败不影响素材列表本身 */
   }
 }
 
@@ -206,9 +225,15 @@ onMounted(() => {
           {{ CATEGORY_LABELS[c.category] ?? c.category }}（{{ c.count }}）
         </option>
       </select>
-      <select v-model="filters.role" style="width: 130px">
+      <select
+        v-model="filters.role"
+        style="width: 168px"
+        :title="filters.role ? ROLE_HINTS[filters.role] : '按素材用途筛选'"
+      >
         <option value="">全部用途</option>
-        <option v-for="(label, key) in ROLE_LABELS" :key="key" :value="key">{{ label }}</option>
+        <option v-for="(label, key) in ROLE_LABELS" :key="key" :value="key" :title="ROLE_HINTS[key]">
+          {{ label }}（{{ roleCounts[key] ?? 0 }}）
+        </option>
       </select>
       <select v-model="filters.sort" style="width: 130px">
         <option value="name">按 ID 排序</option>
