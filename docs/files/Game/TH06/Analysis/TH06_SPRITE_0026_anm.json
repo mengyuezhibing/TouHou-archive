@@ -1,0 +1,25 @@
+{
+  "source": "eff04.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 1,
+    "scripts": 1,
+    "width": 256,
+    "height": 256,
+    "format": 3,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/eff00/eff04.png",
+    "externalAlphaName": null,
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 64,
+        "y": 0,
+        "w": 384,
+        "h": 448
+      }
+    ]
+  }
+}

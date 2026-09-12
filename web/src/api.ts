@@ -1,8 +1,13 @@
 /** 后端 API 封装与共享类型定义 */
 
+import { STATIC_MODE, BASE_URL, staticRequest } from './static-data.ts';
+
 const BASE = '/api';
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
+  // 静态发布模式：站点没有后端，数据来自预生成的 JSON
+  if (STATIC_MODE) return staticRequest<T>(path, init);
+
   const res = await fetch(BASE + path, {
     headers: { 'Content-Type': 'application/json' },
     ...init,
@@ -496,6 +501,9 @@ export const api = {
  * 两种来源：
  *   1. 解包产物 —— 位于 Data 缓存目录，走 /files 静态服务
  *   2. 散落资源 —— 位于游戏目录（原地引用，不复制），走受控的 /api/local-file
+ *
+ * 静态发布模式下站点可能部署在子路径（如 GitHub Pages 的项目站点），
+ * 因此改用 BASE_URL 拼接，让地址跟随 index.html 所在位置解析。
  */
 export function fileUrl(cachePath: string | null): string {
   if (!cachePath) return '';
@@ -503,8 +511,11 @@ export function fileUrl(cachePath: string | null): string {
   const idx = normalized.indexOf('/Data/');
   if (idx >= 0) {
     const rel = normalized.slice(idx + '/Data/'.length);
-    return `/files/${rel.split('/').map(encodeURIComponent).join('/')}`;
+    const encoded = rel.split('/').map(encodeURIComponent).join('/');
+    return STATIC_MODE ? `${BASE_URL}files/${encoded}` : `/files/${encoded}`;
   }
+  // 散落资源位于游戏原目录，只在本机存在，发布站点里没有对应文件
+  if (STATIC_MODE) return '';
   return `/api/local-file?path=${encodeURIComponent(cachePath)}`;
 }
 
@@ -516,8 +527,13 @@ export function isPlayableAudio(a: { kind?: string; resource_type?: string; ext?
   return ['.wav', '.ogg', '.mp3', '.m4a'].includes((a.ext ?? '').toLowerCase());
 }
 
-/** 素材预览 URL（带棋盘底） */
-export function previewUrl(id: string): string {
+/**
+ * 素材预览 URL（带棋盘底）。
+ * 静态模式下没有预览接口，直接用已发布的文件地址；
+ * 因此调用处需要把 cache_path 一并传入。
+ */
+export function previewUrl(id: string, cachePath?: string | null): string {
+  if (STATIC_MODE) return fileUrl(cachePath ?? null);
   return `${BASE}/assets/${id}/preview`;
 }
 

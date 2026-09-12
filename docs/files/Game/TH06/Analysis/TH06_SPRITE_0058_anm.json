@@ -1,0 +1,49 @@
+{
+  "source": "select04.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 4,
+    "scripts": 4,
+    "width": 256,
+    "height": 256,
+    "format": 5,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/title/select04.png",
+    "externalAlphaName": "data/title/select04_a.png",
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 48
+      },
+      {
+        "index": 1,
+        "id": 1,
+        "x": 0,
+        "y": 48,
+        "w": 256,
+        "h": 48
+      },
+      {
+        "index": 2,
+        "id": 2,
+        "x": 0,
+        "y": 96,
+        "w": 256,
+        "h": 48
+      },
+      {
+        "index": 3,
+        "id": 3,
+        "x": 0,
+        "y": 144,
+        "w": 256,
+        "h": 48
+      }
+    ]
+  }
+}

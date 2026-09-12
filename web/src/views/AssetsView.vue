@@ -240,7 +240,7 @@ onMounted(() => {
       <div class="grid asset-grid">
         <div v-for="a in items" :key="a.id" class="asset-card" @click="openDetail(a)">
           <div class="asset-thumb">
-            <img v-if="a.cache_path && (a.kind === 'image' || a.kind === 'anm')" :src="previewUrl(a.id)" loading="lazy" alt="" />
+            <img v-if="a.cache_path && (a.kind === 'image' || a.kind === 'anm')" :src="previewUrl(a.id, a.cache_path)" loading="lazy" alt="" />
             <span v-else class="no-preview">{{ iconFor(a) }}</span>
           </div>
           <div class="asset-meta">
@@ -373,7 +373,7 @@ onMounted(() => {
               </div>
             </div>
 
-            <a v-if="detail.cache_path" :href="`/api/assets/${detail.id}/preview`" target="_blank" class="btn btn-sm" download>
+            <a v-if="detail.cache_path" :href="fileUrl(detail.cache_path)" target="_blank" class="btn btn-sm" download>
               下载原始文件
             </a>
           </div>

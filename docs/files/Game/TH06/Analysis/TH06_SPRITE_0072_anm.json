@@ -1,0 +1,65 @@
+{
+  "source": "result01.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 6,
+    "scripts": 7,
+    "width": 256,
+    "height": 256,
+    "format": 5,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/result/result01.png",
+    "externalAlphaName": "data/result/result01_a.png",
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 112,
+        "h": 48
+      },
+      {
+        "index": 1,
+        "id": 1,
+        "x": 112,
+        "y": 0,
+        "w": 144,
+        "h": 48
+      },
+      {
+        "index": 2,
+        "id": 2,
+        "x": 0,
+        "y": 48,
+        "w": 112,
+        "h": 48
+      },
+      {
+        "index": 3,
+        "id": 3,
+        "x": 112,
+        "y": 48,
+        "w": 144,
+        "h": 48
+      },
+      {
+        "index": 4,
+        "id": 4,
+        "x": 0,
+        "y": 96,
+        "w": 112,
+        "h": 48
+      },
+      {
+        "index": 5,
+        "id": 5,
+        "x": 0,
+        "y": 144,
+        "w": 256,
+        "h": 48
+      }
+    ]
+  }
+}

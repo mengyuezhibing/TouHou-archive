@@ -1,0 +1,25 @@
+{
+  "source": "select05.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 1,
+    "scripts": 1,
+    "width": 256,
+    "height": 256,
+    "format": 5,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/title/select05.png",
+    "externalAlphaName": "data/title/select05_a.png",
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 96,
+        "w": 256,
+        "h": 96
+      }
+    ]
+  }
+}

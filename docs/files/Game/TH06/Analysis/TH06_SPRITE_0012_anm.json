@@ -1,0 +1,65 @@
+{
+  "source": "stg2enm2.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 6,
+    "scripts": 5,
+    "width": 256,
+    "height": 256,
+    "format": 5,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/stgenm/stg2enm2.png",
+    "externalAlphaName": "data/stgenm/stg2enm2_a.png",
+    "regions": [
+      {
+        "index": 0,
+        "id": 128,
+        "x": 0,
+        "y": 0,
+        "w": 32,
+        "h": 64
+      },
+      {
+        "index": 1,
+        "id": 129,
+        "x": 32,
+        "y": 0,
+        "w": 48,
+        "h": 64
+      },
+      {
+        "index": 2,
+        "id": 130,
+        "x": 80,
+        "y": 0,
+        "w": 48,
+        "h": 64
+      },
+      {
+        "index": 3,
+        "id": 131,
+        "x": 128,
+        "y": 0,
+        "w": 48,
+        "h": 64
+      },
+      {
+        "index": 4,
+        "id": 132,
+        "x": 176,
+        "y": 0,
+        "w": 48,
+        "h": 64
+      },
+      {
+        "index": 5,
+        "id": 133,
+        "x": 0,
+        "y": 64,
+        "w": 48,
+        "h": 64
+      }
+    ]
+  }
+}

@@ -181,7 +181,7 @@ onMounted(load);
           <div v-else class="grid asset-grid" style="grid-template-columns: repeat(auto-fill, minmax(106px, 1fr))">
             <div v-for="a in assets.slice(0, 48)" :key="a.id" class="asset-card">
               <div class="asset-thumb" style="aspect-ratio: 1.25">
-                <img v-if="a.cache_path && (a.kind === 'image' || a.kind === 'anm')" :src="previewUrl(a.id)" loading="lazy" alt="" />
+                <img v-if="a.cache_path && (a.kind === 'image' || a.kind === 'anm')" :src="previewUrl(a.id, a.cache_path)" loading="lazy" alt="" />
                 <span v-else class="no-preview">◫</span>
               </div>
               <div class="asset-meta" style="padding: 5px 7px">

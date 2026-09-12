@@ -1,0 +1,41 @@
+{
+  "source": "title03.anm",
+  "game": "TH06",
+  "thtk": {
+    "sprites": 3,
+    "scripts": 3,
+    "width": 256,
+    "height": 256,
+    "format": 5,
+    "version": 0,
+    "thtxOffset": 0,
+    "externalName": "data/title/title03.png",
+    "externalAlphaName": "data/title/title03_a.png",
+    "regions": [
+      {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 96,
+        "h": 96
+      },
+      {
+        "index": 1,
+        "id": 1,
+        "x": 0,
+        "y": 192,
+        "w": 256,
+        "h": 32
+      },
+      {
+        "index": 2,
+        "id": 2,
+        "x": 0,
+        "y": 224,
+        "w": 256,
+        "h": 32
+      }
+    ]
+  }
+}

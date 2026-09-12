@@ -1,7 +1,11 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, ref, watch } from 'vue';
-import { api, formatSize, CATEGORY_LABELS, previewUrl, type Asset, type AnimationRecord } from '../api.ts';
+import { api, formatSize, CATEGORY_LABELS, previewUrl, fileUrl, type Asset, type AnimationRecord } from '../api.ts';
+import { isReadOnly } from '../static-data.ts';
 import { store } from '../store.ts';
+
+/** 在线只读模式（发布站点）：依赖本地文件系统的入口需要隐藏 */
+const readOnly = isReadOnly();
 
 /**
  * 动画分析器。
@@ -360,14 +364,16 @@ onUnmounted(stop);
           </div>
           <div class="row" style="gap: 14px; align-items: flex-start; flex-wrap: wrap">
             <div class="asset-thumb" style="border-radius: var(--radius); border: 1px solid var(--border-soft); max-width: 420px; padding: 8px">
-              <img :src="previewUrl(sheet.id)" alt="" style="max-height: 220px" />
+              <img :src="previewUrl(sheet.id, sheet.cache_path)" alt="" style="max-height: 220px" />
             </div>
             <div class="stack" style="gap: 6px; font-size: 11.5px">
               <div><span class="mute">尺寸</span> <span class="mono">{{ sheet.width }} × {{ sheet.height }}</span></div>
               <div><span class="mute">帧数</span> <span class="mono">{{ sheet.meta?.frameCount }}</span></div>
               <div><span class="mute">文件</span> <span class="mono">{{ sheet.meta?.jsonName }}</span></div>
-              <a :href="`/api/assets/${sheet.id}/preview`" target="_blank" download class="btn btn-sm">下载图集 PNG</a>
-              <a :href="`/api/assets/${current.id}/analysis`" target="_blank" class="btn btn-sm">查看动画 JSON</a>
+              <a :href="fileUrl(sheet.cache_path)" target="_blank" download class="btn btn-sm">下载图集 PNG</a>
+              <a v-if="!readOnly" :href="`/api/assets/${current.id}/analysis`" target="_blank" class="btn btn-sm">
+                查看动画 JSON
+              </a>
             </div>
           </div>
         </div>
