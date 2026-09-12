@@ -1,0 +1,19 @@
+{
+  "name": "touhou-resource-studio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Touhou Resource Studio / 东方资源研究工作台 - 东方同人游戏资源解包、分析与创作辅助工具",
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && npm --prefix server install && npm --prefix web install",
+    "dev": "concurrently -n SERVER,WEB -c cyan,magenta \"npm:dev:server\" \"npm:dev:web\"",
+    "dev:server": "npm --prefix server run dev",
+    "dev:web": "npm --prefix web run dev",
+    "build": "npm --prefix server run build && npm --prefix web run build",
+    "seed": "npm --prefix server run seed",
+    "start": "npm --prefix server run start"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

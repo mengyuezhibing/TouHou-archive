@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+.DS_Store
+.env
+
+# 运行时数据（提取出的资源与数据库，体积大且可重建）
+Data/
+server/Data/
+!server/src/**/*.ts
