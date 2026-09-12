@@ -1,0 +1,1404 @@
+{
+ "items": [
+  {
+   "id": "TH06_SCRIPT_0014_FAN",
+   "code": "TH06_SCRIPT_0014_FAN",
+   "game_id": "TH06",
+   "spell_id": null,
+   "resource_id": 153,
+   "name": "ecldata7.ecl · 扇形散射",
+   "type": "fan",
+   "duration": 37.3,
+   "difficulty": "",
+   "params": {
+    "avgSpeed": 1.96,
+    "avgCount": 4,
+    "angleSpan": 0,
+    "sampleCount": 4,
+    "phases": [
+     {
+      "index": 0,
+      "startFrame": 30,
+      "endFrame": 240,
+      "durationSeconds": 3.5,
+      "eventCount": 2,
+      "avgCount": 6,
+      "avgSpeed": 2.36,
+      "subroutines": [
+       58
+      ],
+      "reason": "起始阶段"
+     },
+     {
+      "index": 1,
+      "startFrame": 240,
+      "endFrame": 242,
+      "durationSeconds": 0.03,
+      "eventCount": 2,
+      "avgCount": 2,
+      "avgSpeed": 1.57,
+      "subroutines": [
+       36
+      ],
+      "reason": "空档 210 帧后转入"
+     }
+    ]
+   },
+   "origin": "analyzed",
+   "tags": [
+    "弹幕分析"
+   ],
+   "note": "平均弹数 4.0，角度跨度 0°，符合扇形定向散射特征",
+   "created_time": "2026-09-12T11:51:57.249Z",
+   "updated_time": "2026-09-12T11:51:57.249Z",
+   "game_code": "TH06",
+   "source_code": "TH06_SCRIPT_0014",
+   "action_count": 4,
+   "source_asset": "TH06_SCRIPT_0014"
+  },
+  {
+   "id": "TH06_SCRIPT_0008_FAN",
+   "code": "TH06_SCRIPT_0008_FAN",
+   "game_id": "TH06",
+   "spell_id": null,
+   "resource_id": 78,
+   "name": "ecldata4.ecl · 扇形散射",
+   "type": "fan",
+   "duration": 32.82,
+   "difficulty": "",
+   "params": {
+    "avgSpeed": 1.57,
+    "avgCount": 4,
+    "angleSpan": 0,
+    "sampleCount": 65,
+    "phases": [
+     {
+      "index": 0,
+      "startFrame": 0,
+      "endFrame": 120,
+      "durationSeconds": 2,
+      "eventCount": 64,
+      "avgCount": 4,
+      "avgSpeed": 1.57,
+      "subroutines": [
+       28,
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35
+      ],
+      "reason": "起始阶段"
+     },
+     {
+      "index": 1,
+      "startFrame": 120,
+      "endFrame": 120,
+      "durationSeconds": 0,
+      "eventCount": 1,
+      "avgCount": 6,
+      "avgSpeed": 1.57,
+      "subroutines": [
+       20
+      ],
+      "reason": "弹数由 2 变为 6"
+     }
+    ]
+   },
+   "origin": "analyzed",
+   "tags": [
+    "弹幕分析"
+   ],
+   "note": "平均弹数 4.0，角度跨度 0°，符合扇形定向散射特征",
+   "created_time": "2026-09-12T11:51:57.099Z",
+   "updated_time": "2026-09-12T11:51:57.099Z",
+   "game_code": "TH06",
+   "source_code": "TH06_SCRIPT_0008",
+   "action_count": 65,
+   "source_asset": "TH06_SCRIPT_0008"
+  },
+  {
+   "id": "TH06_SCRIPT_0004_FAN",
+   "code": "TH06_SCRIPT_0004_FAN",
+   "game_id": "TH06",
+   "spell_id": null,
+   "resource_id": 39,
+   "name": "ecldata2.ecl · 扇形散射",
+   "type": "fan",
+   "duration": 9.42,
+   "difficulty": "",
+   "params": {
+    "avgSpeed": 0.39,
+    "avgCount": 5,
+    "angleSpan": 0,
+    "sampleCount": 1,
+    "phases": []
+   },
+   "origin": "analyzed",
+   "tags": [
+    "弹幕分析"
+   ],
+   "note": "平均弹数 5.0，角度跨度 0°，符合扇形定向散射特征",
+   "created_time": "2026-09-12T11:51:57.026Z",
+   "updated_time": "2026-09-12T11:51:57.026Z",
+   "game_code": "TH06",
+   "source_code": "TH06_SCRIPT_0004",
+   "action_count": 1,
+   "source_asset": "TH06_SCRIPT_0004"
+  },
+  {
+   "id": "TH06_SCRIPT_0002_FAN",
+   "code": "TH06_SCRIPT_0002_FAN",
+   "game_id": "TH06",
+   "spell_id": null,
+   "resource_id": 14,
+   "name": "ecldata1.ecl · 扇形散射",
+   "type": "fan",
+   "duration": 10.73,
+   "difficulty": "",
+   "params": {
+    "avgSpeed": 1.57,
+    "avgCount": 6,
+    "angleSpan": 0,
+    "sampleCount": 2,
+    "phases": [
+     {
+      "index": 0,
+      "startFrame": 120,
+      "endFrame": 120,
+      "durationSeconds": 0,
+      "eventCount": 2,
+      "avgCount": 6,
+      "avgSpeed": 1.57,
+      "subroutines": [
+       9
+      ],
+      "reason": "起始阶段"
+     }
+    ]
+   },
+   "origin": "analyzed",
+   "tags": [
+    "弹幕分析"
+   ],
+   "note": "平均弹数 6.0，角度跨度 0°，符合扇形定向散射特征",
+   "created_time": "2026-09-12T11:51:56.981Z",
+   "updated_time": "2026-09-12T11:51:56.981Z",
+   "game_code": "TH06",
+   "source_code": "TH06_SCRIPT_0002",
+   "action_count": 2,
+   "source_asset": "TH06_SCRIPT_0002"
+  }
+ ],
+ "details": {
+  "TH06_SCRIPT_0014_FAN": {
+   "id": "TH06_SCRIPT_0014_FAN",
+   "code": "TH06_SCRIPT_0014_FAN",
+   "game_id": "TH06",
+   "spell_id": null,
+   "resource_id": 153,
+   "name": "ecldata7.ecl · 扇形散射",
+   "type": "fan",
+   "duration": 37.3,
+   "difficulty": "",
+   "params": {
+    "avgSpeed": 1.96,
+    "avgCount": 4,
+    "angleSpan": 0,
+    "sampleCount": 4,
+    "phases": [
+     {
+      "index": 0,
+      "startFrame": 30,
+      "endFrame": 240,
+      "durationSeconds": 3.5,
+      "eventCount": 2,
+      "avgCount": 6,
+      "avgSpeed": 2.36,
+      "subroutines": [
+       58
+      ],
+      "reason": "起始阶段"
+     },
+     {
+      "index": 1,
+      "startFrame": 240,
+      "endFrame": 242,
+      "durationSeconds": 0.03,
+      "eventCount": 2,
+      "avgCount": 2,
+      "avgSpeed": 1.57,
+      "subroutines": [
+       36
+      ],
+      "reason": "空档 210 帧后转入"
+     }
+    ]
+   },
+   "origin": "analyzed",
+   "tags": [
+    "弹幕分析"
+   ],
+   "note": "平均弹数 4.0，角度跨度 0°，符合扇形定向散射特征",
+   "created_time": "2026-09-12T11:51:57.249Z",
+   "updated_time": "2026-09-12T11:51:57.249Z",
+   "rid": 4,
+   "game_code": "TH06",
+   "source_code": "TH06_SCRIPT_0014",
+   "source_asset": "TH06_SCRIPT_0014",
+   "actions": [
+    {
+     "id": 71,
+     "pattern_id": 4,
+     "time": 0.5,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 1.571,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 58,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 72,
+     "pattern_id": 4,
+     "time": 0.5,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 3.142,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 58,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 69,
+     "pattern_id": 4,
+     "time": 4,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 1.571,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 36,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 70,
+     "pattern_id": 4,
+     "time": 4.033,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 1.571,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 36,
+      "confidence": 1
+     }
+    }
+   ]
+  },
+  "TH06_SCRIPT_0008_FAN": {
+   "id": "TH06_SCRIPT_0008_FAN",
+   "code": "TH06_SCRIPT_0008_FAN",
+   "game_id": "TH06",
+   "spell_id": null,
+   "resource_id": 78,
+   "name": "ecldata4.ecl · 扇形散射",
+   "type": "fan",
+   "duration": 32.82,
+   "difficulty": "",
+   "params": {
+    "avgSpeed": 1.57,
+    "avgCount": 4,
+    "angleSpan": 0,
+    "sampleCount": 65,
+    "phases": [
+     {
+      "index": 0,
+      "startFrame": 0,
+      "endFrame": 120,
+      "durationSeconds": 2,
+      "eventCount": 64,
+      "avgCount": 4,
+      "avgSpeed": 1.57,
+      "subroutines": [
+       28,
+       29,
+       30,
+       31,
+       32,
+       33,
+       34,
+       35
+      ],
+      "reason": "起始阶段"
+     },
+     {
+      "index": 1,
+      "startFrame": 120,
+      "endFrame": 120,
+      "durationSeconds": 0,
+      "eventCount": 1,
+      "avgCount": 6,
+      "avgSpeed": 1.57,
+      "subroutines": [
+       20
+      ],
+      "reason": "弹数由 2 变为 6"
+     }
+    ]
+   },
+   "origin": "analyzed",
+   "tags": [
+    "弹幕分析"
+   ],
+   "note": "平均弹数 4.0，角度跨度 0°，符合扇形定向散射特征",
+   "created_time": "2026-09-12T11:51:57.099Z",
+   "updated_time": "2026-09-12T11:51:57.099Z",
+   "rid": 3,
+   "game_code": "TH06",
+   "source_code": "TH06_SCRIPT_0008",
+   "source_asset": "TH06_SCRIPT_0008",
+   "actions": [
+    {
+     "id": 5,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 28,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 6,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 28,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 7,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 28,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 8,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 28,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 9,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 28,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 10,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 28,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 11,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 28,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 12,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 28,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 13,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 29,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 14,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 29,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 15,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 29,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 16,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 29,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 17,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 29,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 18,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 29,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 19,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 29,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 20,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 29,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 21,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 30,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 22,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 30,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 23,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 30,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 24,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 30,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 25,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 30,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 26,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 30,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 27,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 30,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 28,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 30,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 29,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 31,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 30,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 31,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 31,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 31,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 32,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 31,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 33,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 31,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 34,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 31,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 35,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 31,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 36,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 31,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 37,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 32,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 38,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 32,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 39,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 32,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 40,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 32,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 41,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 32,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 42,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 32,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 43,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 32,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 44,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 32,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 45,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 33,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 46,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 33,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 47,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 33,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 48,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 33,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 49,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 33,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 50,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 33,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 51,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 33,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 52,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 33,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 53,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 34,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 54,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 34,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 55,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 34,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 56,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 34,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 57,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 34,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 58,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 34,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 59,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 34,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 60,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 34,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 61,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 35,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 62,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 35,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 63,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 35,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 64,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 35,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 65,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 35,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 66,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 35,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 67,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 0.785,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 35,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 68,
+     "pattern_id": 3,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 2,
+      "speed": 2.356,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 35,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 4,
+     "pattern_id": 3,
+     "time": 2,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 1.571,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 20,
+      "confidence": 1
+     }
+    }
+   ]
+  },
+  "TH06_SCRIPT_0004_FAN": {
+   "id": "TH06_SCRIPT_0004_FAN",
+   "code": "TH06_SCRIPT_0004_FAN",
+   "game_id": "TH06",
+   "spell_id": null,
+   "resource_id": 39,
+   "name": "ecldata2.ecl · 扇形散射",
+   "type": "fan",
+   "duration": 9.42,
+   "difficulty": "",
+   "params": {
+    "avgSpeed": 0.39,
+    "avgCount": 5,
+    "angleSpan": 0,
+    "sampleCount": 1,
+    "phases": []
+   },
+   "origin": "analyzed",
+   "tags": [
+    "弹幕分析"
+   ],
+   "note": "平均弹数 5.0，角度跨度 0°，符合扇形定向散射特征",
+   "created_time": "2026-09-12T11:51:57.026Z",
+   "updated_time": "2026-09-12T11:51:57.026Z",
+   "rid": 2,
+   "game_code": "TH06",
+   "source_code": "TH06_SCRIPT_0004",
+   "source_asset": "TH06_SCRIPT_0004",
+   "actions": [
+    {
+     "id": 3,
+     "pattern_id": 2,
+     "time": 0,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 5,
+      "speed": 0.393,
+      "angle": 4,
+      "opcode": 86,
+      "subroutine": 27,
+      "confidence": 1
+     }
+    }
+   ]
+  },
+  "TH06_SCRIPT_0002_FAN": {
+   "id": "TH06_SCRIPT_0002_FAN",
+   "code": "TH06_SCRIPT_0002_FAN",
+   "game_id": "TH06",
+   "spell_id": null,
+   "resource_id": 14,
+   "name": "ecldata1.ecl · 扇形散射",
+   "type": "fan",
+   "duration": 10.73,
+   "difficulty": "",
+   "params": {
+    "avgSpeed": 1.57,
+    "avgCount": 6,
+    "angleSpan": 0,
+    "sampleCount": 2,
+    "phases": [
+     {
+      "index": 0,
+      "startFrame": 120,
+      "endFrame": 120,
+      "durationSeconds": 0,
+      "eventCount": 2,
+      "avgCount": 6,
+      "avgSpeed": 1.57,
+      "subroutines": [
+       9
+      ],
+      "reason": "起始阶段"
+     }
+    ]
+   },
+   "origin": "analyzed",
+   "tags": [
+    "弹幕分析"
+   ],
+   "note": "平均弹数 6.0，角度跨度 0°，符合扇形定向散射特征",
+   "created_time": "2026-09-12T11:51:56.981Z",
+   "updated_time": "2026-09-12T11:51:56.981Z",
+   "rid": 1,
+   "game_code": "TH06",
+   "source_code": "TH06_SCRIPT_0002",
+   "source_asset": "TH06_SCRIPT_0002",
+   "actions": [
+    {
+     "id": 1,
+     "pattern_id": 1,
+     "time": 2,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 0.393,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 9,
+      "confidence": 1
+     }
+    },
+    {
+     "id": 2,
+     "pattern_id": 1,
+     "time": 2,
+     "action_type": "spawn",
+     "parameter": {
+      "count": 6,
+      "speed": 2.749,
+      "angle": 0,
+      "opcode": 85,
+      "subroutine": 9,
+      "confidence": 1
+     }
+    }
+   ]
+  }
+ }
+}

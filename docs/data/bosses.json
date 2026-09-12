@@ -1,0 +1,184 @@
+{
+ "items": [
+  {
+   "id": 1,
+   "game_id": "TH06",
+   "character_id": 3,
+   "name": "立绘角色 03（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face03"
+   },
+   "game_code": "TH06",
+   "spell_count": 0
+  },
+  {
+   "id": 2,
+   "game_id": "TH06",
+   "character_id": 4,
+   "name": "立绘角色 05（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face05"
+   },
+   "game_code": "TH06",
+   "spell_count": 7
+  },
+  {
+   "id": 3,
+   "game_id": "TH06",
+   "character_id": 5,
+   "name": "立绘角色 06（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face06"
+   },
+   "game_code": "TH06",
+   "spell_count": 0
+  },
+  {
+   "id": 4,
+   "game_id": "TH06",
+   "character_id": 6,
+   "name": "立绘角色 08（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face08"
+   },
+   "game_code": "TH06",
+   "spell_count": 7
+  },
+  {
+   "id": 5,
+   "game_id": "TH06",
+   "character_id": 7,
+   "name": "立绘角色 09（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face09"
+   },
+   "game_code": "TH06",
+   "spell_count": 6
+  },
+  {
+   "id": 6,
+   "game_id": "TH06",
+   "character_id": 8,
+   "name": "立绘角色 10（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face10"
+   },
+   "game_code": "TH06",
+   "spell_count": 9
+  },
+  {
+   "id": 7,
+   "game_id": "TH06",
+   "character_id": 9,
+   "name": "立绘角色 12（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face12"
+   },
+   "game_code": "TH06",
+   "spell_count": 0
+  },
+  {
+   "id": 8,
+   "game_id": "TH06",
+   "character_id": 10,
+   "name": "立绘角色 00（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face00"
+   },
+   "game_code": "TH06",
+   "spell_count": 0
+  },
+  {
+   "id": 9,
+   "game_id": "TH06",
+   "character_id": 11,
+   "name": "立绘角色 01（待指派）",
+   "stage": null,
+   "rank": "BOSS",
+   "description": "由立绘文件自动登记，关卡与身份待指派",
+   "meta": {
+    "source": "autoclassify",
+    "key": "face01"
+   },
+   "game_code": "TH06",
+   "spell_count": 0
+  },
+  {
+   "id": 10,
+   "game_id": "TH06",
+   "character_id": 12,
+   "name": "露米娅",
+   "stage": 1,
+   "rank": "BOSS",
+   "description": "宵闇の妖怪",
+   "meta": {
+    "source": "identified",
+    "key": "rumia"
+   },
+   "game_code": "TH06",
+   "spell_count": 0
+  },
+  {
+   "id": 11,
+   "game_id": "TH06",
+   "character_id": 13,
+   "name": "琪露诺",
+   "stage": 2,
+   "rank": "BOSS",
+   "description": "湖上の氷精",
+   "meta": {
+    "source": "identified",
+    "key": "cirno"
+   },
+   "game_code": "TH06",
+   "spell_count": 0
+  },
+  {
+   "id": 12,
+   "game_id": "TH06",
+   "character_id": 14,
+   "name": "帕秋莉·诺蕾姬",
+   "stage": 4,
+   "rank": "BOSS",
+   "description": "知識と日陰の少女",
+   "meta": {
+    "source": "identified",
+    "key": "patchouli"
+   },
+   "game_code": "TH06",
+   "spell_count": 0
+  }
+ ]
+}

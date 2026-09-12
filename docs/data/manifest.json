@@ -1,0 +1,55 @@
+{
+ "schema": "touhou-resource-studio.publish/1",
+ "generatedAt": "2026-09-12T12:15:56.314Z",
+ "games": [
+  {
+   "code": "TH06",
+   "name": "东方红魔乡",
+   "year": 2002,
+   "engine": "ZUN_STG"
+  }
+ ],
+ "counts": {
+  "resources": 431,
+  "files": 505,
+  "characters": 14,
+  "animations": 77,
+  "patterns": 4,
+  "spells": 64,
+  "messages": 519
+ },
+ "options": {
+  "includeAudio": true,
+  "files": true,
+  "zip": true
+ },
+ "zips": [
+  {
+   "name": "TH06-sprites.zip",
+   "size": 40625,
+   "label": "精灵图（ANM 拆图） · 78 个文件"
+  },
+  {
+   "name": "TH06-images.zip",
+   "size": 6424079,
+   "label": "图片素材（立绘 / UI / 子弹） · 303 个文件"
+  },
+  {
+   "name": "TH06-audio.zip",
+   "size": 629568,
+   "label": "音效 · 39 个文件"
+  },
+  {
+   "name": "TH06-analysis.zip",
+   "size": 165345,
+   "label": "分析结果（ECL / 清单 / 图集元数据） · 91 个文件"
+  },
+  {
+   "name": "TH06-all.zip",
+   "size": 7256522,
+   "label": "完整资源包 · 505 个文件"
+  }
+ ],
+ "filesBase": "files",
+ "dataBase": "data"
+}

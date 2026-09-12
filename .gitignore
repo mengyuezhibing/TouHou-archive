@@ -5,6 +5,8 @@ dist/
 .env
 
 # 运行时数据（提取出的资源与数据库，体积大且可重建）
-Data/
-server/Data/
+# 用 /Data/ 锚定根目录：macOS 文件系统大小写不敏感，
+# 不加锚点会连带忽略 docs/data/（发布站点的数据目录）
+/Data/
+/server/Data/
 !server/src/**/*.ts

@@ -1,0 +1,268 @@
+{
+ "items": [
+  {
+   "id": 2,
+   "game_id": "TH06",
+   "name": "第 1 关敌机（stg1enm2）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 1",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg1enm2",
+    "stage": 1,
+    "assetCodes": [
+     "TH06_IMAGE_0005",
+     "TH06_IMAGE_0006",
+     "TH06_SPRITE_0005",
+     "TH06_SPRITE_0006"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 1,
+   "game_id": "TH06",
+   "name": "第 1 关敌机（stg1enm）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 1",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg1enm",
+    "stage": 1,
+    "assetCodes": [
+     "TH06_IMAGE_0003",
+     "TH06_IMAGE_0004",
+     "TH06_SPRITE_0003",
+     "TH06_SPRITE_0004"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 4,
+   "game_id": "TH06",
+   "name": "第 2 关敌机（stg2enm2）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 2",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg2enm2",
+    "stage": 2,
+    "assetCodes": [
+     "TH06_IMAGE_0011",
+     "TH06_IMAGE_0012",
+     "TH06_SPRITE_0012",
+     "TH06_SPRITE_0013"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 3,
+   "game_id": "TH06",
+   "name": "第 2 关敌机（stg2enm）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 2",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg2enm",
+    "stage": 2,
+    "assetCodes": [
+     "TH06_IMAGE_0009",
+     "TH06_IMAGE_0010",
+     "TH06_SPRITE_0010",
+     "TH06_SPRITE_0011"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 5,
+   "game_id": "TH06",
+   "name": "第 3 关敌机（stg3enm）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 3",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg3enm",
+    "stage": 3,
+    "assetCodes": [
+     "TH06_IMAGE_0016",
+     "TH06_IMAGE_0017",
+     "TH06_SPRITE_0018",
+     "TH06_SPRITE_0019"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 6,
+   "game_id": "TH06",
+   "name": "第 4 关敌机（stg4enm）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 4",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg4enm",
+    "stage": 4,
+    "assetCodes": [
+     "TH06_IMAGE_0021",
+     "TH06_IMAGE_0022",
+     "TH06_SPRITE_0024",
+     "TH06_SPRITE_0025"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 8,
+   "game_id": "TH06",
+   "name": "第 5 关敌机（stg5enm2）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 5",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg5enm2",
+    "stage": 5,
+    "assetCodes": [
+     "TH06_IMAGE_0028",
+     "TH06_IMAGE_0029",
+     "TH06_SPRITE_0032",
+     "TH06_SPRITE_0033"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 7,
+   "game_id": "TH06",
+   "name": "第 5 关敌机（stg5enm）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 5",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg5enm",
+    "stage": 5,
+    "assetCodes": [
+     "TH06_IMAGE_0026",
+     "TH06_IMAGE_0027",
+     "TH06_SPRITE_0030",
+     "TH06_SPRITE_0031"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 10,
+   "game_id": "TH06",
+   "name": "第 6 关敌机（stg6enm2）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 6",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg6enm2",
+    "stage": 6,
+    "assetCodes": [
+     "TH06_IMAGE_0034",
+     "TH06_IMAGE_0035",
+     "TH06_SPRITE_0040",
+     "TH06_SPRITE_0041"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 9,
+   "game_id": "TH06",
+   "name": "第 6 关敌机（stg6enm）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 6",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg6enm",
+    "stage": 6,
+    "assetCodes": [
+     "TH06_IMAGE_0032",
+     "TH06_IMAGE_0033",
+     "TH06_SPRITE_0038",
+     "TH06_SPRITE_0039"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 12,
+   "game_id": "TH06",
+   "name": "第 7 关敌机（stg7enm2）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 7",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg7enm2",
+    "stage": 7,
+    "assetCodes": [
+     "TH06_IMAGE_0041",
+     "TH06_IMAGE_0042",
+     "TH06_SPRITE_0048",
+     "TH06_SPRITE_0049"
+    ]
+   },
+   "game_code": "TH06"
+  },
+  {
+   "id": 11,
+   "game_id": "TH06",
+   "name": "第 7 关敌机（stg7enm）",
+   "type": "FAIRY",
+   "hp": 0,
+   "speed": 0,
+   "description": "4 项关联资源，关卡 7",
+   "sprite_id": null,
+   "meta": {
+    "source": "autoclassify",
+    "key": "stg7enm",
+    "stage": 7,
+    "assetCodes": [
+     "TH06_IMAGE_0039",
+     "TH06_IMAGE_0040",
+     "TH06_SPRITE_0046",
+     "TH06_SPRITE_0047"
+    ]
+   },
+   "game_code": "TH06"
+  }
+ ]
+}

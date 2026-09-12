@@ -1,0 +1,21 @@
+{
+ "items": [
+  {
+   "id": "TH06",
+   "name": "东方红魔乡",
+   "name_jp": "東方紅魔郷",
+   "short_name": "红魔乡",
+   "version": "TH06",
+   "engine": "ZUN_STG",
+   "year": 2002,
+   "path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h",
+   "exe_path": null,
+   "kind": "stg",
+   "status": "extracted",
+   "note": "ANM 贴图为 JPEG 内嵌，DAT 使用变长文件名表",
+   "created_time": "2026-09-12T11:51:56.902Z",
+   "scanned_at": "2026-09-12T11:51:56.902Z",
+   "extracted_at": "2026-09-12T11:51:57.560Z"
+  }
+ ]
+}

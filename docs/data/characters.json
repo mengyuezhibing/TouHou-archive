@@ -1,0 +1,4339 @@
+{
+ "items": [
+  {
+   "id": 10,
+   "game_id": "TH06",
+   "name": "立绘角色 00（待指派）",
+   "nickname": null,
+   "type": "OTHER",
+   "description": "12 项关联资源（依据文件名 face00* 自动归组）",
+   "sprite_count": 12,
+   "animation_count": 0,
+   "colors": [
+    "#010101",
+    "#fefefe",
+    "#000000"
+   ],
+   "source": "TH06 / face00*",
+   "meta": {
+    "source": "autoclassify",
+    "kind": "face",
+    "faceId": "00"
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 11,
+   "game_id": "TH06",
+   "name": "立绘角色 01（待指派）",
+   "nickname": null,
+   "type": "OTHER",
+   "description": "12 项关联资源（依据文件名 face01* 自动归组）",
+   "sprite_count": 12,
+   "animation_count": 0,
+   "colors": [
+    "#000000",
+    "#fefefe"
+   ],
+   "source": "TH06 / face01*",
+   "meta": {
+    "source": "autoclassify",
+    "kind": "face",
+    "faceId": "01"
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 9,
+   "game_id": "TH06",
+   "name": "立绘角色 12（待指派）",
+   "nickname": null,
+   "type": "OTHER",
+   "description": "10 项关联资源（依据文件名 face12* 自动归组）",
+   "sprite_count": 10,
+   "animation_count": 0,
+   "colors": [
+    "#010101",
+    "#010102"
+   ],
+   "source": "TH06 / face12*",
+   "meta": {
+    "source": "autoclassify",
+    "kind": "face",
+    "faceId": "12"
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 3,
+   "game_id": "TH06",
+   "name": "立绘角色 03（待指派）",
+   "nickname": null,
+   "type": "OTHER",
+   "description": "8 项关联资源（依据文件名 face03* 自动归组）",
+   "sprite_count": 8,
+   "animation_count": 0,
+   "colors": [
+    "#000000",
+    "#fefefe"
+   ],
+   "source": "TH06 / face03*",
+   "meta": {
+    "source": "autoclassify",
+    "kind": "face",
+    "faceId": "03"
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 5,
+   "game_id": "TH06",
+   "name": "立绘角色 06（待指派）",
+   "nickname": null,
+   "type": "OTHER",
+   "description": "8 项关联资源（依据文件名 face06* 自动归组）",
+   "sprite_count": 8,
+   "animation_count": 0,
+   "colors": [
+    "#060606",
+    "#fefefe"
+   ],
+   "source": "TH06 / face06*",
+   "meta": {
+    "source": "autoclassify",
+    "kind": "face",
+    "faceId": "06"
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 6,
+   "game_id": "TH06",
+   "name": "十六夜咲夜",
+   "nickname": "十六夜咲夜",
+   "type": "BOSS",
+   "description": "紅魔館のメイド · 第 5 关｜由符卡名识别（7 张符卡）",
+   "sprite_count": 8,
+   "animation_count": 0,
+   "colors": [],
+   "source": "TH06 / face08*",
+   "meta": {
+    "source": "identified",
+    "key": "sakuya",
+    "nameJp": "十六夜咲夜",
+    "nameEn": "Sakuya Izayoi",
+    "title": "紅魔館のメイド",
+    "stage": 5,
+    "wiki": "https://thbwiki.cc/%E5%8D%81%E5%85%AD%E5%A4%9C%E5%92%B2%E5%A4%9C",
+    "faceId": "08",
+    "mappingMethod": "face-id-map",
+    "confidence": 0.85,
+    "spellCount": 7
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 7,
+   "game_id": "TH06",
+   "name": "蕾米莉亚·斯卡雷特",
+   "nickname": "レミリア・スカーレット",
+   "type": "BOSS",
+   "description": "永遠に紅い幼き月 · 第 6 关｜由符卡名识别（6 张符卡）",
+   "sprite_count": 8,
+   "animation_count": 0,
+   "colors": [],
+   "source": "TH06 / face09*",
+   "meta": {
+    "source": "identified",
+    "key": "remilia",
+    "nameJp": "レミリア・スカーレット",
+    "nameEn": "Remilia Scarlet",
+    "title": "永遠に紅い幼き月",
+    "stage": 6,
+    "wiki": "https://thbwiki.cc/%E8%95%BE%E7%B1%B3%E8%8E%89%E4%BA%9A%C2%B7%E6%96%AF%E5%8D%A1%E9%9B%B7%E7%89%B9",
+    "faceId": "09",
+    "mappingMethod": "face-id-map",
+    "confidence": 0.85,
+    "spellCount": 6
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 8,
+   "game_id": "TH06",
+   "name": "芙兰朵露·斯卡雷特",
+   "nickname": "フランドール・スカーレット",
+   "type": "EX_BOSS",
+   "description": "悪魔の妹 · 第 7 关｜由符卡名识别（9 张符卡）",
+   "sprite_count": 6,
+   "animation_count": 0,
+   "colors": [],
+   "source": "TH06 / face10*",
+   "meta": {
+    "source": "identified",
+    "key": "flandre",
+    "nameJp": "フランドール・スカーレット",
+    "nameEn": "Flandre Scarlet",
+    "title": "悪魔の妹",
+    "stage": 7,
+    "wiki": "https://thbwiki.cc/%E8%8A%99%E5%85%B0%E6%9C%B5%E9%9C%B2%C2%B7%E6%96%AF%E5%8D%A1%E9%9B%B7%E7%89%B9",
+    "faceId": "10",
+    "mappingMethod": "face-id-map",
+    "confidence": 0.85,
+    "spellCount": 9
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 1,
+   "game_id": "TH06",
+   "name": "自机 00（待指派）",
+   "nickname": null,
+   "type": "PLAYER",
+   "description": "4 项关联资源（依据文件名 player00* 自动归组）",
+   "sprite_count": 4,
+   "animation_count": 0,
+   "colors": [
+    "#cdcdcd",
+    "#000000"
+   ],
+   "source": "TH06 / player00*",
+   "meta": {
+    "source": "autoclassify",
+    "key": "player00",
+    "kind": "player",
+    "faceId": "00",
+    "roster": [
+     "博丽灵梦",
+     "雾雨魔理沙",
+     "露米娅",
+     "大妖精",
+     "琪露诺",
+     "红美铃",
+     "小恶魔",
+     "帕秋莉·诺蕾姬",
+     "十六夜咲夜",
+     "蕾米莉亚·斯卡雷特",
+     "芙兰朵露·斯卡雷特"
+    ]
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 2,
+   "game_id": "TH06",
+   "name": "自机 01（待指派）",
+   "nickname": null,
+   "type": "PLAYER",
+   "description": "4 项关联资源（依据文件名 player01* 自动归组）",
+   "sprite_count": 4,
+   "animation_count": 0,
+   "colors": [
+    "#fefefe",
+    "#000000"
+   ],
+   "source": "TH06 / player01*",
+   "meta": {
+    "source": "autoclassify",
+    "key": "player01",
+    "kind": "player",
+    "faceId": "01",
+    "roster": [
+     "博丽灵梦",
+     "雾雨魔理沙",
+     "露米娅",
+     "大妖精",
+     "琪露诺",
+     "红美铃",
+     "小恶魔",
+     "帕秋莉·诺蕾姬",
+     "十六夜咲夜",
+     "蕾米莉亚·斯卡雷特",
+     "芙兰朵露·斯卡雷特"
+    ]
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 4,
+   "game_id": "TH06",
+   "name": "红美铃",
+   "nickname": "紅美鈴",
+   "type": "BOSS",
+   "description": "華人少女 · 第 3 关｜由符卡名识别（7 张符卡）",
+   "sprite_count": 4,
+   "animation_count": 0,
+   "colors": [],
+   "source": "TH06 / face05*",
+   "meta": {
+    "source": "identified",
+    "key": "meiling",
+    "nameJp": "紅美鈴",
+    "nameEn": "Hong Meiling",
+    "title": "華人少女",
+    "stage": 3,
+    "wiki": "https://thbwiki.cc/%E7%BA%A2%E7%BE%8E%E9%93%83",
+    "faceId": "05",
+    "mappingMethod": "face-id-map",
+    "confidence": 0.85,
+    "spellCount": 7
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 12,
+   "game_id": "TH06",
+   "name": "露米娅",
+   "nickname": "ルーミア",
+   "type": "BOSS",
+   "description": "宵闇の妖怪｜由符卡名识别（无对应立绘）",
+   "sprite_count": 0,
+   "animation_count": 12,
+   "colors": [],
+   "source": "TH06 / spell-identified",
+   "meta": {
+    "source": "identified",
+    "key": "rumia",
+    "nameJp": "ルーミア",
+    "nameEn": "Rumia",
+    "title": "宵闇の妖怪",
+    "stage": 1,
+    "wiki": "https://thbwiki.cc/%E9%9C%B2%E7%B1%B3%E5%A8%85",
+    "faceId": null,
+    "mappingMethod": "no-portrait",
+    "confidence": 0.9,
+    "spellCount": 3
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 13,
+   "game_id": "TH06",
+   "name": "琪露诺",
+   "nickname": "チルノ",
+   "type": "BOSS",
+   "description": "湖上の氷精｜由符卡名识别（无对应立绘）",
+   "sprite_count": 0,
+   "animation_count": 10,
+   "colors": [],
+   "source": "TH06 / spell-identified",
+   "meta": {
+    "source": "identified",
+    "key": "cirno",
+    "nameJp": "チルノ",
+    "nameEn": "Cirno",
+    "title": "湖上の氷精",
+    "stage": 2,
+    "wiki": "https://thbwiki.cc/%E7%90%AA%E9%9C%B2%E8%AF%BA",
+    "faceId": null,
+    "mappingMethod": "no-portrait",
+    "confidence": 0.9,
+    "spellCount": 4
+   },
+   "game_code": "TH06",
+   "tags": []
+  },
+  {
+   "id": 14,
+   "game_id": "TH06",
+   "name": "帕秋莉·诺蕾姬",
+   "nickname": "パチュリー・ノーレッジ",
+   "type": "BOSS",
+   "description": "知識と日陰の少女｜由符卡名识别（无对应立绘）",
+   "sprite_count": 0,
+   "animation_count": 8,
+   "colors": [],
+   "source": "TH06 / spell-identified",
+   "meta": {
+    "source": "identified",
+    "key": "patchouli",
+    "nameJp": "パチュリー・ノーレッジ",
+    "nameEn": "Patchouli Knowledge",
+    "title": "知識と日陰の少女",
+    "stage": 4,
+    "wiki": "https://thbwiki.cc/%E5%B8%95%E7%A7%8B%E8%8E%89%C2%B7%E8%AF%BA%E8%95%BE%E5%A7%AC",
+    "faceId": null,
+    "mappingMethod": "no-portrait",
+    "confidence": 0.9,
+    "spellCount": 21
+   },
+   "game_code": "TH06",
+   "tags": []
+  }
+ ],
+ "details": {
+  "1": {
+   "character": {
+    "id": 1,
+    "game_id": 1,
+    "name": "自机 00（待指派）",
+    "nickname": null,
+    "type": "PLAYER",
+    "description": "4 项关联资源（依据文件名 player00* 自动归组）",
+    "sprite_count": 4,
+    "animation_count": 0,
+    "colors": [
+     "#cdcdcd",
+     "#000000"
+    ],
+    "source": "TH06 / player00*",
+    "meta": {
+     "source": "autoclassify",
+     "key": "player00",
+     "kind": "player",
+     "faceId": "00",
+     "roster": [
+      "博丽灵梦",
+      "雾雨魔理沙",
+      "露米娅",
+      "大妖精",
+      "琪露诺",
+      "红美铃",
+      "小恶魔",
+      "帕秋莉·诺蕾姬",
+      "十六夜咲夜",
+      "蕾米莉亚·斯卡雷特",
+      "芙兰朵露·斯卡雷特"
+     ]
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_CHARACTER_0001",
+     "rid": 303,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "player00.anm",
+     "display_name": "player00 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "character",
+     "role": "player",
+     "resource_type": "ANIMATION",
+     "size": 3580,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 146543,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_CHARACTER_0001.anm",
+     "content_hash": "",
+     "tags": [
+      "自机",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 28,
+      "numScripts": 24,
+      "format": 5,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/player00/player00.png",
+      "externalAlphaName": "data/player00/player00_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 1,
+        "y": 1,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 33,
+        "y": 1,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 2,
+        "id": 2,
+        "x": 65,
+        "y": 1,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 3,
+        "id": 3,
+        "x": 97,
+        "y": 1,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 4,
+        "id": 4,
+        "x": 1,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 5,
+        "id": 5,
+        "x": 33,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 6,
+        "id": 6,
+        "x": 65,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 7,
+        "id": 7,
+        "x": 97,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 8,
+        "id": 8,
+        "x": 129,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 9,
+        "id": 9,
+        "x": 161,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 10,
+        "id": 10,
+        "x": 193,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 11,
+        "id": 11,
+        "x": 1,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 12,
+        "id": 12,
+        "x": 33,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 13,
+        "id": 13,
+        "x": 65,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 14,
+        "id": 14,
+        "x": 97,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 15,
+        "id": 15,
+        "x": 129,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 16,
+        "id": 16,
+        "x": 161,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 17,
+        "id": 17,
+        "x": 193,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 18,
+        "id": 64,
+        "x": 129,
+        "y": 1,
+        "w": 14,
+        "h": 14
+       },
+       {
+        "index": 19,
+        "id": 65,
+        "x": 144,
+        "y": 1,
+        "w": 14,
+        "h": 14
+       },
+       {
+        "index": 20,
+        "id": 66,
+        "x": 160,
+        "y": 0,
+        "w": 16,
+        "h": 16
+       },
+       {
+        "index": 21,
+        "id": 67,
+        "x": 176,
+        "y": 0,
+        "w": 16,
+        "h": 16
+       },
+       {
+        "index": 22,
+        "id": 68,
+        "x": 193,
+        "y": 1,
+        "w": 14,
+        "h": 46
+       },
+       {
+        "index": 23,
+        "id": 128,
+        "x": 128,
+        "y": 16,
+        "w": 16,
+        "h": 16
+       },
+       {
+        "index": 24,
+        "id": 129,
+        "x": 144,
+        "y": 16,
+        "w": 16,
+        "h": 16
+       },
+       {
+        "index": 25,
+        "id": 130,
+        "x": 128,
+        "y": 32,
+        "w": 16,
+        "h": 16
+       },
+       {
+        "index": 26,
+        "id": 131,
+        "x": 1,
+        "y": 97,
+        "w": 62,
+        "h": 62
+       },
+       {
+        "index": 27,
+        "id": 132,
+        "x": 65,
+        "y": 97,
+        "w": 62,
+        "h": 62
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.457Z",
+     "asset_type": "IDLE"
+    },
+    {
+     "id": "TH06_CHARACTER_0002",
+     "rid": 304,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "player00.anm#placeholder",
+     "display_name": "player00 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "character",
+     "role": "player",
+     "resource_type": "IMAGE",
+     "size": 1219,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/player00/player00_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "自机",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "player00.anm",
+      "placeholder": true,
+      "regionCount": 28
+     },
+     "created_at": "2026-09-12T11:51:57.459Z",
+     "asset_type": "IDLE"
+    },
+    {
+     "id": "TH06_CHARACTER_0005",
+     "rid": 310,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "player00.png",
+     "display_name": "player00.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "character",
+     "role": "player",
+     "resource_type": "IMAGE",
+     "size": 33406,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 202057,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Character/TH06_CHARACTER_0005.png",
+     "content_hash": "42f137562a5070bd93f089d8199ad415",
+     "tags": [
+      "自机",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "player00.png"
+     },
+     "created_at": "2026-09-12T11:51:57.471Z",
+     "asset_type": "IDLE"
+    },
+    {
+     "id": "TH06_CHARACTER_0006",
+     "rid": 311,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "player00_a.png",
+     "display_name": "player00_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "character",
+     "role": "player",
+     "resource_type": "IMAGE",
+     "size": 13598,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 238464,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Character/TH06_CHARACTER_0006.png",
+     "content_hash": "13d78679b4f4c669768b2359ff30b437",
+     "tags": [
+      "自机",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "player00_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.472Z",
+     "asset_type": "IDLE"
+    }
+   ],
+   "linked": true
+  },
+  "2": {
+   "character": {
+    "id": 2,
+    "game_id": 1,
+    "name": "自机 01（待指派）",
+    "nickname": null,
+    "type": "PLAYER",
+    "description": "4 项关联资源（依据文件名 player01* 自动归组）",
+    "sprite_count": 4,
+    "animation_count": 0,
+    "colors": [
+     "#fefefe",
+     "#000000"
+    ],
+    "source": "TH06 / player01*",
+    "meta": {
+     "source": "autoclassify",
+     "key": "player01",
+     "kind": "player",
+     "faceId": "01",
+     "roster": [
+      "博丽灵梦",
+      "雾雨魔理沙",
+      "露米娅",
+      "大妖精",
+      "琪露诺",
+      "红美铃",
+      "小恶魔",
+      "帕秋莉·诺蕾姬",
+      "十六夜咲夜",
+      "蕾米莉亚·斯卡雷特",
+      "芙兰朵露·斯卡雷特"
+     ]
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_CHARACTER_0003",
+     "rid": 305,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "player01.anm",
+     "display_name": "player01 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "character",
+     "role": "player",
+     "resource_type": "ANIMATION",
+     "size": 2776,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 147850,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_CHARACTER_0003.anm",
+     "content_hash": "",
+     "tags": [
+      "自机",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 27,
+      "numScripts": 27,
+      "format": 5,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/player00/player01.png",
+      "externalAlphaName": "data/player00/player01_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 1,
+        "y": 1,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 33,
+        "y": 1,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 2,
+        "id": 2,
+        "x": 65,
+        "y": 1,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 3,
+        "id": 3,
+        "x": 97,
+        "y": 1,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 4,
+        "id": 4,
+        "x": 1,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 5,
+        "id": 5,
+        "x": 33,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 6,
+        "id": 6,
+        "x": 65,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 7,
+        "id": 7,
+        "x": 97,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 8,
+        "id": 8,
+        "x": 129,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 9,
+        "id": 9,
+        "x": 161,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 10,
+        "id": 10,
+        "x": 193,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 11,
+        "id": 11,
+        "x": 1,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 12,
+        "id": 12,
+        "x": 33,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 13,
+        "id": 13,
+        "x": 65,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 14,
+        "id": 14,
+        "x": 97,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 15,
+        "id": 15,
+        "x": 129,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 16,
+        "id": 16,
+        "x": 161,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 17,
+        "id": 17,
+        "x": 193,
+        "y": 49,
+        "w": 31,
+        "h": 47
+       },
+       {
+        "index": 18,
+        "id": 18,
+        "x": 33,
+        "y": 97,
+        "w": 62,
+        "h": 62
+       },
+       {
+        "index": 19,
+        "id": 19,
+        "x": 0,
+        "y": 161,
+        "w": 30,
+        "h": 94
+       },
+       {
+        "index": 20,
+        "id": 64,
+        "x": 128,
+        "y": 0,
+        "w": 16,
+        "h": 32
+       },
+       {
+        "index": 21,
+        "id": 65,
+        "x": 160,
+        "y": 0,
+        "w": 16,
+        "h": 16
+       },
+       {
+        "index": 22,
+        "id": 66,
+        "x": 144,
+        "y": 0,
+        "w": 16,
+        "h": 32
+       },
+       {
+        "index": 23,
+        "id": 67,
+        "x": 0,
+        "y": 96,
+        "w": 32,
+        "h": 32
+       },
+       {
+        "index": 24,
+        "id": 68,
+        "x": 177,
+        "y": 1,
+        "w": 14,
+        "h": 14
+       },
+       {
+        "index": 25,
+        "id": 128,
+        "x": 128,
+        "y": 32,
+        "w": 16,
+        "h": 16
+       },
+       {
+        "index": 26,
+        "id": 129,
+        "x": 144,
+        "y": 32,
+        "w": 16,
+        "h": 16
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.460Z",
+     "asset_type": "IDLE"
+    },
+    {
+     "id": "TH06_CHARACTER_0004",
+     "rid": 306,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "player01.anm#placeholder",
+     "display_name": "player01 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "character",
+     "role": "player",
+     "resource_type": "IMAGE",
+     "size": 1228,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/player01/player01_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "自机",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "player01.anm",
+      "placeholder": true,
+      "regionCount": 27
+     },
+     "created_at": "2026-09-12T11:51:57.462Z",
+     "asset_type": "IDLE"
+    },
+    {
+     "id": "TH06_CHARACTER_0007",
+     "rid": 312,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "player01.png",
+     "display_name": "player01.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "character",
+     "role": "player",
+     "resource_type": "IMAGE",
+     "size": 4576,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 252483,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Character/TH06_CHARACTER_0007.png",
+     "content_hash": "26a8b9f4abdc9084bb7ea3c46bd0fcf5",
+     "tags": [
+      "自机",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "player01.png"
+     },
+     "created_at": "2026-09-12T11:51:57.474Z",
+     "asset_type": "IDLE"
+    },
+    {
+     "id": "TH06_CHARACTER_0008",
+     "rid": 313,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "player01_a.png",
+     "display_name": "player01_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "character",
+     "role": "player",
+     "resource_type": "IMAGE",
+     "size": 3659,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 257507,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Character/TH06_CHARACTER_0008.png",
+     "content_hash": "cc688c97404abf96616f85e30eccf999",
+     "tags": [
+      "自机",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "player01_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.476Z",
+     "asset_type": "IDLE"
+    }
+   ],
+   "linked": true
+  },
+  "3": {
+   "character": {
+    "id": 3,
+    "game_id": 1,
+    "name": "立绘角色 03（待指派）",
+    "nickname": null,
+    "type": "OTHER",
+    "description": "8 项关联资源（依据文件名 face03* 自动归组）",
+    "sprite_count": 8,
+    "animation_count": 0,
+    "colors": [
+     "#000000",
+     "#fefefe"
+    ],
+    "source": "TH06 / face03*",
+    "meta": {
+     "source": "autoclassify",
+     "kind": "face",
+     "faceId": "03"
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0001",
+     "rid": 19,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face03a.anm",
+     "display_name": "face03a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 110195,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0001.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face03a.png",
+      "externalAlphaName": "data/face/face03a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:56.991Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0002",
+     "rid": 20,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face03a.anm#placeholder",
+     "display_name": "face03a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face03a/face03a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face03a.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:56.993Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0003",
+     "rid": 21,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face03b.anm",
+     "display_name": "face03b 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 110268,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0003.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face03b.png",
+      "externalAlphaName": "data/face/face03b_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:56.993Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0004",
+     "rid": 22,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face03b.anm#placeholder",
+     "display_name": "face03b 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face03b/face03b_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face03b.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:56.994Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0005",
+     "rid": 23,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face03a.png",
+     "display_name": "face03a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 42628,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 110342,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0005.png",
+     "content_hash": "d23e5a41aebb73c25976be31e4fdd2ad",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face03a.png"
+     },
+     "created_at": "2026-09-12T11:51:56.999Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0006",
+     "rid": 24,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face03a_a.png",
+     "display_name": "face03a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 3044,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 158070,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0006.png",
+     "content_hash": "b40164ab248fa8e4fbfd6ec0bea8dbcf",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face03a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.001Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0007",
+     "rid": 25,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face03b.png",
+     "display_name": "face03b.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 46636,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 161411,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0007.png",
+     "content_hash": "b5cc74c886bc7df0eb7e1a95cb57cb69",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face03b.png"
+     },
+     "created_at": "2026-09-12T11:51:57.004Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0008",
+     "rid": 26,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face03b_a.png",
+     "display_name": "face03b_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 3321,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 213711,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0008.png",
+     "content_hash": "1612e04af1cbd3f7d4c845463dfa9c77",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face03b_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.006Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "4": {
+   "character": {
+    "id": 4,
+    "game_id": 1,
+    "name": "红美铃",
+    "nickname": "紅美鈴",
+    "type": "BOSS",
+    "description": "華人少女 · 第 3 关｜由符卡名识别（7 张符卡）",
+    "sprite_count": 4,
+    "animation_count": 0,
+    "colors": [],
+    "source": "TH06 / face05*",
+    "meta": {
+     "source": "identified",
+     "key": "meiling",
+     "nameJp": "紅美鈴",
+     "nameEn": "Hong Meiling",
+     "title": "華人少女",
+     "stage": 3,
+     "wiki": "https://thbwiki.cc/%E7%BA%A2%E7%BE%8E%E9%93%83",
+     "faceId": "05",
+     "mappingMethod": "face-id-map",
+     "confidence": 0.85,
+     "spellCount": 7
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0009",
+     "rid": 40,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face05a.anm",
+     "display_name": "face05a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 302373,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0009.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face05a.png",
+      "externalAlphaName": "data/face/face05a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.026Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0010",
+     "rid": 41,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face05a.anm#placeholder",
+     "display_name": "face05a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face05a/face05a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face05a.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.027Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0011",
+     "rid": 42,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face05a.png",
+     "display_name": "face05a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 55619,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 302446,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0011.png",
+     "content_hash": "c600e65fffeb7fd901571504c10878b8",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face05a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.030Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0012",
+     "rid": 43,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face05a_a.png",
+     "display_name": "face05a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 4028,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 364663,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0012.png",
+     "content_hash": "2c19e70f82a9be8730ededf5d606a1d2",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face05a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.032Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "5": {
+   "character": {
+    "id": 5,
+    "game_id": 1,
+    "name": "立绘角色 06（待指派）",
+    "nickname": null,
+    "type": "OTHER",
+    "description": "8 项关联资源（依据文件名 face06* 自动归组）",
+    "sprite_count": 8,
+    "animation_count": 0,
+    "colors": [
+     "#060606",
+     "#fefefe"
+    ],
+    "source": "TH06 / face06*",
+    "meta": {
+     "source": "autoclassify",
+     "kind": "face",
+     "faceId": "06"
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0013",
+     "rid": 61,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face06a.anm",
+     "display_name": "face06a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 547402,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0013.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face06a.png",
+      "externalAlphaName": "data/face/face06a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.063Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0014",
+     "rid": 62,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face06a.anm#placeholder",
+     "display_name": "face06a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face06a/face06a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face06a.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.064Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0015",
+     "rid": 63,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face06a.png",
+     "display_name": "face06a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 58968,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 547475,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0015.png",
+     "content_hash": "e334b9ab4c0f2cd51ea69873484d7da4",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face06a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.068Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0016",
+     "rid": 64,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face06a_a.png",
+     "display_name": "face06a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 2970,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 613431,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0016.png",
+     "content_hash": "9092d40ba35b8714fa65722eecd3affb",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face06a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.069Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0017",
+     "rid": 65,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face06b.anm",
+     "display_name": "face06b 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 616705,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0017.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face06b.png",
+      "externalAlphaName": "data/face/face06b_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.070Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0018",
+     "rid": 66,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face06b.anm#placeholder",
+     "display_name": "face06b 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face06b/face06b_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face06b.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.071Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0019",
+     "rid": 67,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face06b.png",
+     "display_name": "face06b.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 73778,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 616779,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0019.png",
+     "content_hash": "296c639c336fac9756572d0c83a49ec1",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face06b.png"
+     },
+     "created_at": "2026-09-12T11:51:57.074Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0020",
+     "rid": 68,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face06b_a.png",
+     "display_name": "face06b_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 3802,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 699571,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0020.png",
+     "content_hash": "c40da33224c3d4f623638ce480893026",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face06b_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.076Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "6": {
+   "character": {
+    "id": 6,
+    "game_id": 1,
+    "name": "十六夜咲夜",
+    "nickname": "十六夜咲夜",
+    "type": "BOSS",
+    "description": "紅魔館のメイド · 第 5 关｜由符卡名识别（7 张符卡）",
+    "sprite_count": 8,
+    "animation_count": 0,
+    "colors": [],
+    "source": "TH06 / face08*",
+    "meta": {
+     "source": "identified",
+     "key": "sakuya",
+     "nameJp": "十六夜咲夜",
+     "nameEn": "Sakuya Izayoi",
+     "title": "紅魔館のメイド",
+     "stage": 5,
+     "wiki": "https://thbwiki.cc/%E5%8D%81%E5%85%AD%E5%A4%9C%E5%92%B2%E5%A4%9C",
+     "faceId": "08",
+     "mappingMethod": "face-id-map",
+     "confidence": 0.85,
+     "spellCount": 7
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0021",
+     "rid": 80,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face08a.anm",
+     "display_name": "face08a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 878763,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0021.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face08a.png",
+      "externalAlphaName": "data/face/face08a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.103Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0022",
+     "rid": 81,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face08a.anm#placeholder",
+     "display_name": "face08a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face08a/face08a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face08a.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.104Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0023",
+     "rid": 82,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face08a.png",
+     "display_name": "face08a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 76337,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 878836,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0023.png",
+     "content_hash": "fe9192ae93697c583e51854ede2ef9d1",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face08a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.108Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0024",
+     "rid": 83,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face08a_a.png",
+     "display_name": "face08a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 10668,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 964005,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0024.png",
+     "content_hash": "5542e82c3ec148f94aa877d87989567f",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face08a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.111Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0025",
+     "rid": 84,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face08b.anm",
+     "display_name": "face08b 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 974735,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0025.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face08b.png",
+      "externalAlphaName": "data/face/face08b_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.111Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0026",
+     "rid": 85,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face08b.anm#placeholder",
+     "display_name": "face08b 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face08b/face08b_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face08b.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.112Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0027",
+     "rid": 86,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face08b.png",
+     "display_name": "face08b.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 110232,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 974809,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0027.png",
+     "content_hash": "7147a3e4d8a465ba846a9cc05ea37561",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face08b.png"
+     },
+     "created_at": "2026-09-12T11:51:57.117Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0028",
+     "rid": 87,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face08b_a.png",
+     "display_name": "face08b_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 20920,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 1098397,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0028.png",
+     "content_hash": "95e1c52711f38b86692a97f19fbaa504",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face08b_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.119Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "7": {
+   "character": {
+    "id": 7,
+    "game_id": 1,
+    "name": "蕾米莉亚·斯卡雷特",
+    "nickname": "レミリア・スカーレット",
+    "type": "BOSS",
+    "description": "永遠に紅い幼き月 · 第 6 关｜由符卡名识别（6 张符卡）",
+    "sprite_count": 8,
+    "animation_count": 0,
+    "colors": [],
+    "source": "TH06 / face09*",
+    "meta": {
+     "source": "identified",
+     "key": "remilia",
+     "nameJp": "レミリア・スカーレット",
+     "nameEn": "Remilia Scarlet",
+     "title": "永遠に紅い幼き月",
+     "stage": 6,
+     "wiki": "https://thbwiki.cc/%E8%95%BE%E7%B1%B3%E8%8E%89%E4%BA%9A%C2%B7%E6%96%AF%E5%8D%A1%E9%9B%B7%E7%89%B9",
+     "faceId": "09",
+     "mappingMethod": "face-id-map",
+     "confidence": 0.85,
+     "spellCount": 6
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0029",
+     "rid": 106,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face09a.anm",
+     "display_name": "face09a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 1593823,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0029.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face09a.png",
+      "externalAlphaName": "data/face/face09a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.160Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0030",
+     "rid": 107,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face09a.anm#placeholder",
+     "display_name": "face09a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face09a/face09a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face09a.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.161Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0031",
+     "rid": 108,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face09a.png",
+     "display_name": "face09a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 61808,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 1593896,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0031.png",
+     "content_hash": "b6ae3e42514ad315aff84d004217d506",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face09a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.165Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0032",
+     "rid": 109,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face09a_a.png",
+     "display_name": "face09a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 6204,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 1662491,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0032.png",
+     "content_hash": "fb0941b231b764791daab92bf3f1d07d",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face09a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.167Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0033",
+     "rid": 110,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face09b.anm",
+     "display_name": "face09b 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 1668711,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0033.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face09b.png",
+      "externalAlphaName": "data/face/face09b_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.167Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0034",
+     "rid": 111,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face09b.anm#placeholder",
+     "display_name": "face09b 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face09b/face09b_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face09b.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.170Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0035",
+     "rid": 112,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face09b.png",
+     "display_name": "face09b.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 72136,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 1668785,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0035.png",
+     "content_hash": "2e9c92c29e3d28c030f3c951126296da",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face09b.png"
+     },
+     "created_at": "2026-09-12T11:51:57.173Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0036",
+     "rid": 113,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face09b_a.png",
+     "display_name": "face09b_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 7686,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 1749388,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0036.png",
+     "content_hash": "d54caf1a76895a698eca1e67028e81d6",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face09b_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.175Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "8": {
+   "character": {
+    "id": 8,
+    "game_id": 1,
+    "name": "芙兰朵露·斯卡雷特",
+    "nickname": "フランドール・スカーレット",
+    "type": "EX_BOSS",
+    "description": "悪魔の妹 · 第 7 关｜由符卡名识别（9 张符卡）",
+    "sprite_count": 6,
+    "animation_count": 0,
+    "colors": [],
+    "source": "TH06 / face10*",
+    "meta": {
+     "source": "identified",
+     "key": "flandre",
+     "nameJp": "フランドール・スカーレット",
+     "nameEn": "Flandre Scarlet",
+     "title": "悪魔の妹",
+     "stage": 7,
+     "wiki": "https://thbwiki.cc/%E8%8A%99%E5%85%B0%E6%9C%B5%E9%9C%B2%C2%B7%E6%96%AF%E5%8D%A1%E9%9B%B7%E7%89%B9",
+     "faceId": "10",
+     "mappingMethod": "face-id-map",
+     "confidence": 0.85,
+     "spellCount": 9
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0037",
+     "rid": 131,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face10a.anm",
+     "display_name": "face10a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 152,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 2053921,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0037.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 1,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face10a.png",
+      "externalAlphaName": "data/face/face10a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.209Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0038",
+     "rid": 132,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face10a.anm#placeholder",
+     "display_name": "face10a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 686,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face10a/face10a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face10a.anm",
+      "placeholder": true,
+      "regionCount": 1
+     },
+     "created_at": "2026-09-12T11:51:57.210Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0039",
+     "rid": 133,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face10a.png",
+     "display_name": "face10a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 85412,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 2053981,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0039.png",
+     "content_hash": "a8aa9cc6e846ee50cbd6642f98c7f876",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face10a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.214Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0040",
+     "rid": 134,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face10a_a.png",
+     "display_name": "face10a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 14085,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 2149696,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0040.png",
+     "content_hash": "ec808f33f9501e5253f3ef34c494ec65",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face10a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.216Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0041",
+     "rid": 135,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face10b.anm",
+     "display_name": "face10b 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 152,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 2165131,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0041.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 1,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face10b.png",
+      "externalAlphaName": "data/face/face10a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.216Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0042",
+     "rid": 136,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face10b.png",
+     "display_name": "face10b.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 85080,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 2165193,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0042.png",
+     "content_hash": "c182d31970adb68d8699d15e4a52fd27",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face10b.png"
+     },
+     "created_at": "2026-09-12T11:51:57.220Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "9": {
+   "character": {
+    "id": 9,
+    "game_id": 1,
+    "name": "立绘角色 12（待指派）",
+    "nickname": null,
+    "type": "OTHER",
+    "description": "10 项关联资源（依据文件名 face12* 自动归组）",
+    "sprite_count": 10,
+    "animation_count": 0,
+    "colors": [
+     "#010101",
+     "#010102"
+    ],
+    "source": "TH06 / face12*",
+    "meta": {
+     "source": "autoclassify",
+     "kind": "face",
+     "faceId": "12"
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0043",
+     "rid": 155,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12a.anm",
+     "display_name": "face12a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 152,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 2553971,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0043.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 1,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face12a.png",
+      "externalAlphaName": "data/face/face12a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.256Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0044",
+     "rid": 156,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12a.anm#placeholder",
+     "display_name": "face12a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 686,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face12a/face12a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face12a.anm",
+      "placeholder": true,
+      "regionCount": 1
+     },
+     "created_at": "2026-09-12T11:51:57.257Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0045",
+     "rid": 157,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12a.png",
+     "display_name": "face12a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 83215,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 2554031,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0045.png",
+     "content_hash": "96681fc22212a1a5f441b391dfcd9314",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face12a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.261Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0046",
+     "rid": 158,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12a_a.png",
+     "display_name": "face12a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 32281,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 2647181,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0046.png",
+     "content_hash": "28a5de4a1486a71796ed1fc1b3ed9053",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face12a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.263Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0047",
+     "rid": 159,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12b.anm",
+     "display_name": "face12b 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 152,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 2682872,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0047.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 1,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face12b.png",
+      "externalAlphaName": "data/face/face12a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.263Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0048",
+     "rid": 160,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12b.png",
+     "display_name": "face12b.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 83294,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 2682934,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0048.png",
+     "content_hash": "fdac732425730f0a20e2973b727e85c9",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face12b.png"
+     },
+     "created_at": "2026-09-12T11:51:57.266Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0049",
+     "rid": 161,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12c.anm",
+     "display_name": "face12c 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 152,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 2776167,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0049.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 1,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face12c.png",
+      "externalAlphaName": "data/face/face12c_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 256,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.266Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0050",
+     "rid": 162,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12c.anm#placeholder",
+     "display_name": "face12c 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 686,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face12c/face12c_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face12c.anm",
+      "placeholder": true,
+      "regionCount": 1
+     },
+     "created_at": "2026-09-12T11:51:57.267Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0051",
+     "rid": 163,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12c.png",
+     "display_name": "face12c.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 88576,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 2776228,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0051.png",
+     "content_hash": "d397082baeca948488fb902b7a6883ba",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face12c.png"
+     },
+     "created_at": "2026-09-12T11:51:57.271Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0052",
+     "rid": 164,
+     "game_id": "TH06",
+     "archive_id": 1,
+     "entry_name": "face12c_a.png",
+     "display_name": "face12c_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 35051,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 2875416,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0052.png",
+     "content_hash": "f02d17f30632f9087f920c9e0a39d750",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face12c_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.273Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "10": {
+   "character": {
+    "id": 10,
+    "game_id": 1,
+    "name": "立绘角色 00（待指派）",
+    "nickname": null,
+    "type": "OTHER",
+    "description": "12 项关联资源（依据文件名 face00* 自动归组）",
+    "sprite_count": 12,
+    "animation_count": 0,
+    "colors": [
+     "#010101",
+     "#fefefe",
+     "#000000"
+    ],
+    "source": "TH06 / face00*",
+    "meta": {
+     "source": "autoclassify",
+     "kind": "face",
+     "faceId": "00"
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0053",
+     "rid": 314,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00a.anm",
+     "display_name": "face00a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 864,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 261603,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0053.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 4,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face00a.png",
+      "externalAlphaName": "data/face/face00a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.476Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0054",
+     "rid": 315,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00a.anm#placeholder",
+     "display_name": "face00a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face00a/face00a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face00a.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.477Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0055",
+     "rid": 316,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00a.png",
+     "display_name": "face00a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 80667,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 261925,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0055.png",
+     "content_hash": "f93c0810ef91770a67673a6efbe334d3",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face00a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.480Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0056",
+     "rid": 317,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00a_a.png",
+     "display_name": "face00a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 4776,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 352482,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0056.png",
+     "content_hash": "350a205d2055724090452c52d5c7b314",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face00a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.482Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0057",
+     "rid": 318,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00b.anm",
+     "display_name": "face00b 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 357835,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0057.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face00b.png",
+      "externalAlphaName": "data/face/face00b_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.482Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0058",
+     "rid": 319,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00b.anm#placeholder",
+     "display_name": "face00b 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face00b/face00b_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face00b.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.483Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0059",
+     "rid": 320,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00b.png",
+     "display_name": "face00b.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 74656,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 357909,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0059.png",
+     "content_hash": "4e11f8cffca01b7bd2aca0735bd28267",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face00b.png"
+     },
+     "created_at": "2026-09-12T11:51:57.486Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0060",
+     "rid": 321,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00b_a.png",
+     "display_name": "face00b_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 5017,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 441743,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0060.png",
+     "content_hash": "6ad23f2320ec5b72c9eba502be90d26f",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face00b_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.488Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0061",
+     "rid": 322,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00c.anm",
+     "display_name": "face00c 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 447366,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0061.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face00c.png",
+      "externalAlphaName": "data/face/face00c_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.488Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0062",
+     "rid": 323,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00c.anm#placeholder",
+     "display_name": "face00c 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face00c/face00c_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face00c.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.489Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0063",
+     "rid": 324,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00c.png",
+     "display_name": "face00c.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 46138,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 447440,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0063.png",
+     "content_hash": "d33d138aee2bc753299dfcdd9cd7d89a",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face00c.png"
+     },
+     "created_at": "2026-09-12T11:51:57.492Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0064",
+     "rid": 325,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face00c_a.png",
+     "display_name": "face00c_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 3517,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 498974,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0064.png",
+     "content_hash": "b0d28d74ad0904e1fb14c42c7e15dd2a",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face00c_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.494Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "11": {
+   "character": {
+    "id": 11,
+    "game_id": 1,
+    "name": "立绘角色 01（待指派）",
+    "nickname": null,
+    "type": "OTHER",
+    "description": "12 项关联资源（依据文件名 face01* 自动归组）",
+    "sprite_count": 12,
+    "animation_count": 0,
+    "colors": [
+     "#000000",
+     "#fefefe"
+    ],
+    "source": "TH06 / face01*",
+    "meta": {
+     "source": "autoclassify",
+     "kind": "face",
+     "faceId": "01"
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [
+    {
+     "id": "TH06_PORTRAIT_0065",
+     "rid": 326,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01a.anm",
+     "display_name": "face01a 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 864,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 502882,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0065.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 4,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face01a.png",
+      "externalAlphaName": "data/face/face01a_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.494Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0066",
+     "rid": 327,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01a.anm#placeholder",
+     "display_name": "face01a 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face01a/face01a_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face01a.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.495Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0067",
+     "rid": 328,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01a.png",
+     "display_name": "face01a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 90310,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 503204,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0067.png",
+     "content_hash": "6169393a51ffe1f3182f8629bf8704f0",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face01a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.499Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0068",
+     "rid": 329,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01a_a.png",
+     "display_name": "face01a_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 3230,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 604645,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0068.png",
+     "content_hash": "7f555b41195d7afea1c900e5775a4fa4",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face01a_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.500Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0069",
+     "rid": 330,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01b.anm",
+     "display_name": "face01b 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 608242,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0069.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face01b.png",
+      "externalAlphaName": "data/face/face01b_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.500Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0070",
+     "rid": 331,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01b.anm#placeholder",
+     "display_name": "face01b 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face01b/face01b_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face01b.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.502Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0071",
+     "rid": 332,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01b.png",
+     "display_name": "face01b.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 90400,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 608316,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0071.png",
+     "content_hash": "69bca5cfcc74f9275c49abc6a473eb5b",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face01b.png"
+     },
+     "created_at": "2026-09-12T11:51:57.505Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0072",
+     "rid": 333,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01b_a.png",
+     "display_name": "face01b_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 3239,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 709817,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0072.png",
+     "content_hash": "7973059bd5e5b600827371f0361db679",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face01b_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.507Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0073",
+     "rid": 334,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01c.anm",
+     "display_name": "face01c 动画包",
+     "ext": ".anm",
+     "kind": "anm",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "ANIMATION",
+     "size": 176,
+     "width": 0,
+     "height": 0,
+     "entry_offset": 713429,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/TH06_PORTRAIT_0073.anm",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "numSprites": 2,
+      "numScripts": 0,
+      "format": 1,
+      "version": 0,
+      "thtxOffset": 0,
+      "externalName": "data/face/face01c.png",
+      "externalAlphaName": "data/face/face01c_a.png",
+      "regions": [
+       {
+        "index": 0,
+        "id": 0,
+        "x": 0,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       },
+       {
+        "index": 1,
+        "id": 1,
+        "x": 128,
+        "y": 0,
+        "w": 128,
+        "h": 256
+       }
+      ],
+      "notes": [
+       "thtk 编译格式（贴图外置），帧序列关联到已提取的同名贴图"
+      ]
+     },
+     "created_at": "2026-09-12T11:51:57.507Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0074",
+     "rid": 335,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01c.anm#placeholder",
+     "display_name": "face01c 精灵布局图（贴图缺失占位）",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 1018,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 0,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Sprites/face01c/face01c_placeholder.png",
+     "content_hash": "",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "sourceAnm": "face01c.anm",
+      "placeholder": true,
+      "regionCount": 2
+     },
+     "created_at": "2026-09-12T11:51:57.508Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0075",
+     "rid": 336,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01c.png",
+     "display_name": "face01c.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 90833,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 713503,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0075.png",
+     "content_hash": "06609799369f907a0aea4a6e7f2e41b5",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face01c.png"
+     },
+     "created_at": "2026-09-12T11:51:57.512Z",
+     "asset_type": "PORTRAIT"
+    },
+    {
+     "id": "TH06_PORTRAIT_0076",
+     "rid": 337,
+     "game_id": "TH06",
+     "archive_id": 4,
+     "entry_name": "face01c_a.png",
+     "display_name": "face01c_a.png",
+     "ext": ".png",
+     "kind": "image",
+     "category": "portrait",
+     "role": "ui",
+     "resource_type": "IMAGE",
+     "size": 3286,
+     "width": 256,
+     "height": 256,
+     "entry_offset": 815534,
+     "cache_path": "/Users/mouxiaobing/ai代码/东方素材研究库/Data/Game/TH06/Assets/Portraits/TH06_PORTRAIT_0076.png",
+     "content_hash": "76e92f58bb9e2800fd3c46705dde9c06",
+     "tags": [
+      "立绘",
+      "角色素材",
+      "已入角色库"
+     ],
+     "meta": {
+      "archiveLayout": "PBG3",
+      "magic": "png",
+      "archiveEntry": "face01c_a.png"
+     },
+     "created_at": "2026-09-12T11:51:57.514Z",
+     "asset_type": "PORTRAIT"
+    }
+   ],
+   "linked": true
+  },
+  "12": {
+   "character": {
+    "id": 12,
+    "game_id": 1,
+    "name": "露米娅",
+    "nickname": "ルーミア",
+    "type": "BOSS",
+    "description": "宵闇の妖怪｜由符卡名识别（无对应立绘）",
+    "sprite_count": 0,
+    "animation_count": 12,
+    "colors": [],
+    "source": "TH06 / spell-identified",
+    "meta": {
+     "source": "identified",
+     "key": "rumia",
+     "nameJp": "ルーミア",
+     "nameEn": "Rumia",
+     "title": "宵闇の妖怪",
+     "stage": 1,
+     "wiki": "https://thbwiki.cc/%E9%9C%B2%E7%B1%B3%E5%A8%85",
+     "faceId": null,
+     "mappingMethod": "no-portrait",
+     "confidence": 0.9,
+     "spellCount": 3
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [],
+   "linked": false
+  },
+  "13": {
+   "character": {
+    "id": 13,
+    "game_id": 1,
+    "name": "琪露诺",
+    "nickname": "チルノ",
+    "type": "BOSS",
+    "description": "湖上の氷精｜由符卡名识别（无对应立绘）",
+    "sprite_count": 0,
+    "animation_count": 10,
+    "colors": [],
+    "source": "TH06 / spell-identified",
+    "meta": {
+     "source": "identified",
+     "key": "cirno",
+     "nameJp": "チルノ",
+     "nameEn": "Cirno",
+     "title": "湖上の氷精",
+     "stage": 2,
+     "wiki": "https://thbwiki.cc/%E7%90%AA%E9%9C%B2%E8%AF%BA",
+     "faceId": null,
+     "mappingMethod": "no-portrait",
+     "confidence": 0.9,
+     "spellCount": 4
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [],
+   "linked": false
+  },
+  "14": {
+   "character": {
+    "id": 14,
+    "game_id": 1,
+    "name": "帕秋莉·诺蕾姬",
+    "nickname": "パチュリー・ノーレッジ",
+    "type": "BOSS",
+    "description": "知識と日陰の少女｜由符卡名识别（无对应立绘）",
+    "sprite_count": 0,
+    "animation_count": 8,
+    "colors": [],
+    "source": "TH06 / spell-identified",
+    "meta": {
+     "source": "identified",
+     "key": "patchouli",
+     "nameJp": "パチュリー・ノーレッジ",
+     "nameEn": "Patchouli Knowledge",
+     "title": "知識と日陰の少女",
+     "stage": 4,
+     "wiki": "https://thbwiki.cc/%E5%B8%95%E7%A7%8B%E8%8E%89%C2%B7%E8%AF%BA%E8%95%BE%E5%A7%AC",
+     "faceId": null,
+     "mappingMethod": "no-portrait",
+     "confidence": 0.9,
+     "spellCount": 21
+    },
+    "game_code": null,
+    "tags": []
+   },
+   "items": [],
+   "linked": false
+  }
+ }
+}

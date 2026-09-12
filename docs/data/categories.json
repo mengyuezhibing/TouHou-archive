@@ -1,0 +1,48 @@
+{
+ "items": [
+  {
+   "category": "sprite",
+   "count": 88
+  },
+  {
+   "category": "image",
+   "count": 85
+  },
+  {
+   "category": "portrait",
+   "count": 76
+  },
+  {
+   "category": "audio",
+   "count": 56
+  },
+  {
+   "category": "ui",
+   "count": 55
+  },
+  {
+   "category": "binary",
+   "count": 23
+  },
+  {
+   "category": "script",
+   "count": 14
+  },
+  {
+   "category": "text",
+   "count": 14
+  },
+  {
+   "category": "bullet",
+   "count": 8
+  },
+  {
+   "category": "character",
+   "count": 8
+  },
+  {
+   "category": "item",
+   "count": 4
+  }
+ ]
+}

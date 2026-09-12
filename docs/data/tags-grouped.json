@@ -1,0 +1,166 @@
+{
+ "items": [
+  {
+   "id": 3,
+   "name": "ANM",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 1002,
+   "name": "BGM",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 4,
+   "name": "thtk格式",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 40,
+   "name": "关卡脚本",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 42,
+   "name": "剧情文本",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 1,
+   "name": "动画贴图",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 8,
+   "name": "占位图",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 1004,
+   "name": "可播放",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 10,
+   "name": "图像",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 2,
+   "name": "大尺寸",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 55,
+   "name": "头像",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 790,
+   "name": "子弹",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 1094,
+   "name": "已入怪物库",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 1071,
+   "name": "已入角色库",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 791,
+   "name": "弹幕素材",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 1093,
+   "name": "敌机",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 41,
+   "name": "敌机脚本",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 504,
+   "name": "文本",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 1003,
+   "name": "独立文件",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 520,
+   "name": "界面",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 54,
+   "name": "立绘",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 826,
+   "name": "自机",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 1070,
+   "name": "角色素材",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 5,
+   "name": "贴图外置",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 9,
+   "name": "贴图缺失",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 942,
+   "name": "道具",
+   "category": "user",
+   "color": null
+  },
+  {
+   "id": 939,
+   "name": "音频",
+   "category": "user",
+   "color": null
+  }
+ ]
+}

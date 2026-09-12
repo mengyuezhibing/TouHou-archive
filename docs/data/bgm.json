@@ -1,0 +1,361 @@
+{
+ "items": [
+  {
+   "id": 1,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 0,
+   "title": "th06_01.wav",
+   "file_name": "th06_01.wav",
+   "codec": "wav",
+   "size": 11206778,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_01.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 63.53
+   }
+  },
+  {
+   "id": 2,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 1,
+   "title": "th06_02.wav",
+   "file_name": "th06_02.wav",
+   "codec": "wav",
+   "size": 15368324,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_02.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 87.12
+   }
+  },
+  {
+   "id": 3,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 2,
+   "title": "th06_03.wav",
+   "file_name": "th06_03.wav",
+   "codec": "wav",
+   "size": 9945206,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_03.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 56.38
+   }
+  },
+  {
+   "id": 4,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 3,
+   "title": "th06_04.wav",
+   "file_name": "th06_04.wav",
+   "codec": "wav",
+   "size": 15532158,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_04.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 88.05
+   }
+  },
+  {
+   "id": 5,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 4,
+   "title": "th06_05.wav",
+   "file_name": "th06_05.wav",
+   "codec": "wav",
+   "size": 15859834,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_05.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 89.91
+   }
+  },
+  {
+   "id": 6,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 5,
+   "title": "th06_06.wav",
+   "file_name": "th06_06.wav",
+   "codec": "wav",
+   "size": 24838280,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_06.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 140.81
+   }
+  },
+  {
+   "id": 7,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 6,
+   "title": "th06_07.wav",
+   "file_name": "th06_07.wav",
+   "codec": "wav",
+   "size": 18858116,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_07.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 106.9
+   }
+  },
+  {
+   "id": 8,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 7,
+   "title": "th06_08.wav",
+   "file_name": "th06_08.wav",
+   "codec": "wav",
+   "size": 21527454,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_08.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 122.04
+   }
+  },
+  {
+   "id": 9,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 8,
+   "title": "th06_09.wav",
+   "file_name": "th06_09.wav",
+   "codec": "wav",
+   "size": 23160042,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_09.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 131.29
+   }
+  },
+  {
+   "id": 10,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 9,
+   "title": "th06_10.wav",
+   "file_name": "th06_10.wav",
+   "codec": "wav",
+   "size": 32237314,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_10.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 182.75
+   }
+  },
+  {
+   "id": 11,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 10,
+   "title": "th06_11.wav",
+   "file_name": "th06_11.wav",
+   "codec": "wav",
+   "size": 16613542,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_11.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 94.18
+   }
+  },
+  {
+   "id": 12,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 11,
+   "title": "th06_12.wav",
+   "file_name": "th06_12.wav",
+   "codec": "wav",
+   "size": 10633346,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_12.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 60.28
+   }
+  },
+  {
+   "id": 13,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 12,
+   "title": "th06_13.wav",
+   "file_name": "th06_13.wav",
+   "codec": "wav",
+   "size": 29065494,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_13.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 164.77
+   }
+  },
+  {
+   "id": 14,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 13,
+   "title": "th06_14.wav",
+   "file_name": "th06_14.wav",
+   "codec": "wav",
+   "size": 27967616,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_14.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 158.55
+   }
+  },
+  {
+   "id": 15,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 14,
+   "title": "th06_15.wav",
+   "file_name": "th06_15.wav",
+   "codec": "wav",
+   "size": 22642824,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_15.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 128.36
+   }
+  },
+  {
+   "id": 16,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 15,
+   "title": "th06_16.wav",
+   "file_name": "th06_16.wav",
+   "codec": "wav",
+   "size": 10174588,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_16.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 57.68
+   }
+  },
+  {
+   "id": 17,
+   "game_id": "TH06",
+   "game_code": "TH06",
+   "index_num": 16,
+   "title": "th06_17.wav",
+   "file_name": "th06_17.wav",
+   "codec": "wav",
+   "size": 19267718,
+   "cache_path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h/BGM/th06_17.wav",
+   "boss": null,
+   "scene": null,
+   "meta": {
+    "loose": true,
+    "codec": "wav",
+    "channels": 2,
+    "sampleRate": 44100,
+    "bitsPerSample": 16,
+    "durationSeconds": 109.23
+   }
+  }
+ ]
+}

@@ -1,0 +1,79 @@
+{
+ "counts": {
+  "games": 1,
+  "archives": 6,
+  "assets": 431,
+  "sprites": 235,
+  "sheets": 0,
+  "animations": 77,
+  "animationFrames": 1096,
+  "patterns": 4,
+  "patternActions": 72,
+  "spells": 64,
+  "bosses": 12,
+  "enemies": 12,
+  "bgm": 17,
+  "msgLines": 519,
+  "characters": 14,
+  "characterAssets": 84,
+  "tags": 27,
+  "totalSize": 333559920
+ },
+ "byCategory": [
+  {
+   "category": "sprite",
+   "count": 88
+  },
+  {
+   "category": "image",
+   "count": 85
+  },
+  {
+   "category": "portrait",
+   "count": 76
+  },
+  {
+   "category": "audio",
+   "count": 56
+  },
+  {
+   "category": "ui",
+   "count": 55
+  },
+  {
+   "category": "binary",
+   "count": 23
+  },
+  {
+   "category": "script",
+   "count": 14
+  },
+  {
+   "category": "text",
+   "count": 14
+  },
+  {
+   "category": "bullet",
+   "count": 8
+  },
+  {
+   "category": "character",
+   "count": 8
+  },
+  {
+   "category": "item",
+   "count": 4
+  }
+ ],
+ "byGame": [
+  {
+   "id": "TH06",
+   "name": "东方红魔乡",
+   "year": 2002,
+   "status": "extracted",
+   "path": "/Users/mouxiaobing/Downloads/[th06] 东方红魔乡 (汉化版+日文版) 1.02h",
+   "asset_count": 431,
+   "bgm_count": 17
+  }
+ ]
+}
