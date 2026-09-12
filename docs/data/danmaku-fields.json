@@ -1,0 +1,4034 @@
+{
+ "byGame": {
+  "TH06": [
+   {
+    "stage": 1,
+    "eclFile": "ecldata1.ecl",
+    "events": [
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 12,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 12,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 12,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 12,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 224,
+      "originY": 60,
+      "frame": 20,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 224,
+      "originY": 60,
+      "frame": 20,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 224,
+      "originY": 60,
+      "frame": 20,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 224,
+      "originY": 60,
+      "frame": 20,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 84,
+      "originY": 116,
+      "frame": 28,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 84,
+      "originY": 116,
+      "frame": 28,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 84,
+      "originY": 116,
+      "frame": 28,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 84,
+      "originY": 116,
+      "frame": 28,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 32,
+      "originY": 116,
+      "frame": 36,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 32,
+      "originY": 116,
+      "frame": 36,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 32,
+      "originY": 116,
+      "frame": 36,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 32,
+      "originY": 116,
+      "frame": 36,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 240,
+      "originY": 116,
+      "frame": 44,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 240,
+      "originY": 116,
+      "frame": 44,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 240,
+      "originY": 116,
+      "frame": 44,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 240,
+      "originY": 116,
+      "frame": 44,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 52,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 52,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 52,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 52,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 276,
+      "originY": 60,
+      "frame": 60,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 276,
+      "originY": 60,
+      "frame": 60,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 276,
+      "originY": 60,
+      "frame": 60,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 276,
+      "originY": 60,
+      "frame": 60,
+      "count": 10,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 12
+     },
+     {
+      "originX": 268,
+      "originY": 88,
+      "frame": 84,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 268,
+      "originY": 88,
+      "frame": 84,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 268,
+      "originY": 88,
+      "frame": 84,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 268,
+      "originY": 88,
+      "frame": 84,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 144,
+      "originY": 88,
+      "frame": 92,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 144,
+      "originY": 88,
+      "frame": 92,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 144,
+      "originY": 88,
+      "frame": 92,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 144,
+      "originY": 88,
+      "frame": 92,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 100,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 100,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 100,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 100,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": -0.1309,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 292,
+      "originY": 144,
+      "frame": 108,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 292,
+      "originY": 144,
+      "frame": 108,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 292,
+      "originY": 144,
+      "frame": 108,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 292,
+      "originY": 144,
+      "frame": 108,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 116,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 116,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 116,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 116,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 24,
+      "originY": 144,
+      "frame": 124,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 24,
+      "originY": 144,
+      "frame": 124,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 24,
+      "originY": 144,
+      "frame": 124,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 24,
+      "originY": 144,
+      "frame": 124,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 13
+     },
+     {
+      "originX": 316,
+      "originY": 88,
+      "frame": 132,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 316,
+      "originY": 88,
+      "frame": 132,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 316,
+      "originY": 88,
+      "frame": 132,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": -0.1309,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 316,
+      "originY": 88,
+      "frame": 132,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": -0.1309,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 352,
+      "originY": 144,
+      "frame": 132,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 352,
+      "originY": 144,
+      "frame": 132,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 352,
+      "originY": 144,
+      "frame": 132,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 352,
+      "originY": 144,
+      "frame": 132,
+      "count": 2,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 156,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.5236,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 156,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 156,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1963,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 156,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 162,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 19
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 162,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 19
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 162,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 19
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 162,
+      "count": 2,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2,
+      "subIndex": 19
+     },
+     {
+      "originX": 300,
+      "originY": 116,
+      "frame": 176,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.5236,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 300,
+      "originY": 116,
+      "frame": 176,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 300,
+      "originY": 116,
+      "frame": 176,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1963,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 300,
+      "originY": 116,
+      "frame": 176,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 160,
+      "originY": 144,
+      "frame": 180,
+      "count": 8,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 18
+     },
+     {
+      "originX": 160,
+      "originY": 144,
+      "frame": 180,
+      "count": 8,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 18
+     },
+     {
+      "originX": 160,
+      "originY": 144,
+      "frame": 180,
+      "count": 8,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 18
+     },
+     {
+      "originX": 160,
+      "originY": 144,
+      "frame": 180,
+      "count": 8,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 18
+     },
+     {
+      "originX": 160,
+      "originY": 144,
+      "frame": 192,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 144,
+      "frame": 192,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 144,
+      "frame": 192,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 144,
+      "frame": 192,
+      "count": 2,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 196,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.5236,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 196,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 196,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1963,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 196,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 8,
+      "subIndex": 20
+     },
+     {
+      "originX": 292,
+      "originY": 144,
+      "frame": 200,
+      "count": 16,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 8,
+      "subIndex": 14
+     },
+     {
+      "originX": 292,
+      "originY": 144,
+      "frame": 200,
+      "count": 16,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 8,
+      "subIndex": 14
+     },
+     {
+      "originX": 292,
+      "originY": 144,
+      "frame": 200,
+      "count": 16,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 8,
+      "subIndex": 14
+     },
+     {
+      "originX": 292,
+      "originY": 144,
+      "frame": 200,
+      "count": 16,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 8,
+      "subIndex": 14
+     },
+     {
+      "originX": 300,
+      "originY": 116,
+      "frame": 208,
+      "count": 1,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 300,
+      "originY": 116,
+      "frame": 208,
+      "count": 3,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 300,
+      "originY": 116,
+      "frame": 208,
+      "count": 5,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 300,
+      "originY": 116,
+      "frame": 208,
+      "count": 7,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 352,
+      "originY": 144,
+      "frame": 230,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 14
+     },
+     {
+      "originX": 352,
+      "originY": 144,
+      "frame": 230,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 14
+     },
+     {
+      "originX": 352,
+      "originY": 144,
+      "frame": 230,
+      "count": 3,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 4,
+      "subIndex": 14
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 262,
+      "count": 2,
+      "speed": 0.5,
+      "angle": 0,
+      "spin": 0.3927,
+      "bulletType": 3,
+      "subIndex": 2
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 262,
+      "count": 2,
+      "speed": 0.5,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 3,
+      "subIndex": 2
+     },
+     {
+      "originX": 208,
+      "originY": 116,
+      "frame": 264,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 68,
+      "subIndex": 23
+     },
+     {
+      "originX": 208,
+      "originY": 116,
+      "frame": 264,
+      "count": 2,
+      "speed": 1,
+      "angle": 0.1122,
+      "spin": 0,
+      "bulletType": 68,
+      "subIndex": 23
+     },
+     {
+      "originX": 324,
+      "originY": 60,
+      "frame": 324,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 68,
+      "subIndex": 23
+     },
+     {
+      "originX": 324,
+      "originY": 60,
+      "frame": 324,
+      "count": 2,
+      "speed": 1,
+      "angle": 0.1122,
+      "spin": 0,
+      "bulletType": 68,
+      "subIndex": 23
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 384,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 68,
+      "subIndex": 23
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 384,
+      "count": 2,
+      "speed": 1,
+      "angle": 0.1122,
+      "spin": 0,
+      "bulletType": 68,
+      "subIndex": 23
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 462,
+      "count": 1,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 462,
+      "count": 3,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 462,
+      "count": 5,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 60,
+      "originY": 60,
+      "frame": 462,
+      "count": 7,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 324,
+      "originY": 60,
+      "frame": 492,
+      "count": 1,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 324,
+      "originY": 60,
+      "frame": 492,
+      "count": 3,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 324,
+      "originY": 60,
+      "frame": 492,
+      "count": 5,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 324,
+      "originY": 60,
+      "frame": 492,
+      "count": 7,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 786,
+      "count": 1,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 786,
+      "count": 3,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 786,
+      "count": 5,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 48,
+      "originY": 60,
+      "frame": 786,
+      "count": 7,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 256,
+      "originY": 60,
+      "frame": 816,
+      "count": 1,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 256,
+      "originY": 60,
+      "frame": 816,
+      "count": 3,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 256,
+      "originY": 60,
+      "frame": 816,
+      "count": 5,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     },
+     {
+      "originX": 256,
+      "originY": 60,
+      "frame": 816,
+      "count": 7,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 9,
+      "subIndex": 8
+     }
+    ],
+    "sources": [
+     {
+      "x": 60,
+      "y": 60
+     },
+     {
+      "x": 68,
+      "y": 88
+     },
+     {
+      "x": 84,
+      "y": 116
+     },
+     {
+      "x": 92,
+      "y": 144
+     },
+     {
+      "x": 324,
+      "y": 60
+     },
+     {
+      "x": 316,
+      "y": 88
+     },
+     {
+      "x": 300,
+      "y": 116
+     },
+     {
+      "x": 292,
+      "y": 144
+     },
+     {
+      "x": 276,
+      "y": 60
+     },
+     {
+      "x": 268,
+      "y": 88
+     },
+     {
+      "x": 32,
+      "y": 116
+     },
+     {
+      "x": 352,
+      "y": 144
+     },
+     {
+      "x": 48,
+      "y": 60
+     },
+     {
+      "x": 336,
+      "y": 88
+     },
+     {
+      "x": 112,
+      "y": 116
+     },
+     {
+      "x": 128,
+      "y": 144
+     },
+     {
+      "x": 256,
+      "y": 60
+     },
+     {
+      "x": 144,
+      "y": 88
+     },
+     {
+      "x": 240,
+      "y": 116
+     },
+     {
+      "x": 160,
+      "y": 144
+     },
+     {
+      "x": 224,
+      "y": 60
+     },
+     {
+      "x": 176,
+      "y": 88
+     },
+     {
+      "x": 208,
+      "y": 116
+     },
+     {
+      "x": 24,
+      "y": 144
+     },
+     {
+      "x": 120,
+      "y": 60
+     },
+     {
+      "x": 24,
+      "y": 88
+     }
+    ],
+    "totalEvents": 119,
+    "totalBullets": 553,
+    "seqCount": 9,
+    "durationFrames": 816,
+    "durationSeconds": 13.6
+   },
+   {
+    "stage": 2,
+    "eclFile": "ecldata2.ecl",
+    "events": [
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 21,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 24
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 21,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 24
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 21,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 24
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 21,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 24
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 41,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 132,
+      "subIndex": 24
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 41,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 132,
+      "subIndex": 24
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 41,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 132,
+      "subIndex": 24
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 41,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 132,
+      "subIndex": 24
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 61,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 24
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 61,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 24
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 61,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 24
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 61,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 24
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 64,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.5236,
+      "bulletType": 132,
+      "subIndex": 16
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 64,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.5236,
+      "bulletType": 132,
+      "subIndex": 16
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 64,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.3142,
+      "bulletType": 132,
+      "subIndex": 16
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 64,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.1963,
+      "bulletType": 132,
+      "subIndex": 16
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 64,
+      "count": 1,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.5236,
+      "bulletType": 4,
+      "subIndex": 16
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 64,
+      "count": 1,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.5236,
+      "bulletType": 4,
+      "subIndex": 16
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 64,
+      "count": 1,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.3142,
+      "bulletType": 4,
+      "subIndex": 16
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 64,
+      "count": 1,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.1963,
+      "bulletType": 4,
+      "subIndex": 16
+     },
+     {
+      "originX": 80,
+      "originY": 144,
+      "frame": 72,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 26
+     },
+     {
+      "originX": 80,
+      "originY": 144,
+      "frame": 72,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 26
+     },
+     {
+      "originX": 80,
+      "originY": 144,
+      "frame": 72,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 26
+     },
+     {
+      "originX": 80,
+      "originY": 144,
+      "frame": 72,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 26
+     },
+     {
+      "originX": 128,
+      "originY": 116,
+      "frame": 118,
+      "count": 1,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0.7854,
+      "bulletType": 3,
+      "subIndex": 12
+     },
+     {
+      "originX": 128,
+      "originY": 116,
+      "frame": 118,
+      "count": 2,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0.6283,
+      "bulletType": 3,
+      "subIndex": 12
+     },
+     {
+      "originX": 128,
+      "originY": 116,
+      "frame": 118,
+      "count": 3,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0.3927,
+      "bulletType": 3,
+      "subIndex": 12
+     },
+     {
+      "originX": 128,
+      "originY": 116,
+      "frame": 118,
+      "count": 5,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 3,
+      "subIndex": 12
+     },
+     {
+      "originX": 112,
+      "originY": 88,
+      "frame": 120,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 27
+     },
+     {
+      "originX": 112,
+      "originY": 88,
+      "frame": 120,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 27
+     },
+     {
+      "originX": 304,
+      "originY": 60,
+      "frame": 264,
+      "count": 1,
+      "speed": 0.5,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 4,
+      "subIndex": 29
+     },
+     {
+      "originX": 288,
+      "originY": 144,
+      "frame": 371,
+      "count": 3,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.3927,
+      "bulletType": 4,
+      "subIndex": 31
+     },
+     {
+      "originX": 80,
+      "originY": 144,
+      "frame": 381,
+      "count": 3,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.3927,
+      "bulletType": 4,
+      "subIndex": 31
+     },
+     {
+      "originX": 256,
+      "originY": 88,
+      "frame": 391,
+      "count": 3,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.1963,
+      "bulletType": 4,
+      "subIndex": 31
+     }
+    ],
+    "sources": [
+     {
+      "x": 32,
+      "y": 60
+     },
+     {
+      "x": 48,
+      "y": 88
+     },
+     {
+      "x": 64,
+      "y": 116
+     },
+     {
+      "x": 80,
+      "y": 144
+     },
+     {
+      "x": 96,
+      "y": 60
+     },
+     {
+      "x": 112,
+      "y": 88
+     },
+     {
+      "x": 128,
+      "y": 116
+     },
+     {
+      "x": 144,
+      "y": 144
+     },
+     {
+      "x": 160,
+      "y": 60
+     },
+     {
+      "x": 176,
+      "y": 88
+     },
+     {
+      "x": 192,
+      "y": 116
+     },
+     {
+      "x": 208,
+      "y": 144
+     },
+     {
+      "x": 224,
+      "y": 60
+     },
+     {
+      "x": 256,
+      "y": 88
+     },
+     {
+      "x": 272,
+      "y": 116
+     },
+     {
+      "x": 288,
+      "y": 144
+     },
+     {
+      "x": 304,
+      "y": 60
+     },
+     {
+      "x": 352,
+      "y": 88
+     },
+     {
+      "x": 336,
+      "y": 116
+     },
+     {
+      "x": 320,
+      "y": 144
+     },
+     {
+      "x": 240,
+      "y": 60
+     },
+     {
+      "x": 24,
+      "y": 88
+     }
+    ],
+    "totalEvents": 34,
+    "totalBullets": 56,
+    "seqCount": 7,
+    "durationFrames": 391,
+    "durationSeconds": 6.52
+   },
+   {
+    "stage": 3,
+    "eclFile": "ecldata3.ecl",
+    "events": [
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 24,
+      "count": 1,
+      "speed": 0.6,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 24,
+      "count": 1,
+      "speed": 0.6,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 13
+     },
+     {
+      "originX": 320,
+      "originY": 116,
+      "frame": 48,
+      "count": 1,
+      "speed": 0.6,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 14
+     },
+     {
+      "originX": 320,
+      "originY": 116,
+      "frame": 48,
+      "count": 1,
+      "speed": 0.6,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 14
+     },
+     {
+      "originX": 288,
+      "originY": 60,
+      "frame": 70,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.2094,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 288,
+      "originY": 60,
+      "frame": 70,
+      "count": 3,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.2244,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 288,
+      "originY": 60,
+      "frame": 73,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 2.244,
+      "bulletType": 4,
+      "subIndex": 30
+     },
+     {
+      "originX": 288,
+      "originY": 60,
+      "frame": 73,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 2.244,
+      "bulletType": 4,
+      "subIndex": 30
+     },
+     {
+      "originX": 288,
+      "originY": 60,
+      "frame": 96,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 4,
+      "subIndex": 0
+     },
+     {
+      "originX": 96,
+      "originY": 88,
+      "frame": 120,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 4,
+      "subIndex": 1
+     },
+     {
+      "originX": 256,
+      "originY": 116,
+      "frame": 144,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 4,
+      "subIndex": 2
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 168,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1309,
+      "bulletType": 4,
+      "subIndex": 3
+     },
+     {
+      "originX": 304,
+      "originY": 60,
+      "frame": 222,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.0349,
+      "bulletType": 4,
+      "subIndex": 9
+     }
+    ],
+    "sources": [
+     {
+      "x": 24,
+      "y": 60
+     },
+     {
+      "x": 360,
+      "y": 88
+     },
+     {
+      "x": 320,
+      "y": 116
+     },
+     {
+      "x": 64,
+      "y": 144
+     },
+     {
+      "x": 288,
+      "y": 60
+     },
+     {
+      "x": 96,
+      "y": 88
+     },
+     {
+      "x": 256,
+      "y": 116
+     },
+     {
+      "x": 128,
+      "y": 144
+     },
+     {
+      "x": 224,
+      "y": 60
+     },
+     {
+      "x": 160,
+      "y": 88
+     },
+     {
+      "x": 192,
+      "y": 116
+     },
+     {
+      "x": 32,
+      "y": 144
+     },
+     {
+      "x": 352,
+      "y": 60
+     },
+     {
+      "x": 124,
+      "y": 88
+     },
+     {
+      "x": 260,
+      "y": 116
+     },
+     {
+      "x": 80,
+      "y": 144
+     },
+     {
+      "x": 304,
+      "y": 60
+     },
+     {
+      "x": 144,
+      "y": 88
+     },
+     {
+      "x": 240,
+      "y": 116
+     },
+     {
+      "x": 208,
+      "y": 144
+     },
+     {
+      "x": 176,
+      "y": 60
+     },
+     {
+      "x": 24,
+      "y": 88
+     }
+    ],
+    "totalEvents": 13,
+    "totalBullets": 20,
+    "seqCount": 9,
+    "durationFrames": 222,
+    "durationSeconds": 3.7
+   },
+   {
+    "stage": 4,
+    "eclFile": "ecldata4.ecl",
+    "events": [
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 0,
+      "count": 2,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 38
+     },
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 0,
+      "count": 3,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 38
+     },
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 0,
+      "count": 4,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 38
+     },
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 0,
+      "count": 5,
+      "speed": 1.5,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 38
+     },
+     {
+      "originX": 64,
+      "originY": 116,
+      "frame": 48,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 4,
+      "subIndex": 2
+     },
+     {
+      "originX": 64,
+      "originY": 116,
+      "frame": 48,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 4,
+      "subIndex": 2
+     },
+     {
+      "originX": 64,
+      "originY": 116,
+      "frame": 48,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 4,
+      "subIndex": 2
+     },
+     {
+      "originX": 64,
+      "originY": 116,
+      "frame": 48,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 4,
+      "subIndex": 2
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 72,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 4,
+      "subIndex": 3
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 72,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 4,
+      "subIndex": 3
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 72,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 4,
+      "subIndex": 3
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 72,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 4,
+      "subIndex": 3
+     },
+     {
+      "originX": 128,
+      "originY": 60,
+      "frame": 96,
+      "count": 1,
+      "speed": 0.7,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 4
+     },
+     {
+      "originX": 128,
+      "originY": 60,
+      "frame": 96,
+      "count": 3,
+      "speed": 0.7,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 4
+     },
+     {
+      "originX": 128,
+      "originY": 60,
+      "frame": 96,
+      "count": 2,
+      "speed": 0.7,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 4
+     },
+     {
+      "originX": 128,
+      "originY": 60,
+      "frame": 96,
+      "count": 3,
+      "speed": 0.7,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 4,
+      "subIndex": 4
+     },
+     {
+      "originX": 256,
+      "originY": 88,
+      "frame": 120,
+      "count": 3,
+      "speed": 0.7,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 256,
+      "originY": 88,
+      "frame": 120,
+      "count": 3,
+      "speed": 0.7,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 256,
+      "originY": 88,
+      "frame": 120,
+      "count": 3,
+      "speed": 0.7,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 256,
+      "originY": 88,
+      "frame": 120,
+      "count": 3,
+      "speed": 0.7,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 144,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 57
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 144,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 57
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 144,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 57
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 144,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 57
+     },
+     {
+      "originX": 24,
+      "originY": 116,
+      "frame": 144,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 8
+     },
+     {
+      "originX": 24,
+      "originY": 116,
+      "frame": 144,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 8
+     },
+     {
+      "originX": 24,
+      "originY": 116,
+      "frame": 144,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 8
+     },
+     {
+      "originX": 24,
+      "originY": 116,
+      "frame": 144,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 8
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 164,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 57
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 164,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 57
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 164,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 57
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 164,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 57
+     },
+     {
+      "originX": 360,
+      "originY": 144,
+      "frame": 168,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 9
+     },
+     {
+      "originX": 360,
+      "originY": 144,
+      "frame": 168,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 9
+     },
+     {
+      "originX": 360,
+      "originY": 144,
+      "frame": 168,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 9
+     },
+     {
+      "originX": 360,
+      "originY": 144,
+      "frame": 168,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1745,
+      "bulletType": 4,
+      "subIndex": 9
+     },
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 180,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 38
+     },
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 180,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 38
+     },
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 180,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 38
+     },
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 180,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 38
+     },
+     {
+      "originX": 288,
+      "originY": 88,
+      "frame": 216,
+      "count": 3,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 36
+     },
+     {
+      "originX": 288,
+      "originY": 88,
+      "frame": 216,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 36
+     },
+     {
+      "originX": 288,
+      "originY": 88,
+      "frame": 216,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 36
+     },
+     {
+      "originX": 288,
+      "originY": 88,
+      "frame": 216,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 36
+     },
+     {
+      "originX": 196,
+      "originY": 116,
+      "frame": 222,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 5,
+      "subIndex": 16
+     },
+     {
+      "originX": 196,
+      "originY": 116,
+      "frame": 222,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 5,
+      "subIndex": 16
+     },
+     {
+      "originX": 196,
+      "originY": 116,
+      "frame": 222,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 5,
+      "subIndex": 16
+     },
+     {
+      "originX": 196,
+      "originY": 116,
+      "frame": 222,
+      "count": 3,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 5,
+      "subIndex": 16
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 288,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 28
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 312,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 29
+     },
+     {
+      "originX": 24,
+      "originY": 116,
+      "frame": 336,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 30
+     },
+     {
+      "originX": 48,
+      "originY": 116,
+      "frame": 360,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 52
+     },
+     {
+      "originX": 48,
+      "originY": 116,
+      "frame": 360,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.4488,
+      "bulletType": 4,
+      "subIndex": 52
+     },
+     {
+      "originX": 48,
+      "originY": 116,
+      "frame": 360,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.3927,
+      "bulletType": 4,
+      "subIndex": 52
+     },
+     {
+      "originX": 360,
+      "originY": 144,
+      "frame": 360,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 31
+     },
+     {
+      "originX": 336,
+      "originY": 144,
+      "frame": 384,
+      "count": 2,
+      "speed": 1.8,
+      "angle": 0,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 46
+     },
+     {
+      "originX": 336,
+      "originY": 144,
+      "frame": 384,
+      "count": 2,
+      "speed": 1.8,
+      "angle": 0,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 46
+     },
+     {
+      "originX": 144,
+      "originY": 60,
+      "frame": 384,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 32
+     },
+     {
+      "originX": 240,
+      "originY": 88,
+      "frame": 408,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 33
+     },
+     {
+      "originX": 196,
+      "originY": 116,
+      "frame": 432,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 34
+     },
+     {
+      "originX": 24,
+      "originY": 144,
+      "frame": 456,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.0982,
+      "bulletType": 4,
+      "subIndex": 35
+     },
+     {
+      "originX": 32,
+      "originY": 60,
+      "frame": 600,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 3.1416,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 45
+     },
+     {
+      "originX": 352,
+      "originY": 88,
+      "frame": 624,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 50
+     },
+     {
+      "originX": 64,
+      "originY": 116,
+      "frame": 648,
+      "count": 2,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.3491,
+      "bulletType": 4,
+      "subIndex": 51
+     }
+    ],
+    "sources": [
+     {
+      "x": 32,
+      "y": 60
+     },
+     {
+      "x": 352,
+      "y": 88
+     },
+     {
+      "x": 64,
+      "y": 116
+     },
+     {
+      "x": 320,
+      "y": 144
+     },
+     {
+      "x": 128,
+      "y": 60
+     },
+     {
+      "x": 256,
+      "y": 88
+     },
+     {
+      "x": 24,
+      "y": 116
+     },
+     {
+      "x": 360,
+      "y": 144
+     },
+     {
+      "x": 96,
+      "y": 60
+     },
+     {
+      "x": 288,
+      "y": 88
+     },
+     {
+      "x": 48,
+      "y": 116
+     },
+     {
+      "x": 336,
+      "y": 144
+     },
+     {
+      "x": 160,
+      "y": 60
+     },
+     {
+      "x": 224,
+      "y": 88
+     },
+     {
+      "x": 24,
+      "y": 116
+     },
+     {
+      "x": 360,
+      "y": 144
+     },
+     {
+      "x": 144,
+      "y": 60
+     },
+     {
+      "x": 240,
+      "y": 88
+     },
+     {
+      "x": 196,
+      "y": 116
+     },
+     {
+      "x": 24,
+      "y": 144
+     }
+    ],
+    "totalEvents": 64,
+    "totalBullets": 136,
+    "seqCount": 23,
+    "durationFrames": 648,
+    "durationSeconds": 10.8
+   },
+   {
+    "stage": 5,
+    "eclFile": "ecldata5.ecl",
+    "events": [
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 0,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 0,
+      "count": 3,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 0,
+      "count": 2,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2052,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 0,
+      "count": 2,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2052,
+      "subIndex": 19
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 24,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 20
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 24,
+      "count": 3,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 20
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 24,
+      "count": 2,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2052,
+      "subIndex": 20
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 24,
+      "count": 2,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 2052,
+      "subIndex": 20
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 80,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.2094,
+      "bulletType": 516,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 80,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.2094,
+      "bulletType": 516,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 80,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.3142,
+      "bulletType": 516,
+      "subIndex": 19
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 80,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.3142,
+      "bulletType": 516,
+      "subIndex": 19
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 104,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.2094,
+      "bulletType": 516,
+      "subIndex": 20
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 104,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.2094,
+      "bulletType": 516,
+      "subIndex": 20
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 104,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.3142,
+      "bulletType": 516,
+      "subIndex": 20
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 104,
+      "count": 4,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.3142,
+      "bulletType": 516,
+      "subIndex": 20
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 118,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 0
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 118,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 0
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 118,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 0
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 118,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 0
+     },
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 142,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 2
+     },
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 142,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 2
+     },
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 142,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 2
+     },
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 142,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 2
+     },
+     {
+      "originX": 64,
+      "originY": 116,
+      "frame": 166,
+      "count": 1,
+      "speed": 1,
+      "angle": 0.1309,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 3
+     },
+     {
+      "originX": 64,
+      "originY": 116,
+      "frame": 166,
+      "count": 2,
+      "speed": 1,
+      "angle": 0.1309,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 3
+     },
+     {
+      "originX": 240,
+      "originY": 144,
+      "frame": 171,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 3
+     },
+     {
+      "originX": 352,
+      "originY": 60,
+      "frame": 176,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 3
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 190,
+      "count": 1,
+      "speed": 1,
+      "angle": 0.1309,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 4
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 190,
+      "count": 2,
+      "speed": 1,
+      "angle": 0.1309,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 4
+     },
+     {
+      "originX": 160,
+      "originY": 60,
+      "frame": 195,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 4
+     },
+     {
+      "originX": 128,
+      "originY": 88,
+      "frame": 200,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 4
+     },
+     {
+      "originX": 96,
+      "originY": 60,
+      "frame": 214,
+      "count": 1,
+      "speed": 1,
+      "angle": 0.1309,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 5
+     },
+     {
+      "originX": 96,
+      "originY": 60,
+      "frame": 214,
+      "count": 2,
+      "speed": 1,
+      "angle": 0.1309,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 5
+     },
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 216,
+      "count": 1,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0.1963,
+      "bulletType": 516,
+      "subIndex": 9
+     },
+     {
+      "originX": 224,
+      "originY": 88,
+      "frame": 219,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 5
+     },
+     {
+      "originX": 256,
+      "originY": 116,
+      "frame": 224,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 516,
+      "subIndex": 5
+     },
+     {
+      "originX": 64,
+      "originY": 116,
+      "frame": 240,
+      "count": 1,
+      "speed": 0.8,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 516,
+      "subIndex": 10
+     },
+     {
+      "originX": 352,
+      "originY": 60,
+      "frame": 252,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 516,
+      "subIndex": 34
+     },
+     {
+      "originX": 352,
+      "originY": 60,
+      "frame": 252,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 516,
+      "subIndex": 34
+     },
+     {
+      "originX": 352,
+      "originY": 60,
+      "frame": 252,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 516,
+      "subIndex": 34
+     },
+     {
+      "originX": 352,
+      "originY": 60,
+      "frame": 252,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 516,
+      "subIndex": 34
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 268,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 516,
+      "subIndex": 22
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 268,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 516,
+      "subIndex": 22
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 268,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 516,
+      "subIndex": 22
+     },
+     {
+      "originX": 320,
+      "originY": 144,
+      "frame": 268,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 516,
+      "subIndex": 22
+     }
+    ],
+    "sources": [
+     {
+      "x": 160,
+      "y": 60
+     },
+     {
+      "x": 224,
+      "y": 88
+     },
+     {
+      "x": 24,
+      "y": 116
+     },
+     {
+      "x": 32,
+      "y": 144
+     },
+     {
+      "x": 352,
+      "y": 60
+     },
+     {
+      "x": 128,
+      "y": 88
+     },
+     {
+      "x": 256,
+      "y": 116
+     },
+     {
+      "x": 192,
+      "y": 144
+     },
+     {
+      "x": 24,
+      "y": 60
+     },
+     {
+      "x": 360,
+      "y": 88
+     },
+     {
+      "x": 64,
+      "y": 116
+     },
+     {
+      "x": 320,
+      "y": 144
+     },
+     {
+      "x": 96,
+      "y": 60
+     },
+     {
+      "x": 288,
+      "y": 88
+     },
+     {
+      "x": 144,
+      "y": 116
+     },
+     {
+      "x": 240,
+      "y": 144
+     }
+    ],
+    "totalEvents": 46,
+    "totalBullets": 85,
+    "seqCount": 11,
+    "durationFrames": 268,
+    "durationSeconds": 4.47
+   },
+   {
+    "stage": 6,
+    "eclFile": "ecldata6.ecl",
+    "events": [
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 6,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.3927,
+      "bulletType": 528,
+      "subIndex": 27
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 6,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.3491,
+      "bulletType": 528,
+      "subIndex": 27
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 6,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.2417,
+      "bulletType": 528,
+      "subIndex": 27
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 6,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.1963,
+      "bulletType": 528,
+      "subIndex": 27
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 6,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 528,
+      "subIndex": 27
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 6,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 528,
+      "subIndex": 27
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 6,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 528,
+      "subIndex": 27
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 6,
+      "count": 2,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 528,
+      "subIndex": 27
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 64,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 64,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 64,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 24,
+      "originY": 88,
+      "frame": 64,
+      "count": 2,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 5
+     },
+     {
+      "originX": 128,
+      "originY": 144,
+      "frame": 101,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 20
+     },
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 112,
+      "count": 1,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 4,
+      "subIndex": 7
+     },
+     {
+      "originX": 160,
+      "originY": 116,
+      "frame": 168,
+      "count": 1,
+      "speed": 2,
+      "angle": 0,
+      "spin": -0.4488,
+      "bulletType": 516,
+      "subIndex": 35
+     },
+     {
+      "originX": 160,
+      "originY": 116,
+      "frame": 168,
+      "count": 1,
+      "speed": 2,
+      "angle": 0,
+      "spin": -0.3142,
+      "bulletType": 516,
+      "subIndex": 35
+     }
+    ],
+    "sources": [
+     {
+      "x": 24,
+      "y": 60
+     },
+     {
+      "x": 360,
+      "y": 88
+     },
+     {
+      "x": 160,
+      "y": 116
+     },
+     {
+      "x": 128,
+      "y": 144
+     },
+     {
+      "x": 256,
+      "y": 60
+     },
+     {
+      "x": 24,
+      "y": 88
+     }
+    ],
+    "totalEvents": 16,
+    "totalBullets": 21,
+    "seqCount": 5,
+    "durationFrames": 168,
+    "durationSeconds": 2.8
+   },
+   {
+    "stage": 7,
+    "eclFile": "ecldata7.ecl",
+    "events": [
+     {
+      "originX": 24,
+      "originY": 144,
+      "frame": 94,
+      "count": 4,
+      "speed": 2,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 3,
+      "subIndex": 6
+     },
+     {
+      "originX": 24,
+      "originY": 144,
+      "frame": 94,
+      "count": 3,
+      "speed": 2.1,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 3,
+      "subIndex": 6
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 118,
+      "count": 4,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 3,
+      "subIndex": 7
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 118,
+      "count": 3,
+      "speed": 1.1,
+      "angle": 0,
+      "spin": 0.0654,
+      "bulletType": 3,
+      "subIndex": 7
+     },
+     {
+      "originX": 304,
+      "originY": 116,
+      "frame": 126,
+      "count": 1,
+      "speed": 0.6,
+      "angle": 0,
+      "spin": 0.3142,
+      "bulletType": 3,
+      "subIndex": 12
+     },
+     {
+      "originX": 360,
+      "originY": 88,
+      "frame": 142,
+      "count": 3,
+      "speed": 3,
+      "angle": 0,
+      "spin": 0.4488,
+      "bulletType": 3,
+      "subIndex": 5
+     },
+     {
+      "originX": 272,
+      "originY": 144,
+      "frame": 150,
+      "count": 4,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 3,
+      "subIndex": 13
+     },
+     {
+      "originX": 48,
+      "originY": 116,
+      "frame": 208,
+      "count": 2,
+      "speed": 2.6,
+      "angle": 0,
+      "spin": 0.2618,
+      "bulletType": 520,
+      "subIndex": 26
+     },
+     {
+      "originX": 48,
+      "originY": 116,
+      "frame": 210,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 0,
+      "subIndex": 57
+     },
+     {
+      "originX": 48,
+      "originY": 116,
+      "frame": 282,
+      "count": 6,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 513,
+      "subIndex": 56
+     },
+     {
+      "originX": 24,
+      "originY": 144,
+      "frame": 306,
+      "count": 6,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 513,
+      "subIndex": 59
+     },
+     {
+      "originX": 80,
+      "originY": 88,
+      "frame": 321,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 0,
+      "subIndex": 57
+     },
+     {
+      "originX": 24,
+      "originY": 60,
+      "frame": 330,
+      "count": 6,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0,
+      "bulletType": 513,
+      "subIndex": 67
+     },
+     {
+      "originX": 320,
+      "originY": 116,
+      "frame": 422,
+      "count": 1,
+      "speed": 1.2,
+      "angle": 0,
+      "spin": 0.1571,
+      "bulletType": 0,
+      "subIndex": 57
+     },
+     {
+      "originX": 352,
+      "originY": 144,
+      "frame": 668,
+      "count": 5,
+      "speed": 1,
+      "angle": 0,
+      "spin": 0.3142,
+      "bulletType": 512,
+      "subIndex": 42
+     }
+    ],
+    "sources": [
+     {
+      "x": 32,
+      "y": 60
+     },
+     {
+      "x": 64,
+      "y": 88
+     },
+     {
+      "x": 320,
+      "y": 116
+     },
+     {
+      "x": 352,
+      "y": 144
+     },
+     {
+      "x": 360,
+      "y": 60
+     },
+     {
+      "x": 336,
+      "y": 88
+     },
+     {
+      "x": 304,
+      "y": 116
+     },
+     {
+      "x": 272,
+      "y": 144
+     },
+     {
+      "x": 240,
+      "y": 60
+     },
+     {
+      "x": 208,
+      "y": 88
+     },
+     {
+      "x": 176,
+      "y": 116
+     },
+     {
+      "x": 144,
+      "y": 144
+     },
+     {
+      "x": 112,
+      "y": 60
+     },
+     {
+      "x": 80,
+      "y": 88
+     },
+     {
+      "x": 48,
+      "y": 116
+     },
+     {
+      "x": 24,
+      "y": 144
+     },
+     {
+      "x": 24,
+      "y": 60
+     },
+     {
+      "x": 360,
+      "y": 88
+     },
+     {
+      "x": 192,
+      "y": 116
+     },
+     {
+      "x": 128,
+      "y": 144
+     },
+     {
+      "x": 256,
+      "y": 60
+     },
+     {
+      "x": 24,
+      "y": 88
+     },
+     {
+      "x": 24,
+      "y": 116
+     },
+     {
+      "x": 360,
+      "y": 144
+     },
+     {
+      "x": 224,
+      "y": 60
+     },
+     {
+      "x": 160,
+      "y": 88
+     },
+     {
+      "x": 288,
+      "y": 116
+     },
+     {
+      "x": 96,
+      "y": 144
+     }
+    ],
+    "totalEvents": 15,
+    "totalBullets": 50,
+    "seqCount": 11,
+    "durationFrames": 668,
+    "durationSeconds": 11.13
+   }
+  ]
+ }
+}

@@ -320,6 +320,12 @@ export async function staticRequest<T>(path: string, init?: RequestInit): Promis
         const gameId = q.get('gameId');
         return { stages: (gameId ? data.byGame[gameId] : []) ?? [] } as T;
       }
+      // /danmaku/fields：关卡弹幕场，同样在导出时算好
+      if (arg === 'fields') {
+        const data = await loadJson<{ byGame: Record<string, Dict[]> }>('danmaku-fields.json');
+        const gameId = q.get('gameId');
+        return { stages: (gameId ? data.byGame[gameId] : []) ?? [] } as T;
+      }
       // /danmaku/default 与 /danmaku/simulate 依赖后端计算，静态站点不提供
       throw new StaticModeError('弹幕模拟');
     }

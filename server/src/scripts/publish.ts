@@ -20,7 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { DATA_DIR, EXPORT_DIR, PROJECT_ROOT, ensureDir } from '../core/paths.ts';
-import { collectSequences } from '../services/danmakuSequences.ts';
+import { collectSequences, buildStageFields } from '../services/danmakuSequences.ts';
 import {
   listGames,
   listArchives,
@@ -133,7 +133,16 @@ async function main() {
 
   // 重建输出目录
   if (fs.existsSync(DATA_OUT)) fs.rmSync(DATA_OUT, { recursive: true, force: true });
-  if (COPY_FILES && fs.existsSync(FILES_OUT)) fs.rmSync(FILES_OUT, { recursive: true, force: true });
+  // 旧产物采用「覆盖」而非「先清空」：站点文件动辄数千个，
+  // 一次性删除会触发批量删除保护；同名的会被覆盖，残留的多是历史版本，
+  // 体积可忽略。删除失败不影响导出。
+  if (COPY_FILES && fs.existsSync(FILES_OUT)) {
+    try {
+      fs.rmSync(FILES_OUT, { recursive: true, force: true });
+    } catch {
+      /* 删不掉就直接覆盖 */
+    }
+  }
   if (MAKE_ZIP && fs.existsSync(ZIP_OUT)) fs.rmSync(ZIP_OUT, { recursive: true, force: true });
   ensureDir(DATA_OUT);
   ensureDir(OUT_DIR);
@@ -217,6 +226,17 @@ async function main() {
   }
   dataBytes += writeJson('data/danmaku-sequences.json', { byGame: danmakuSequences });
   console.log(`  弹幕序列    ${seqTotal} 段`);
+
+  // 关卡弹幕场：同样在导出时算好
+  const danmakuFields: Record<string, unknown> = {};
+  let fieldTotal = 0;
+  for (const code of gameCodes) {
+    const fs = buildStageFields(code);
+    danmakuFields[code] = fs;
+    fieldTotal += fs.reduce((a, f) => a + f.totalEvents, 0);
+  }
+  dataBytes += writeJson('data/danmaku-fields.json', { byGame: danmakuFields });
+  console.log(`  弹幕场      ${fieldTotal} 次发射`);
 
   dataBytes += writeJson('data/bgm.json', { items: listBgm() });
 

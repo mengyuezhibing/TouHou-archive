@@ -497,6 +497,9 @@ export const api = {
   /** ECL 弹幕序列：作品里的真实发射事件，用于回放 */
   danmakuSequences: (gameId: string) =>
     get<{ stages: StageSequences[] }>(`/danmaku/sequences?gameId=${encodeURIComponent(gameId)}`),
+  /** 关卡弹幕场：全关子程序合并后的完整形态 */
+  danmakuFields: (gameId: string) =>
+    get<{ stages: StageField[] }>(`/danmaku/fields?gameId=${encodeURIComponent(gameId)}`),
   simulate: (params: Partial<DanmakuParams>) => post<SimResult>('/danmaku/simulate', params),
   exportDanmaku: (body: { name: string; format: string; params: Partial<DanmakuParams> }) =>
     request<any>('/danmaku/export', { method: 'POST', body: JSON.stringify(body) }),
@@ -614,6 +617,33 @@ export interface StageSequences {
   totalEvents: number;
   totalBullets: number;
   spiralCount: number;
+}
+
+/** 弹幕场里的一次发射事件（带真实敌机坐标） */
+export interface FieldEvent {
+  originX: number;
+  originY: number;
+  frame: number;
+  count: number;
+  speed: number;
+  angle: number;
+  spin: number;
+  bulletType: number;
+  /** 来自哪个子程序 */
+  subIndex: number;
+}
+
+/** 关卡弹幕场：该关全部子程序合并后的完整弹幕形态 */
+export interface StageField {
+  stage: number;
+  eclFile: string;
+  events: FieldEvent[];
+  sources: Array<{ x: number; y: number }>;
+  totalEvents: number;
+  totalBullets: number;
+  seqCount: number;
+  durationFrames: number;
+  durationSeconds: number;
 }
 
 // ---------------------------------------------------------------- 敌机情报

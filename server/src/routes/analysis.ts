@@ -18,7 +18,7 @@ import {
   listMsg,
 } from '../services/query.ts';
 import { harvestSpellCandidates, importSpellCandidates, seedKnownSpells } from '../services/spellcards.ts';
-import { collectSequences } from '../services/danmakuSequences.ts';
+import { collectSequences, buildStageFields } from '../services/danmakuSequences.ts';
 import { actionsToBir, inferBirPattern, validateBir, birToSimParams, birToGodot, birToUnity } from '../core/bir.ts';
 
 export const analysisRouter = Router();
@@ -134,6 +134,19 @@ analysisRouter.get('/danmaku/sequences', (req, res) => {
     return;
   }
   res.json({ stages: collectSequences(gameId) });
+});
+
+/**
+ * 关卡弹幕场：该关全部子程序的发射事件合并后的完整弹幕形态，
+ * 每次发射挂到从主时间线提取的真实敌机坐标上。
+ */
+analysisRouter.get('/danmaku/fields', (req, res) => {
+  const gameId = (req.query as any).gameId as string | undefined;
+  if (!gameId) {
+    res.status(400).json({ error: '缺少 gameId 参数' });
+    return;
+  }
+  res.json({ stages: buildStageFields(gameId) });
 });
 
 /** BIR → 引擎格式 */
