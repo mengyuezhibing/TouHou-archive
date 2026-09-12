@@ -18,6 +18,7 @@ import {
   listMsg,
 } from '../services/query.ts';
 import { harvestSpellCandidates, importSpellCandidates, seedKnownSpells } from '../services/spellcards.ts';
+import { collectSequences } from '../services/danmakuSequences.ts';
 import { actionsToBir, inferBirPattern, validateBir, birToSimParams, birToGodot, birToUnity } from '../core/bir.ts';
 
 export const analysisRouter = Router();
@@ -120,6 +121,19 @@ analysisRouter.post('/bir/validate', (req, res) => {
   }
   const bir = result.bir!;
   res.json({ ok: true, inferredPattern: inferBirPattern(bir.events), simParams: birToSimParams(bir) });
+});
+
+/**
+ * ECL 弹幕序列：从行为脚本还原的发射事件，供前端回放「弹幕实际是怎么跑的」。
+ * 与 /danmaku/simulate 的区别：后者是参数化模拟，前者是作品里的真实数据。
+ */
+analysisRouter.get('/danmaku/sequences', (req, res) => {
+  const gameId = (req.query as any).gameId as string | undefined;
+  if (!gameId) {
+    res.status(400).json({ error: '缺少 gameId 参数' });
+    return;
+  }
+  res.json({ stages: collectSequences(gameId) });
 });
 
 /** BIR → 引擎格式 */

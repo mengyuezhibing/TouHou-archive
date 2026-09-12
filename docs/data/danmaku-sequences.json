@@ -1,0 +1,4253 @@
+{
+ "byGame": {
+  "TH06": [
+   {
+    "stage": 1,
+    "eclFile": "ecldata1.ecl",
+    "sequences": [
+     {
+      "subIndex": 12,
+      "offset": 5914,
+      "durationFrames": 60,
+      "durationSeconds": 1,
+      "events": [
+       {
+        "frame": 12,
+        "time": 0.2,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 12,
+        "time": 0.2,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 12,
+        "time": 0.2,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 12,
+        "time": 0.2,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 20,
+        "time": 0.33,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 20,
+        "time": 0.33,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 20,
+        "time": 0.33,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 20,
+        "time": 0.33,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 28,
+        "time": 0.47,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 28,
+        "time": 0.47,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 28,
+        "time": 0.47,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 28,
+        "time": 0.47,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 36,
+        "time": 0.6,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 36,
+        "time": 0.6,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 36,
+        "time": 0.6,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 36,
+        "time": 0.6,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 44,
+        "time": 0.73,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 44,
+        "time": 0.73,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 44,
+        "time": 0.73,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 44,
+        "time": 0.73,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 52,
+        "time": 0.87,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 52,
+        "time": 0.87,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 52,
+        "time": 0.87,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 52,
+        "time": 0.87,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 10,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 28,
+      "totalBullets": 280,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 13,
+      "offset": 7430,
+      "durationFrames": 108,
+      "durationSeconds": 1.8,
+      "events": [
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1309,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 68,
+        "time": 1.13,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 68,
+        "time": 1.13,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 68,
+        "time": 1.13,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 68,
+        "time": 1.13,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 76,
+        "time": 1.27,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 76,
+        "time": 1.27,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 76,
+        "time": 1.27,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 76,
+        "time": 1.27,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": -0.1309,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 84,
+        "time": 1.4,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 84,
+        "time": 1.4,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 84,
+        "time": 1.4,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 84,
+        "time": 1.4,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 92,
+        "time": 1.53,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 92,
+        "time": 1.53,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 92,
+        "time": 1.53,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1309,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 92,
+        "time": 1.53,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1309,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 108,
+        "time": 1.8,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 108,
+        "time": 1.8,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 108,
+        "time": 1.8,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": -0.1309,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 108,
+        "time": 1.8,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": -0.1309,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 28,
+      "totalBullets": 34,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       2,
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 8,
+      "offset": 2372,
+      "durationFrames": 768,
+      "durationSeconds": 12.8,
+      "events": [
+       {
+        "frame": 160,
+        "time": 2.67,
+        "count": 1,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 160,
+        "time": 2.67,
+        "count": 3,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 160,
+        "time": 2.67,
+        "count": 5,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 160,
+        "time": 2.67,
+        "count": 7,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 414,
+        "time": 6.9,
+        "count": 1,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 414,
+        "time": 6.9,
+        "count": 3,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 414,
+        "time": 6.9,
+        "count": 5,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 414,
+        "time": 6.9,
+        "count": 7,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 444,
+        "time": 7.4,
+        "count": 1,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 444,
+        "time": 7.4,
+        "count": 3,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 444,
+        "time": 7.4,
+        "count": 5,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 444,
+        "time": 7.4,
+        "count": 7,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 738,
+        "time": 12.3,
+        "count": 1,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 738,
+        "time": 12.3,
+        "count": 3,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 738,
+        "time": 12.3,
+        "count": 5,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 738,
+        "time": 12.3,
+        "count": 7,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 768,
+        "time": 12.8,
+        "count": 1,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 768,
+        "time": 12.8,
+        "count": 3,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 768,
+        "time": 12.8,
+        "count": 5,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 768,
+        "time": 12.8,
+        "count": 7,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 9,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 20,
+      "totalBullets": 80,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1,
+       1.2,
+       1.5
+      ],
+      "bulletTypes": [
+       9
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 19,
+      "offset": 11946,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 90,
+        "time": 1.5,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 90,
+        "time": 1.5,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 90,
+        "time": 1.5,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 90,
+        "time": 1.5,
+        "count": 2,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 12,
+      "totalBullets": 17,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1,
+       1.5
+      ],
+      "bulletTypes": [
+       2,
+       4
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 20,
+      "offset": 12710,
+      "durationFrames": 100,
+      "durationSeconds": 1.67,
+      "events": [
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.5236,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.2618,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1963,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1309,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.5236,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.2618,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1963,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1309,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.5236,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.2618,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1963,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1309,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 12,
+      "totalBullets": 24,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       8
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 14,
+      "offset": 8946,
+      "durationFrames": 110,
+      "durationSeconds": 1.83,
+      "events": [
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 16,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 16,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 16,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 16,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 8,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 110,
+        "time": 1.83,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 110,
+        "time": 1.83,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 110,
+        "time": 1.83,
+        "count": 3,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 7,
+      "totalBullets": 70,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4,
+       8
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 23,
+      "offset": 15980,
+      "durationFrames": 240,
+      "durationSeconds": 4,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 68,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1,
+        "angle": 0.1122,
+        "spin": 0,
+        "bulletType": 68,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 180,
+        "time": 3,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 68,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 180,
+        "time": 3,
+        "count": 2,
+        "speed": 1,
+        "angle": 0.1122,
+        "spin": 0,
+        "bulletType": 68,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 240,
+        "time": 4,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 68,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 240,
+        "time": 4,
+        "count": 2,
+        "speed": 1,
+        "angle": 0.1122,
+        "spin": 0,
+        "bulletType": 68,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 6,
+      "totalBullets": 12,
+      "angles": [
+       0,
+       0.112
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       68
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 18,
+      "offset": 11006,
+      "durationFrames": 12,
+      "durationSeconds": 0.2,
+      "events": [
+       {
+        "frame": 12,
+        "time": 0.2,
+        "count": 8,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 12,
+        "time": 0.2,
+        "count": 8,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 12,
+        "time": 0.2,
+        "count": 8,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 12,
+        "time": 0.2,
+        "count": 8,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0982,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 32,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 2,
+      "offset": 568,
+      "durationFrames": 70,
+      "durationSeconds": 1.17,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 2,
+        "speed": 0.5,
+        "angle": 0,
+        "spin": 0.3927,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 2,
+        "speed": 0.5,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.5
+      ],
+      "bulletTypes": [
+       3
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     }
+    ],
+    "totalEvents": 119,
+    "totalBullets": 553,
+    "spiralCount": 6
+   },
+   {
+    "stage": 2,
+    "eclFile": "ecldata2.ecl",
+    "sequences": [
+     {
+      "subIndex": 24,
+      "offset": 7324,
+      "durationFrames": 61,
+      "durationSeconds": 1.02,
+      "events": [
+       {
+        "frame": 21,
+        "time": 0.35,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 21,
+        "time": 0.35,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 21,
+        "time": 0.35,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 21,
+        "time": 0.35,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 41,
+        "time": 0.68,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 132,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 41,
+        "time": 0.68,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 132,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 41,
+        "time": 0.68,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 132,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 41,
+        "time": 0.68,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 132,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 61,
+        "time": 1.02,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 61,
+        "time": 1.02,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 61,
+        "time": 1.02,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 61,
+        "time": 1.02,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 12,
+      "totalBullets": 14,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4,
+       132
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 16,
+      "offset": 4324,
+      "durationFrames": 40,
+      "durationSeconds": 0.67,
+      "events": [
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 2,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.5236,
+        "bulletType": 132,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 2,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.5236,
+        "bulletType": 132,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 2,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.3142,
+        "bulletType": 132,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 2,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.1963,
+        "bulletType": 132,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.5236,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.5236,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.3142,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.1963,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 12,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       2
+      ],
+      "bulletTypes": [
+       4,
+       132
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 12,
+      "offset": 2872,
+      "durationFrames": 70,
+      "durationSeconds": 1.17,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 0.8,
+        "angle": 0,
+        "spin": 0.7854,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 2,
+        "speed": 0.8,
+        "angle": 0,
+        "spin": 0.6283,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 3,
+        "speed": 0.8,
+        "angle": 0,
+        "spin": 0.3927,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 5,
+        "speed": 0.8,
+        "angle": 0,
+        "spin": 0.2618,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 11,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.8
+      ],
+      "bulletTypes": [
+       3
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 26,
+      "offset": 8572,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 5,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 31,
+      "offset": 11916,
+      "durationFrames": 295,
+      "durationSeconds": 4.92,
+      "events": [
+       {
+        "frame": 275,
+        "time": 4.58,
+        "count": 3,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.3927,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 285,
+        "time": 4.75,
+        "count": 3,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.3927,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 295,
+        "time": 4.92,
+        "count": 3,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.1963,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 3,
+      "totalBullets": 9,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       2
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 27,
+      "offset": 9036,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     }
+    ],
+    "totalEvents": 33,
+    "totalBullets": 55,
+    "spiralCount": 3
+   },
+   {
+    "stage": 3,
+    "eclFile": "ecldata3.ecl",
+    "sequences": [
+     {
+      "subIndex": 5,
+      "offset": 1892,
+      "durationFrames": 70,
+      "durationSeconds": 1.17,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.2094,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 3,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.2244,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 13,
+      "offset": 5692,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.6,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.6,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 2,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.6
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 14,
+      "offset": 6594,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.6,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.6,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 2,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.6
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 30,
+      "offset": 15790,
+      "durationFrames": 1,
+      "durationSeconds": 0.02,
+      "events": [
+       {
+        "frame": 1,
+        "time": 0.02,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 2.244,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 1,
+        "time": 0.02,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 2.244,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 2,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     }
+    ],
+    "totalEvents": 8,
+    "totalBullets": 10,
+    "spiralCount": 2
+   },
+   {
+    "stage": 4,
+    "eclFile": "ecldata4.ecl",
+    "sequences": [
+     {
+      "subIndex": 38,
+      "offset": 30368,
+      "durationFrames": 180,
+      "durationSeconds": 3,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 4,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 5,
+        "speed": 1.5,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 180,
+        "time": 3,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 180,
+        "time": 3,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 180,
+        "time": 3,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 180,
+        "time": 3,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 18,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1,
+       1.5
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 57,
+      "offset": 46314,
+      "durationFrames": 140,
+      "durationSeconds": 2.33,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 140,
+        "time": 2.33,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 140,
+        "time": 2.33,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 140,
+        "time": 2.33,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 140,
+        "time": 2.33,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 3.1416,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 16,
+      "angles": [
+       3.142
+      ],
+      "speeds": [
+       1.2
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 2,
+      "offset": 908,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.2618,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 8,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 3,
+      "offset": 1292,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.2618,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 8,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 4,
+      "offset": 1692,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0.2618,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 9,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.7
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 5,
+      "offset": 2076,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 0.7,
+        "angle": 0,
+        "spin": 0.2618,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 12,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.7
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 8,
+      "offset": 2780,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 8,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1.2
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 9,
+      "offset": 3132,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1745,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 8,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1.2
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 16,
+      "offset": 5852,
+      "durationFrames": 30,
+      "durationSeconds": 0.5,
+      "events": [
+       {
+        "frame": 30,
+        "time": 0.5,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 5,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 30,
+        "time": 0.5,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 5,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 30,
+        "time": 0.5,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 5,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 30,
+        "time": 0.5,
+        "count": 3,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 5,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 7,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       5
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 36,
+      "offset": 27600,
+      "durationFrames": 0,
+      "durationSeconds": 0,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 15,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1.2
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 52,
+      "offset": 42204,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.4488,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.3927,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 3,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1.2
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 46,
+      "offset": 36648,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.8,
+        "angle": 0,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 2,
+        "speed": 1.8,
+        "angle": 0,
+        "spin": 0.3491,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1.8
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     }
+    ],
+    "totalEvents": 53,
+    "totalBullets": 117,
+    "spiralCount": 9
+   },
+   {
+    "stage": 5,
+    "eclFile": "ecldata5.ecl",
+    "sequences": [
+     {
+      "subIndex": 19,
+      "offset": 6904,
+      "durationFrames": 80,
+      "durationSeconds": 1.33,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.8,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2052,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.8,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2052,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.2094,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.2094,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.3142,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.3142,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 24,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.8,
+       1.2
+      ],
+      "bulletTypes": [
+       4,
+       516,
+       2052
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 20,
+      "offset": 7580,
+      "durationFrames": 80,
+      "durationSeconds": 1.33,
+      "events": [
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 3,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.8,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2052,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 0,
+        "time": 0,
+        "count": 2,
+        "speed": 0.8,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 2052,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.2094,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.2094,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.3142,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 4,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.3142,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 24,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       0.8,
+       1.2
+      ],
+      "bulletTypes": [
+       4,
+       516,
+       2052
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 0,
+      "offset": 224,
+      "durationFrames": 70,
+      "durationSeconds": 1.17,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 2,
+      "offset": 1036,
+      "durationFrames": 70,
+      "durationSeconds": 1.17,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 4,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 3,
+      "offset": 1512,
+      "durationFrames": 80,
+      "durationSeconds": 1.33,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0.1309,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 2,
+        "speed": 1,
+        "angle": 0.1309,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 75,
+        "time": 1.25,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 5,
+      "angles": [
+       0,
+       0.131
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 4,
+      "offset": 2216,
+      "durationFrames": 80,
+      "durationSeconds": 1.33,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0.1309,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 2,
+        "speed": 1,
+        "angle": 0.1309,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 75,
+        "time": 1.25,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 5,
+      "angles": [
+       0,
+       0.131
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 5,
+      "offset": 2920,
+      "durationFrames": 80,
+      "durationSeconds": 1.33,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 1,
+        "speed": 1,
+        "angle": 0.1309,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 2,
+        "speed": 1,
+        "angle": 0.1309,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 75,
+        "time": 1.25,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 80,
+        "time": 1.33,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 5,
+      "angles": [
+       0,
+       0.131
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 22,
+      "offset": 8556,
+      "durationFrames": 100,
+      "durationSeconds": 1.67,
+      "events": [
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 100,
+        "time": 1.67,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 6,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 34,
+      "offset": 14180,
+      "durationFrames": 60,
+      "durationSeconds": 1,
+      "events": [
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 60,
+        "time": 1,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 516,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 6,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     }
+    ],
+    "totalEvents": 44,
+    "totalBullets": 83,
+    "spiralCount": 4
+   },
+   {
+    "stage": 6,
+    "eclFile": "ecldata6.ecl",
+    "sequences": [
+     {
+      "subIndex": 27,
+      "offset": 12502,
+      "durationFrames": 6,
+      "durationSeconds": 0.1,
+      "events": [
+       {
+        "frame": 6,
+        "time": 0.1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.3927,
+        "bulletType": 528,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 6,
+        "time": 0.1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.3491,
+        "bulletType": 528,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 6,
+        "time": 0.1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.2417,
+        "bulletType": 528,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 6,
+        "time": 0.1,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.1963,
+        "bulletType": 528,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 6,
+        "time": 0.1,
+        "count": 2,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 528,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 6,
+        "time": 0.1,
+        "count": 2,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 528,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 6,
+        "time": 0.1,
+        "count": 2,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 528,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 6,
+        "time": 0.1,
+        "count": 2,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 528,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 8,
+      "totalBullets": 12,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1,
+       2
+      ],
+      "bulletTypes": [
+       528
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 5,
+      "offset": 1596,
+      "durationFrames": 40,
+      "durationSeconds": 0.67,
+      "events": [
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 1,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       },
+       {
+        "frame": 40,
+        "time": 0.67,
+        "count": 2,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0,
+        "bulletType": 4,
+        "opcode": 69,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 4,
+      "totalBullets": 5,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1
+      ],
+      "bulletTypes": [
+       4
+      ],
+      "spiral": false,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 35,
+      "offset": 18472,
+      "durationFrames": 120,
+      "durationSeconds": 2,
+      "events": [
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": -0.4488,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 120,
+        "time": 2,
+        "count": 1,
+        "speed": 2,
+        "angle": 0,
+        "spin": -0.3142,
+        "bulletType": 516,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 2,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       2
+      ],
+      "bulletTypes": [
+       516
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     }
+    ],
+    "totalEvents": 14,
+    "totalBullets": 19,
+    "spiralCount": 2
+   },
+   {
+    "stage": 7,
+    "eclFile": "ecldata7.ecl",
+    "sequences": [
+     {
+      "subIndex": 57,
+      "offset": 34292,
+      "durationFrames": 422,
+      "durationSeconds": 7.03,
+      "events": [
+       {
+        "frame": 210,
+        "time": 3.5,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 0,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 321,
+        "time": 5.35,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 0,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 422,
+        "time": 7.03,
+        "count": 1,
+        "speed": 1.2,
+        "angle": 0,
+        "spin": 0.1571,
+        "bulletType": 0,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 3,
+      "totalBullets": 3,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1.2
+      ],
+      "bulletTypes": [
+       0
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 6,
+      "offset": 3320,
+      "durationFrames": 70,
+      "durationSeconds": 1.17,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 4,
+        "speed": 2,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 3,
+        "speed": 2.1,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 7,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       2,
+       2.1
+      ],
+      "bulletTypes": [
+       3
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     },
+     {
+      "subIndex": 7,
+      "offset": 3648,
+      "durationFrames": 70,
+      "durationSeconds": 1.17,
+      "events": [
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 4,
+        "speed": 1,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       },
+       {
+        "frame": 70,
+        "time": 1.17,
+        "count": 3,
+        "speed": 1.1,
+        "angle": 0,
+        "spin": 0.0654,
+        "bulletType": 3,
+        "opcode": 67,
+        "confidence": 0.95
+       }
+      ],
+      "eventCount": 2,
+      "totalBullets": 7,
+      "angles": [
+       0
+      ],
+      "speeds": [
+       1,
+       1.1
+      ],
+      "bulletTypes": [
+       3
+      ],
+      "spiral": true,
+      "warnings": [
+       "弹幕参数由 opcode 0x43 / 0x45 的参数区还原，字段语义经跨关卡样本的取值分布验证",
+       "呈现的是发射时刻的初速度与角度；重力、加速、追踪等运行时效果未建模"
+      ]
+     }
+    ],
+    "totalEvents": 7,
+    "totalBullets": 17,
+    "spiralCount": 3
+   }
+  ]
+ }
+}

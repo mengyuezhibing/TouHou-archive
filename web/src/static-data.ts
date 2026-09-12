@@ -313,6 +313,17 @@ export async function staticRequest<T>(path: string, init?: RequestInit): Promis
       return { items: list.slice(0, limit), total: list.length } as T;
     }
 
+    case 'danmaku': {
+      // /danmaku/sequences：ECL 弹幕序列，导出时已算好，可离线回放
+      if (arg === 'sequences') {
+        const data = await loadJson<{ byGame: Record<string, Dict[]> }>('danmaku-sequences.json');
+        const gameId = q.get('gameId');
+        return { stages: (gameId ? data.byGame[gameId] : []) ?? [] } as T;
+      }
+      // /danmaku/default 与 /danmaku/simulate 依赖后端计算，静态站点不提供
+      throw new StaticModeError('弹幕模拟');
+    }
+
     case 'designs':
       return (await loadJson<Dict>('designs.json')) as T;
 

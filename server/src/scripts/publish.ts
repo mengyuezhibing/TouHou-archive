@@ -20,6 +20,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { execFileSync } from 'node:child_process';
 import { DATA_DIR, EXPORT_DIR, PROJECT_ROOT, ensureDir } from '../core/paths.ts';
+import { collectSequences } from '../services/danmakuSequences.ts';
 import {
   listGames,
   listArchives,
@@ -205,6 +206,17 @@ async function main() {
   }
   dataBytes += writeJson('data/animations.json', { items: animations, details: animationDetails });
   console.log(`  动画        ${animations.length} 段`);
+
+  // ECL 弹幕序列：静态站点没有解析能力，需在导出时算好
+  const danmakuSequences: Record<string, unknown> = {};
+  let seqTotal = 0;
+  for (const code of gameCodes) {
+    const stages = collectSequences(code);
+    danmakuSequences[code] = stages;
+    seqTotal += stages.reduce((a, s) => a + s.sequences.length, 0);
+  }
+  dataBytes += writeJson('data/danmaku-sequences.json', { byGame: danmakuSequences });
+  console.log(`  弹幕序列    ${seqTotal} 段`);
 
   dataBytes += writeJson('data/bgm.json', { items: listBgm() });
 

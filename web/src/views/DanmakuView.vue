@@ -1,9 +1,10 @@
 <script setup lang="ts">
 import { computed, onMounted, onUnmounted, reactive, ref, watch } from 'vue';
 import { api, formatSize, type Asset, type DanmakuParams, type Pattern, type PatternAction, type SimResult } from '../api.ts';
+import EclReplay from '../components/EclReplay.vue';
 import { store } from '../store.ts';
 
-type Tab = 'analysis' | 'editor';
+type Tab = 'analysis' | 'editor' | 'replay';
 
 const tab = ref<Tab>('analysis');
 const err = ref('');
@@ -460,6 +461,9 @@ onUnmounted(stopLoop);
       <button class="btn btn-sm" :class="{ 'btn-primary': tab === 'analysis' }" @click="tab = 'analysis'">
         ECL 参数分析
       </button>
+      <button class="btn btn-sm" :class="{ 'btn-primary': tab === 'replay' }" @click="tab = 'replay'">
+        ECL 回放
+      </button>
       <button class="btn btn-sm" :class="{ 'btn-primary': tab === 'editor' }" @click="tab = 'editor'">
         弹幕编辑器
       </button>
@@ -717,7 +721,7 @@ onUnmounted(stopLoop);
     </div>
 
     <!-- ================= 编辑器 -->
-    <div v-else style="display: grid; grid-template-columns: 340px 1fr; gap: 14px; align-items: start">
+    <div v-else-if="tab === 'editor'" style="display: grid; grid-template-columns: 340px 1fr; gap: 14px; align-items: start">
       <div class="card">
         <div class="card-title">弹幕参数</div>
 
@@ -1016,5 +1020,8 @@ onUnmounted(stopLoop);
         </div>
       </div>
     </div>
+
+    <!-- ================= ECL 回放（作品里的真实弹幕） -->
+    <EclReplay v-else />
   </div>
 </template>

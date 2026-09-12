@@ -494,6 +494,9 @@ export const api = {
 
   // 弹幕
   danmakuDefault: () => get<DanmakuParams>('/danmaku/default'),
+  /** ECL 弹幕序列：作品里的真实发射事件，用于回放 */
+  danmakuSequences: (gameId: string) =>
+    get<{ stages: StageSequences[] }>(`/danmaku/sequences?gameId=${encodeURIComponent(gameId)}`),
   simulate: (params: Partial<DanmakuParams>) => post<SimResult>('/danmaku/simulate', params),
   exportDanmaku: (body: { name: string; format: string; params: Partial<DanmakuParams> }) =>
     request<any>('/danmaku/export', { method: 'POST', body: JSON.stringify(body) }),
@@ -570,6 +573,48 @@ export const CATEGORY_LABELS: Record<string, string> = {
   binary: '二进制',
   unknown: '未分类',
 };
+
+// ---------------------------------------------------------------- ECL 弹幕序列
+
+/** 一次弹幕发射事件（从 ECL 的 opcode 0x43 / 0x45 参数区还原） */
+export interface DanmakuEvent {
+  frame: number;
+  time: number;
+  count: number;
+  /** 初速度（像素/帧） */
+  speed: number;
+  /** 发射角度（弧度） */
+  angle: number;
+  /** 角速度（弧度/帧），非 0 即螺旋 */
+  spin: number;
+  bulletType: number;
+  opcode: number;
+  confidence: number;
+}
+
+export interface DanmakuSequence {
+  subIndex: number;
+  offset: number;
+  durationFrames: number;
+  durationSeconds: number;
+  events: DanmakuEvent[];
+  eventCount: number;
+  totalBullets: number;
+  angles: number[];
+  speeds: number[];
+  bulletTypes: number[];
+  spiral: boolean;
+  warnings: string[];
+}
+
+export interface StageSequences {
+  stage: number;
+  eclFile: string;
+  sequences: DanmakuSequence[];
+  totalEvents: number;
+  totalBullets: number;
+  spiralCount: number;
+}
 
 // ---------------------------------------------------------------- 敌机情报
 
