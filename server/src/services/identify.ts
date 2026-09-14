@@ -45,7 +45,7 @@ export interface IdentifyResult {
  * 整表偏移（例如第 8 号被写成 sakuya，而图像是紫发持书的帕秋莉）。
  * 现在以 buildFaceMapFromAi 的动态推导为准。
  */
-const TH06_FACE_MAP_FALLBACK: Record<number, string> = {
+export const TH06_FACE_MAP_FALLBACK: Record<number, string> = {
   0: 'reimu',
   1: 'marisa',
   3: 'rumia',
@@ -172,7 +172,10 @@ export function identifyCharacters(gameCode: string): IdentifyResult {
 
   // 立绘编号 → 角色：优先由 AI 打标推导（看图像内容），硬编码表仅作兜底
   const aiFaceMap = buildFaceMapFromAi(gameCode, gid);
-  const fallbackMap: Record<number, string> = gameCode === 'TH06' ? TH06_FACE_MAP_FALLBACK : {};
+  // TH06NC 是原作重制，立绘编号与原版完全同构（face00=灵梦、face03=露米娅…），
+  // 直接复用同一张兜底表；若有 AI 打标数据则 AI 优先，兜底仅在无 AI 数据时生效
+  const fallbackMap: Record<number, string> =
+    gameCode === 'TH06' || gameCode === 'TH06NC' ? TH06_FACE_MAP_FALLBACK : {};
   /**
    * 只有在**完全没有 AI 数据**时才用兜底表。
    * 半吊子地混合两者更危险：兜底表本身有整体偏移，

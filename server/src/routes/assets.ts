@@ -20,6 +20,8 @@ import { DATA_DIR } from '../core/paths.ts';
 import { decodePng, encodePng, createCanvas, blitImage } from '../core/png.ts';
 import { analyzeColors } from '../core/color.ts';
 import { ROLE_LABELS, ROLE_HINTS } from '../services/classify.ts';
+import { ensureRasterPreview, needsTranscode } from '../services/preview.ts';
+import { renderAnmPreview } from '../services/anmPreview.ts';
 
 export const assetsRouter = Router();
 
@@ -176,36 +178,80 @@ assetsRouter.get('/assets/:id/colors', (req, res) => {
 /**
  * 精灵表切片预览：把 sprite sheet 与单个精灵合成到一张对比图（用于动画分析器）
  */
-assetsRouter.get('/assets/:id/thumbnail', (req, res) => {
+assetsRouter.get('/assets/:id/thumbnail', async (req, res) => {
   const asset = getAsset(req.params.id) as any;
   if (!asset?.cache_path || !fs.existsSync(asset.cache_path)) {
     res.status(404).end();
+    return;
+  }
+  // DDS 之类浏览器渲染不了的格式，先转成 PNG 再给
+  if (needsTranscode(String(asset.cache_path))) {
+    const cached = await ensureRasterPreview(String(asset.cache_path));
+    if (!cached) {
+      res.status(415).end();
+      return;
+    }
+    res.sendFile(path.resolve(cached));
+    return;
+  }
+  // ANM：渲染精灵图集 / 布局图（二进制直接给浏览器无法显示）
+  if (String(asset.cache_path).toLowerCase().endsWith('.anm')) {
+    const png = await renderAnmPreview(
+      String(asset.cache_path),
+      asset.game_id,
+      String(asset.entry_name ?? ''),
+    );
+    if (!png) {
+      res.status(415).end();
+      return;
+    }
+    res.type('image/png').send(png);
     return;
   }
   res.sendFile(path.resolve(asset.cache_path));
 });
 
-/** 生成带透明棋盘背景的预览图（PNG） */
-assetsRouter.get('/assets/:id/preview', (req, res) => {
+/** 生成带透明棋盘背景的预览图（PNG）。DDS 等格式先经 preview 服务转码 */
+assetsRouter.get('/assets/:id/preview', async (req, res) => {
   const asset = getAsset(req.params.id) as any;
   if (!asset?.cache_path || !fs.existsSync(asset.cache_path)) {
     res.status(404).end();
     return;
   }
-  const lower = String(asset.cache_path).toLowerCase();
-  if (!lower.endsWith('.png')) {
+  // 浏览器渲染不了的格式（TH06NC 的 BC7 DDS 等）先转成 PNG 缓存
+  let src = String(asset.cache_path);
+  if (needsTranscode(src)) {
+    const cached = await ensureRasterPreview(src);
+    if (!cached) {
+      res.status(415).json({ error: '该格式暂不支持预览' });
+      return;
+    }
+    src = cached;
+  }
+  // ANM：渲染精灵图集 / 布局图（二进制直接给浏览器无法显示）
+  if (src.toLowerCase().endsWith('.anm')) {
+    // game_id 是映射层的 game.code（字符串），由渲染函数自行解析成数字 id
+    const png = await renderAnmPreview(src, asset.game_id, String(asset.entry_name ?? ''));
+    if (!png) {
+      res.status(415).json({ error: 'ANM 解析失败（非 thtk 格式）' });
+      return;
+    }
+    res.type('image/png').send(png);
+    return;
+  }
+  if (!src.toLowerCase().endsWith('.png')) {
     // 非 PNG 直接返回原文件
-    res.sendFile(path.resolve(asset.cache_path));
+    res.sendFile(path.resolve(src));
     return;
   }
   try {
-    const img = decodePng(fs.readFileSync(asset.cache_path));
+    const img = decodePng(fs.readFileSync(src));
     if (!img) {
-      res.sendFile(path.resolve(asset.cache_path));
+      res.sendFile(path.resolve(src));
       return;
     }
     if (img.width > 1024 || img.height > 1024) {
-      res.sendFile(path.resolve(asset.cache_path));
+      res.sendFile(path.resolve(src));
       return;
     }
     const canvas = createCanvas(img.width, img.height, [26, 28, 36, 255]);
@@ -224,6 +270,6 @@ assetsRouter.get('/assets/:id/preview', (req, res) => {
     blitImage(canvas, img, 0, 0);
     res.type('image/png').send(encodePng(canvas));
   } catch {
-    res.sendFile(path.resolve(asset.cache_path));
+    res.sendFile(path.resolve(src));
   }
 });

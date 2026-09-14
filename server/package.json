@@ -10,15 +10,21 @@
     "seed": "tsx src/scripts/seed-demo.ts",
     "verify": "tsx src/scripts/verify.ts",
     "reclassify": "tsx src/scripts/reclassify.ts",
-    "publish": "tsx src/scripts/publish.ts"
+    "publish": "tsx src/scripts/publish.ts",
+    "unpack": "tsx src/scripts/unpack-pkg.ts",
+    "import:th06nc": "tsx src/scripts/import-th06nc.ts",
+    "warm-previews": "tsx src/scripts/warm-previews.ts",
+    "research:th06nc": "tsx src/scripts/build-research-th06nc.ts"
   },
   "dependencies": {
     "better-sqlite3": "^11.7.0",
     "cors": "^2.8.5",
     "express": "^4.21.2",
+    "fzstd": "^0.1.1",
     "jpeg-js": "^0.4.4",
     "multer": "^1.4.5-lts.1",
-    "onnxruntime-node": "^1.29.0"
+    "onnxruntime-node": "^1.29.0",
+    "opus-decoder": "^0.7.12"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.12",

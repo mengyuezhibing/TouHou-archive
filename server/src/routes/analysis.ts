@@ -1,4 +1,6 @@
 import { Router } from 'express';
+import fs from 'node:fs';
+import path from 'node:path';
 import {
   listCharacters,
   listEnemies,
@@ -21,6 +23,7 @@ import { harvestSpellCandidates, importSpellCandidates, seedKnownSpells } from '
 import { collectSequences, buildStageFields } from '../services/danmakuSequences.ts';
 import { buildSpellIntel } from '../services/spellIntel.ts';
 import { actionsToBir, inferBirPattern, validateBir, birToSimParams, birToGodot, birToUnity } from '../core/bir.ts';
+import { ensureNcOpusWav } from '../services/bgmAudio.ts';
 
 export const analysisRouter = Router();
 
@@ -228,8 +231,27 @@ analysisRouter.post('/spells/seed', (req, res) => {
 // ---------------------------------------------------------------- BGM
 
 analysisRouter.get('/bgm', (req, res) => {
-  res.json({ items: listBgm((req.query as any).gameId) });
-});
+    res.json({ items: listBgm((req.query as any).gameId) });
+  });
+
+  /** 曲目音频流：WAV 直接播放；TH06NC 的自定义 opus 容器即时转码（缓存后秒开） */
+  analysisRouter.get('/bgm/:id/audio', async (req, res) => {
+    const row = listBgm().find((t) => String(t.id) === req.params.id);
+    if (!row?.cache_path || !fs.existsSync(row.cache_path)) {
+      res.status(404).json({ error: '曲目音频文件不存在' });
+      return;
+    }
+    if (row.codec === 'opus') {
+      const wav = await ensureNcOpusWav(row.cache_path);
+      if (!wav) {
+        res.status(415).json({ error: 'BGM 转码失败，详见服务端日志' });
+        return;
+      }
+      res.type('audio/wav').sendFile(path.resolve(wav));
+      return;
+    }
+    res.sendFile(path.resolve(row.cache_path));
+  });
 
 analysisRouter.patch('/bgm/:id', (req, res) => {
   const updated = updateBgm(req.params.id, req.body ?? {});

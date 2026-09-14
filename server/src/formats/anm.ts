@@ -339,10 +339,12 @@ export function parseThtkAnm(buf: Buffer): ThtkAnmInfo | null {
   const thtxOffset = u32(buf, 48);
 
   // 严格校验：TH06 的 version 必须为 0，尺寸与像素格式需落在合法范围
+  // （format 0 = BGR555 同样合法；贴图外置的 ANM 里它只是信息字段，
+  //   stg2bg / eff00 等 DJB 重编译文件用的就是 0，此前按 1/3/5/7 白名单误杀）
   if (version !== 0) return null;
   if (sprites < 1 || sprites > 20000) return null;
   if (width < 1 || width > 8192 || height < 1 || height > 8192) return null;
-  if (![1, 3, 5, 7].includes(format)) return null;
+  if (format > 7) return null;
   if (nameOffset === 0 && thtxOffset === 0) return null;
 
   // 区域偏移表：0x40 起，每项 u32

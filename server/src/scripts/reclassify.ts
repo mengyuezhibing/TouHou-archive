@@ -53,6 +53,8 @@ interface Row {
   width: number;
   height: number;
   archive_name: string | null;
+  /** 所属作品代码，用于分派版本专属分类规则 */
+  game_code: string | null;
 }
 
 function main() {
@@ -65,7 +67,7 @@ function main() {
     .prepare(
       `SELECT r.id, r.code, r.game_id, r.filename AS entry_name, r.display_name, r.ext, r.kind,
               r.category, r.role, COALESCE(i.width, 0) AS width, COALESCE(i.height, 0) AS height,
-              a.filename AS archive_name
+              a.filename AS archive_name, g.code AS game_code
        FROM resource r
        LEFT JOIN archive a ON a.id = r.archive_id
        LEFT JOIN game g ON g.id = r.game_id
@@ -103,6 +105,8 @@ function main() {
         width: r.width,
         height: r.height,
         fromAnm: r.entry_name.includes('#'),
+        // 传作品代码，让该版本的专属命名规则参与判定
+        gameCode: r.game_code ?? undefined,
       });
 
       const catChanged = cls.category !== r.category;
@@ -160,6 +164,7 @@ function main() {
       width: r.width,
       height: r.height,
       fromAnm: r.entry_name.includes('#'),
+      gameCode: r.game_code ?? undefined,
     }).role === 'unknown');
 
     const byName = new Map<string, number>();

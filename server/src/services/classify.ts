@@ -22,6 +22,42 @@ interface Rule {
 }
 
 /**
+ * **版本专属**分类规则。
+ *
+ * 素材命名约定随作品与版本变化 —— 同一套通用规则套到不同版本上，
+ * 要么漏判（新命名没人认识），要么误判（旧规则误伤新素材）。
+ * 因此凡是「只对某一作成立」的命名约定都隔离在这里，按作品代码分派。
+ *
+ * 语义是**优先匹配**：命中即返回，未命中再继续走通用 NAME_RULES。
+ */
+const VERSION_RULES: Record<string, Rule[]> = {
+  // 红魔乡 New Classic：高清重制版，命名与原版差异很大
+  TH06NC: [
+    // 位图字模图集。名字由「字号 + 四组颜色值 + 语言」拼成：
+    //   15_0x005D9633_0x00C0D0D0_0x00010101_0x00040202_en.dds
+    // 同一字号会因描边/填充配色不同产生大量变体，故单独给一个用途值。
+    {
+      test: /^\d+_0x[0-9a-f]{8}(_0x[0-9a-f]{8}){3}/i,
+      category: 'font',
+      role: 'font',
+      tags: ['字体', '字模图集'],
+    },
+    // 以下都是界面资源，原版没有这些名字。
+    //
+    // 一律用 `(?:[_.]|$)` 而不是 `\b` 收尾 —— 名字后面常紧跟语言或 _4k 后缀
+    // （msgframe_de.anm / frame_4k_zh-TW.dds），而下划线属于 \w，
+    // `\b` 在「字母 + 下划线」之间不成立，会整类漏掉。
+    { test: /^msgframe(?:[_.]|$)/i, category: 'ui', role: 'ui', tags: ['界面', '消息窗'] },
+    { test: /^frame(?:[_.]|$)/i, category: 'ui', role: 'ui', tags: ['界面', '窗框'] },
+    { test: /^intext(?:[_.]|$)/i, category: 'ui', role: 'ui', tags: ['界面', '文本显示'] },
+    { test: /^difficulty(?:[_.]|$)/i, category: 'ui', role: 'ui', tags: ['界面', '难度'] },
+    // 按键提示：三平台各一套（名称里 button 有拼作 buttom 的）
+    { test: /^but+o[mn]_(?:ns|ps|xbox)(?:[_.]|$)/i, category: 'ui', role: 'ui', tags: ['界面', '按键提示'] },
+    { test: /^credit(?:[_.]|$)/i, category: 'ui', role: 'ui', tags: ['界面', '制作名单'] },
+  ],
+};
+
+/**
  * 按条目名匹配的分类规则（顺序敏感，越靠前优先级越高）。
  *
  * role 表示「用途」，必须是可用作界面筛选项的有限集合；
@@ -190,10 +226,12 @@ export interface ClassifyInput {
   height?: number;
   /** 是否来自 ANM 内部 sprite */
   fromAnm?: boolean;
+  /** 作品代码。给了就先跑该版本的专属规则，未命中再走通用规则 */
+  gameCode?: string;
 }
 
 export function classifyEntry(input: ClassifyInput): Classification {
-  const { entryName, archiveName, magic, width = 0, height = 0, fromAnm = false } = input;
+  const { entryName, archiveName, magic, width = 0, height = 0, fromAnm = false, gameCode } = input;
   const hay = `${entryName} ${archiveName}`;
   const lowerEntry = entryName.toLowerCase();
 
@@ -201,9 +239,24 @@ export function classifyEntry(input: ClassifyInput): Classification {
   let role = 'unknown';
   const tags: string[] = [];
 
+  // 先跑版本专属规则。命名约定因版本而异，通用规则不认识新版本的命名，
+  // 但反过来，版本规则只会用在该作上，不会误伤其他作品。
+  const versionRules = gameCode ? VERSION_RULES[gameCode] : undefined;
+  if (versionRules) {
+    for (const rule of versionRules) {
+      if (rule.skipExt?.some((ext) => lowerEntry.endsWith(ext))) continue;
+      if (rule.test.test(entryName) || rule.test.test(hay)) {
+        category = rule.category;
+        role = rule.role ?? 'unknown';
+        tags.push(...rule.tags);
+        break;
+      }
+    }
+  }
+
   // 规则同时对「条目名」与「条目名+归档名」求值：
   // 前者保证 ^...$ 锚点可用，后者允许通过归档名线索（如 player00.anm 内的 sprite）参与判定。
-  for (const rule of NAME_RULES) {
+  if (category === 'unknown') for (const rule of NAME_RULES) {
     if (rule.skipExt?.some((ext) => lowerEntry.endsWith(ext))) continue;
     if (rule.test.test(entryName) || rule.test.test(hay)) {
       category = rule.category;
@@ -315,6 +368,7 @@ export const ROLE_LABELS: Record<string, string> = {
   item: '道具',
   ui: 'UI 界面',
   audio: '音效',
+  font: '字体',
   data: '数据 / 脚本',
   unknown: '未分类',
 };
@@ -330,6 +384,7 @@ export const ROLE_HINTS: Record<string, string> = {
   item: '判定依据：来源指向 item / power / point 等道具资源',
   ui: '判定依据：来源指向 ascii / title / menu / staff 等界面资源',
   audio: '判定依据：来源为音频文件（wav / ogg / mid）',
+  font: '位图字模图集，名字由字号与描边/填充配色拼成',
   data: 'ECL / STD 脚本、MSG 文本与二进制数据 —— 本身没有美术用途',
   unknown: '未能从文件名判定用途，可在详情面板手动指派',
 };

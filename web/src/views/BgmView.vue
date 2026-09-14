@@ -8,6 +8,7 @@ const loading = ref(false);
 const err = ref('');
 const playing = ref<BgmTrack | null>(null);
 const audioRef = ref<HTMLAudioElement | null>(null);
+const audioError = ref(false);
 const keyword = ref('');
 
 const editing = ref<BgmTrack | null>(null);
@@ -30,11 +31,21 @@ function play(t: BgmTrack) {
     err.value = '该曲目尚未导出音频文件，请在解包中心使用「全部解包」或「仅音频」模式。';
     return;
   }
+  audioError.value = false;
   playing.value = t;
   setTimeout(() => {
     audioRef.value?.load();
     void audioRef.value?.play().catch(() => undefined);
   }, 30);
+}
+
+/** 首次播放需服务端转码，加载可能要几秒 */
+const transcoding = ref(false);
+
+/** 浏览器解码失败（如 New Classic 的自定义 opus 容器）时给出明确提示，而不是无声无息 */
+function onAudioError() {
+  if (!playing.value) return;
+  audioError.value = true;
 }
 
 async function saveMeta() {
@@ -88,7 +99,11 @@ onMounted(load);
               {{ playing.file_name }} · {{ playing.codec?.toUpperCase() }} · {{ formatSize(playing.size) }}
             </div>
           </div>
-          <audio ref="audioRef" :src="fileUrl(playing.cache_path)" controls autoplay style="width: 340px; height: 34px"></audio>
+          <audio ref="audioRef" :src="`/api/bgm/${playing.id}/audio`" controls autoplay style="width: 340px; height: 34px" @error="onAudioError"></audio>
+          <div v-if="audioError" class="alert alert-danger" style="margin-top: 6px">
+            音频播放失败（{{ playing.codec || '未知编码' }}）。TH06NC 的 BGM 是游戏私有封装格式，在线播放暂不支持；
+            原始文件已落盘 <code>Data/Game/TH06NC/BGM</code>，可用 vgmstream 等工具本地试听（格式逆向进行中）。
+          </div>
           <button class="btn btn-ghost btn-sm" @click="playing = null">✕</button>
         </div>
       </div>
@@ -117,7 +132,8 @@ onMounted(load);
               <td class="mono dim">{{ formatSize(t.size) }}</td>
               <td>
                 <span v-if="t.boss" class="tag tag-accent">{{ t.boss }}</span>
-                <span v-else class="mute">未标注</span>
+                <span v-else-if="(t.meta as any)?.musicKind === '道中曲'" class="tag tag-blue">道中曲</span>
+                <span v-else class="mute">—</span>
               </td>
               <td>
                 <span v-if="t.scene" class="tag tag-blue">{{ t.scene }}</span>

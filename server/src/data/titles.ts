@@ -25,6 +25,13 @@ export const TITLES: TitleMeta[] = [
   { id: 'TH05', name: '东方怪绮谈', nameJp: '東方怪綺談', year: 1998, engine: 'PC-98', mainDat: '', exe: 'th05.exe', kind: 'other' },
 
   { id: 'TH06', name: '东方红魔乡', nameJp: '東方紅魔郷', year: 2002, engine: 'ZUN_STG', mainDat: 'th06.dat', exe: 'th06.exe', kind: 'stg', note: 'ANM 贴图为 JPEG 内嵌，DAT 使用变长文件名表' },
+  /**
+   * 原版重发（Classic）与高清重制（New Classic）与 TH06 同名资源，
+   * 必须作为独立作品保存：两者贴图与音频完全不同，混在一起会互相覆盖。
+   * 归档被拆成 ST / ED / IN / MD / TL / FN / CM 七个分包，且新版放在 data/ 子目录。
+   */
+  { id: 'TH06C', name: '东方红魔乡 Classic', nameJp: '東方紅魔郷: Classic', year: 2002, engine: 'ZUN_STG', mainDat: '', exe: 'th06c.exe', kind: 'stg', note: '原版重发：七分包归档，体积与 TH06 原版相当' },
+  { id: 'TH06NC', name: '东方红魔乡 New Classic', nameJp: '東方紅魔郷: New Classic', year: 2025, engine: 'ZUN_STG', mainDat: '', exe: 'th06nc.exe', kind: 'stg', note: '高清重制：贴图与音频体积为原版数十至上百倍，归档位于 data/ 子目录' },
   { id: 'TH07', name: '东方妖妖梦', nameJp: '東方妖々夢', year: 2003, engine: 'ZUN_STG', mainDat: 'th07.dat', exe: 'th07.exe', kind: 'stg', note: '引入 64 位色深与更丰富的 ANM 脚本' },
   { id: 'TH08', name: '东方永夜抄', nameJp: '東方永夜抄', year: 2004, engine: 'ZUN_STG', mainDat: 'th08.dat', exe: 'th08.exe', kind: 'stg', note: 'ANM 贴图转为 PNG，DAT 使用 16 字节定长文件名表' },
   { id: 'TH09', name: '东方花映塚', nameJp: '東方花映塚', year: 2005, engine: 'ZUN_STG', mainDat: 'th09.dat', exe: 'th09.exe', kind: 'stg' },
@@ -50,7 +57,10 @@ export function findTitleByFileName(fileName: string): TitleMeta | null {
   if (byExact) return byExact;
 
   // 形如 th06.dat / th06_01.dat / th6.dat
-  const m = lower.match(/^(th\d{2}(?:\.\d)?)(?:[_\-.]|$)/);
+  // 注意：Classic / New Classic 的归档是「th06ST.dat」这类**无分隔符**命名，
+  // th06 后直接跟字母，因此字符集里必须允许字母，否则这些归档会被整体漏掉。
+  // th06c.exe / th06nc.exe 靠上面的精确匹配先行命中，不会被这里误判成 TH06。
+  const m = lower.match(/^(th\d{2}(?:\.\d)?)(?:[_\-.]|[a-z]|$)/);
   if (m) {
     const code = m[1];
     const found = TITLES.find((t) => t.id.toLowerCase() === code || t.id.toLowerCase().replace('.', '') === code);

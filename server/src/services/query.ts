@@ -799,7 +799,7 @@ export function searchMsg(q: string, gameCode?: string, limit = 200) {
   }
   const rows = db
     .prepare(
-      `SELECT d.id, g.code AS game_code, r.code AS asset_id, d.time, d.text, d.encoding, d.speaker, d.scene
+      `SELECT d.id, g.code AS game_code, r.code AS asset_id, d.time, d.text, d.text_zh, d.encoding, d.speaker, d.scene, d.stage, d.route
        FROM dialogue d
        LEFT JOIN game g ON g.id = d.game_id
        LEFT JOIN resource r ON r.id = d.resource_id

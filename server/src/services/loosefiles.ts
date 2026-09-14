@@ -13,7 +13,7 @@ import { db, nowIso, gameIdByCode, setResourceTags } from '../db/index.ts';
  * 与 DAT 解包的区别：不复制文件（原地引用），只建立索引与元数据。
  */
 
-const AUDIO_EXT = new Set(['.wav', '.ogg', '.mp3', '.mid', '.m4a']);
+const AUDIO_EXT = new Set(['.wav', '.ogg', '.mp3', '.mid', '.m4a', '.opus']);
 
 export interface LooseTrackMeta {
   codec: string;
@@ -95,7 +95,7 @@ function ext1(name: string): string {
 
 /** 类型下标（与 crypt 表的 M T A J E W - * 顺序一致）*/
 function resourceTypeOf(ext: string): { resourceType: string; category: string; kind: string } {
-  if (ext === 'wav' || ext === 'ogg' || ext === 'mp3' || ext === 'mid') {
+  if (ext === 'wav' || ext === 'ogg' || ext === 'mp3' || ext === 'mid' || ext === 'opus') {
     return { resourceType: 'MUSIC', category: 'audio', kind: 'audio' };
   }
   if (ext === 'jpg' || ext === 'png' || ext === 'bmp') {

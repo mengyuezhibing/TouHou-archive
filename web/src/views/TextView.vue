@@ -9,7 +9,18 @@ interface MsgRow {
   asset_id: string;
   time: number;
   text: string;
+  text_zh?: string | null;
   encoding: string;
+  speaker?: string | null;
+  stage?: string | null;
+  route?: string | null;
+}
+
+/** 展示项：普通文本行，或关卡 / 路线分隔线 */
+interface DisplayItem {
+  key: string;
+  divider?: string;
+  row?: MsgRow;
 }
 
 const rows = ref<MsgRow[]>([]);
@@ -23,6 +34,46 @@ const SPELLISH = /[符札]|スペルカード/;
 
 const spellLines = computed(() => rows.value.filter((r) => SPELLISH.test(r.text)));
 const quotedLines = computed(() => rows.value.filter((r) => /[「『]/.test(r.text)));
+
+/* ---------------- 自机路线 / 关卡筛选与分隔 ---------------- */
+
+const routeFilter = ref('');
+const stageFilter = ref('');
+
+/** 关卡选项（按载入顺序去重） */
+const stageOptions = computed(() => {
+  const seen: string[] = [];
+  for (const r of rows.value) if (r.stage && !seen.includes(r.stage)) seen.push(r.stage);
+  return seen;
+});
+
+const filteredRows = computed(() =>
+  rows.value.filter(
+    (r) =>
+      (!routeFilter.value || r.route === routeFilter.value) &&
+      (!stageFilter.value || r.stage === stageFilter.value),
+  ),
+);
+
+/** 分隔线：每进入新关卡插一条粗分隔线；关卡内路线切换插细分隔线 */
+const displayRows = computed<DisplayItem[]>(() => {
+  const out: DisplayItem[] = [];
+  let lastStage: string | null = null;
+  let lastRoute: string | null | undefined = undefined;
+  for (const r of filteredRows.value) {
+    if (r.stage && r.stage !== lastStage) {
+      out.push({ key: `stage-${r.stage}`, divider: `━━ ${r.stage} ━━` });
+      lastStage = r.stage;
+      lastRoute = undefined;
+    }
+    if (!routeFilter.value && r.route && r.route !== lastRoute) {
+      out.push({ key: `route-${r.stage}-${r.route}-${r.id}`, divider: `— ${r.route}路线 —` });
+    }
+    if (r.route) lastRoute = r.route;
+    out.push({ key: `row-${r.id}`, row: r });
+  }
+  return out;
+});
 
 async function load() {
   loading.value = true;
@@ -92,8 +143,17 @@ onMounted(load);
         <option :value="500">500 行</option>
         <option :value="2000">2000 行</option>
       </select>
+      <select v-model="routeFilter" style="width: 130px">
+        <option value="">全部路线</option>
+        <option value="灵梦">灵梦线</option>
+        <option value="魔理沙">魔理沙线</option>
+      </select>
+      <select v-model="stageFilter" style="width: 130px">
+        <option value="">全部关卡</option>
+        <option v-for="s in stageOptions" :key="s" :value="s">{{ s }}</option>
+      </select>
       <div class="topbar-spacer"></div>
-      <span class="mute mono" style="font-size: 11.5px">{{ rows.length }} 行</span>
+      <span class="mute mono" style="font-size: 11.5px">{{ filteredRows.length }} / {{ rows.length }} 行</span>
     </div>
 
     <div class="stat-grid" style="grid-template-columns: repeat(3, 1fr)">
@@ -143,21 +203,49 @@ onMounted(load);
               <th style="width: 60px">行号</th>
               <th style="width: 80px">时间</th>
               <th>文本</th>
+              <th>中文翻译</th>
+              <th style="width: 110px">说话人</th>
               <th style="width: 90px">编码</th>
               <th style="width: 90px">作品</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr v-for="r in rows" :key="r.id">
-              <td class="mono dim">#{{ r.id }}</td>
-              <td class="mono dim">{{ r.time }}</td>
-              <td style="font-size: 12.5px; line-height: 1.7">
-                <span v-html="highlight(r.text)"></span>
-              </td>
-              <td><span class="tag">{{ r.encoding }}</span></td>
-              <td class="mono mute">{{ r.game_id }}</td>
-            </tr>
-          </tbody>
+              </tr>
+              </thead>
+              <tbody>
+                <template v-for="item in displayRows" :key="item.key">
+                  <tr v-if="item.divider">
+                    <td
+                      colspan="7"
+                      :style="{
+                        padding: '7px 10px',
+                        fontSize: '12px',
+                        fontWeight: 650,
+                        letterSpacing: '0.06em',
+                        color: item.divider.startsWith('━') ? 'var(--accent, #8ab4ff)' : 'var(--mute, #8a90a0)',
+                        background: item.divider.startsWith('━') ? 'rgba(138,180,255,0.07)' : 'transparent',
+                        borderTop: item.divider.startsWith('━') ? '1px solid rgba(138,180,255,0.25)' : 'none',
+                      }"
+                    >
+                      {{ item.divider }}
+                    </td>
+                  </tr>
+                  <tr v-else-if="item.row">
+                  <td class="mono dim">#{{ item.row.id }}</td>
+                  <td class="mono dim">{{ item.row.time }}</td>
+                  <td style="font-size: 12.5px; line-height: 1.7">
+                    <span v-html="highlight(item.row.text)"></span>
+                  </td>
+                  <td style="font-size: 12.5px; line-height: 1.7" :class="{ mute: !item.row.text_zh }">
+                    <span v-html="highlight(item.row.text_zh || '—')"></span>
+                  </td>
+                  <td>
+                    <span class="tag" :class="item.row.speaker === '自机' ? 'tag-accent' : item.row.speaker ? 'tag' : 'tag mute'">
+                      {{ item.row.speaker || '—' }}
+                    </span>
+                  </td>
+                  <td><span class="tag">{{ item.row.encoding }}</span></td>
+                  <td class="mono mute">{{ item.row.game_id }}</td>
+                </tr>
+              </template>
+            </tbody>
         </table>
       </div>
     </template>

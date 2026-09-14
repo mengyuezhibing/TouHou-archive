@@ -54,6 +54,7 @@
 | 数据库 | SQLite（`better-sqlite3`，WAL 模式） |
 | 前端 | Vue 3 + Vite + TypeScript |
 | 图像 | 零依赖自写 PNG 编解码 + `jpeg-js` |
+| DDS/TGA 预览 | 系统 `python3` + Pillow（BC7 等压缩纹理浏览器渲染不了，转成 PNG 缓存） |
 
 ---
 
@@ -64,6 +65,12 @@
 npm install
 npm --prefix server install
 npm --prefix web install
+
+# 可选：DDS/TGA 预览转码依赖（TH06NC 的 BC7 贴图需要；缺了不影响 PNG/JPG）
+#   macOS:  brew install python3 && pip3 install pillow
+#   Ubuntu: sudo apt install python3-pip && pip3 install pillow
+# 服务启动时会自检并在日志里报告状态；预热缓存：
+#   npm --prefix server run warm-previews
 
 # 生成演示数据集（合成符合真实 PBG3 格式的游戏文件）
 npm --prefix server run seed
@@ -89,6 +96,54 @@ npm --prefix server run verify
 ```
 
 校验产物完整性（文件存在性、尺寸匹配、图片可解码）。**注意：它只验证内部一致性，不验证格式正确性**——格式正确性需用真实游戏文件验证。
+
+---
+
+## 项目约定：导入数据的完成标准
+
+> 详细版见根目录 `CLAUDE.md`（AI 会话自动加载）。此处为速记。
+
+**导入解包数据 ≠ 入库就完事。** 每次导入新游戏 / 新版本数据，必须同步完成：
+
+| # | 项 | 说明 |
+|---|---|---|
+| 1 | 动画查看器 | 新格式 ANM 能解析、能出精灵预览（`formats/anm.ts` + `services/anmPreview.ts`）；ANM 元数据（regions）与精灵裁片（`meta.sourceAnm`）由构建脚本回填 |
+| 2 | 素材预览 | 浏览器渲染不了的格式接入转码管线，`/preview` 必须返回 PNG（`services/preview.ts`） |
+| 3 | 研究页面全部可用 | 角色库（有名有姓）/ 符卡 / 敌人 / 弹幕（序列可回放）/ 文本分析（发言轮次说话人 + 中文翻译）/ 音乐，无「库里有、页面空白」 |
+| 4 | **音乐元数据标注** | **每个版本**的曲目都要自动标注**标题 / 场景 / Boss 关联**（数据源 = 游戏自带音乐室文本，见下） |
+| 5 | 缓存预热 | `npm --prefix server run warm-previews` |
+
+**音乐元数据标注要求（每版本必做）**：从游戏自带的音乐室文本自动推导，而不是人工维护——
+TH06 系的数据在 `localization.msgpack` 的 `MD_NN_TITLE` / `MD_NN_DESC` 中，DESC 的
+**第二行**即归属行（「N面のテーマです。」→ 场景；「ルーミアのテーマです。」→ Boss 角色）。
+注意只解析归属行：评注行里会出现其他关卡名（如「４面以降が…」），全段扫描会误标注。
+Boss 曲的场景沿用前一「面」；标题/场景/Boss 三字段写入 `music` 表并在 BGM 曲库中展示。
+**曲目标识（`meta.musicKind`）**：有 Boss → 「Boss 曲」；无 Boss 的关卡场景曲 → **「道中曲」**
+（曲库中显示蓝色标识，区分于未标注）；标题画面 / 结局 / 制作人员 不加标识。
+
+**验收 = 打开工作台逐页点检通过，而不是 DB 里有行。**
+
+**所有修复必须做成作品无关的通用实现**，同步生效到其它已导入作品（例：说话人标注逻辑同时服务于 TH06 与 TH06NC 的 msg；立绘编号对照对同构重制版直接复用）。
+
+### TH06NC 研究数据管线（v2）
+
+```bash
+npm --prefix server run research:th06nc
+```
+
+一次性完成：资源 kind 修正 → `localization.msgpack`（1152 条 × 12 语言）解码导出 →
+对话重建（含说话人，TH06/TH06NC 同步）→ 符卡（64 张，ECL 内嵌文本 ID）→
+ANM 元数据 + 1761 张精灵裁片 + 113 张图集 → BGM 落盘 → 自动分类 + 身份识别。
+
+关键格式结论（详见 `CLAUDE.md`）：
+- TH06NC 的 msg / ECL / end 全部存**文本 ID**（`ST_MSG1_00_0` 等），真实文字在
+  `localization.msgpack`；msg 为 TH06 系**指令式布局**（time u16 + opcode + size，
+  opcode 3 = 文本，参数首 2 字节 = 说话方 0 自机 / 1 Boss），与原版同构。
+  场景表区分灵梦/魔理沙路线，对话按段标注说话人（含官方简中翻译列 `text_zh`）。
+- BGM 在线播放：TH06 为标准 WAV；TH06NC 的自定义封装（40 字节头 + 488B 定长帧，
+  每帧 = 8B 开销 + 480B opus 包体，CELT 全频带 20ms 立体声）由
+  `/api/bgm/:id/audio` 即时转码为 WAV（opus-decoder WASM，首次约 0.8s/首，
+  之后缓存秒开）。
 
 ---
 

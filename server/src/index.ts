@@ -3,6 +3,7 @@ import cors from 'cors';
 import fs from 'node:fs';
 import path from 'node:path';
 import { DATA_DIR, PROJECT_ROOT, ensureDir } from './core/paths.ts';
+import { checkTranscoder } from './services/preview.ts';
 import { gamesRouter } from './routes/games.ts';
 import { assetsRouter } from './routes/assets.ts';
 import { analysisRouter } from './routes/analysis.ts';
@@ -115,4 +116,13 @@ app.listen(PORT, HOST, () => {
   if (HOST === '0.0.0.0') console.log(`  监听      0.0.0.0 —— 局域网内可访问，请确认网络环境可信`);
   if (fs.existsSync(webDist)) console.log(`  前端      http://${shown}:${PORT}/\n`);
   else console.log(`  前端      http://127.0.0.1:5173/ (Vite 开发服务器)\n`);
+
+  // DDS/TGA 等格式的预览依赖本机 python3 + Pillow，缺失时给出明确提示
+  void checkTranscoder().then(({ ok, detail }) => {
+    if (ok) console.log(`  预览转码  就绪（${detail}）`);
+    else
+      console.warn(
+        `  预览转码  不可用（${detail}）—— DDS 等格式将无法预览，PNG/JPG 不受影响`,
+      );
+  });
 });

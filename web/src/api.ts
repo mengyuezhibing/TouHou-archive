@@ -569,6 +569,7 @@ export const CATEGORY_LABELS: Record<string, string> = {
   background: '背景',
   audio: '音频',
   se: '音效',
+  font: '字体',
   text: '文本',
   script: '脚本',
   item: '道具',
@@ -718,6 +719,7 @@ export const ROLE_LABELS: Record<string, string> = {
   item: '道具',
   ui: '界面',
   audio: '音效',
+  font: '字体',
   unknown: '未分类',
 };
 
@@ -733,5 +735,6 @@ export const ROLE_HINTS: Record<string, string> = {
   item: '来源指向 item / power / point 等道具',
   ui: '来源指向 ascii / title / menu / staff 等界面',
   audio: '音频文件（wav / ogg / mid）',
+  font: '位图字模图集（字号 + 描边填充配色）',
   unknown: '未能从文件名判定，可在详情面板手动指派',
 };

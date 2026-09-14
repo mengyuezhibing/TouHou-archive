@@ -69,17 +69,45 @@ export function scanDirectory(root: string): { games: DetectedGame[]; scannedFil
 
   const buckets = new Map<string, { title: TitleMeta; base: string; exe: string | null; dats: DetectedFile[]; others: DetectedFile[] }>();
 
+  /**
+   * 第一遍：用 exe 确定「游戏根 → 作品」。
+   *
+   * Classic / New Classic 的归档叫 th06ST.dat，只能识别到 TH06，
+   * 单看文件名无法区分版本；新版归档还额外放在 data/ 子目录。
+   * 因此以 exe 为准确定作品，归档沿目录向上归并到有 exe 的那个根 ——
+   * 这样 th06nc/data/*.dat 才会归到 TH06NC，而不是散成独立的 TH06。
+   */
+  const rootTitle = new Map<string, TitleMeta>();
+  for (const full of files) {
+    if (!path.basename(full).toLowerCase().endsWith('.exe')) continue;
+    const t = findTitleByFileName(path.basename(full));
+    if (t) rootTitle.set(path.dirname(full), t);
+  }
+
+  const resolveTitle = (full: string): { title: TitleMeta; gameRoot: string } | null => {
+    let dir = path.dirname(full);
+    for (;;) {
+      const t = rootTitle.get(dir);
+      if (t) return { title: t, gameRoot: dir };
+      const parent = path.dirname(dir);
+      if (parent === dir) break;
+      dir = parent;
+    }
+    const t = findTitleByFileName(path.basename(full));
+    return t ? { title: t, gameRoot: path.dirname(full) } : null;
+  };
+
   for (const full of files) {
     const name = path.basename(full);
     const lower = name.toLowerCase();
-    const title = findTitleByFileName(name);
-    if (!title) continue;
+    const resolved = resolveTitle(full);
+    if (!resolved) continue;
+    const { title, gameRoot } = resolved;
 
-    const dir = path.dirname(full);
-    const key = `${title.id}@${dir}`;
+    const key = `${title.id}@${gameRoot}`;
     let bucket = buckets.get(key);
     if (!bucket) {
-      bucket = { title, base: dir, exe: null, dats: [], others: [] };
+      bucket = { title, base: gameRoot, exe: null, dats: [], others: [] };
       buckets.set(key, bucket);
     }
 

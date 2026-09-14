@@ -93,11 +93,13 @@ function baseKeyOf(name: string): string {
   return lower.replace(/_a$|_b$|_c$/, '');
 }
 
-/** 角色键：player00 / face03 */
+/** 角色键：player00 / face03（TH06NC 的自机文件叫 slpl00a，归一到 player） */
 function characterKeyOf(name: string): { key: string; kind: 'player' | 'face' } | null {
   const b = baseKeyOf(name);
   const p = b.match(/^(player\d{2})/);
   if (p) return { key: p[1], kind: 'player' };
+  const sp = b.match(/^slpl(\d{2})/);
+  if (sp) return { key: `player${sp[1]}`, kind: 'player' };
   const f = b.match(/^face(\d{2})/);
   if (f) return { key: `face${f[1]}`, kind: 'face' };
   return null;

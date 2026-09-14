@@ -10,3 +10,6 @@ dist/
 /Data/
 /server/Data/
 !server/src/**/*.ts
+
+# 独立的 th06nc-unpack 工具仓库（有自己的远程，不要作为嵌套仓库纳入）
+tools/

@@ -492,9 +492,29 @@ export function readEntryPayload(buf: Buffer, entry: DatEntry, result: DatParseR
   try {
     switch (result.kind) {
       case 'pbg3':
-      case 'pbg4':
+      case 'pbg4': {
         if (entry.size <= 0) return null;
-        return lzssDecompress(buf, entry.size, entry.offset);
+        const raw = lzssDecompress(buf, entry.size, entry.offset);
+        /**
+         * 新版重制（如东方红魔乡 New Classic）会在条目载荷外再包一层 edz 头。
+         * 这一段原本只写在 PBGZ 分支里，于是新版里经 edz 封装的 ECL / 音频
+         * 全部落到「无法识别的二进制」，表现为解包后只有图片、没有脚本与声音。
+         * 这里对 LZSS 解压结果统一检查一次 edz，让新旧两套封装都能还原。
+         */
+        if (raw.length >= 4 && raw.toString('latin1', 0, 3) === 'edz') {
+          const typeChar = String.fromCharCode(raw[3]);
+          entry.typeChar = typeChar;
+          const payload = Buffer.from(raw.subarray(4));
+          const table =
+            (gameId ?? '').toUpperCase() === 'TH09' ? TH09_CRYPT_PARAMS : TH08_CRYPT_PARAMS;
+          const params = paramsByTypeChar(table, typeChar);
+          // 类型码命中旧参数表才解密。重制版的类型码不在旧表里，
+          // 此时只剥头不解密 —— 至少能露出真实魔数，交给后续识别判断。
+          if (params) thDecrypt(payload, params as CryptParams);
+          return payload;
+        }
+        return raw;
+      }
 
       case 'pbgz': {
         const zsize = entry.zsize ?? entry.size;
@@ -512,8 +532,19 @@ export function readEntryPayload(buf: Buffer, entry: DatEntry, result: DatParseR
         return payload;
       }
 
-      default:
-        return sliceEntry(buf, entry);
+      default: {
+        const raw = sliceEntry(buf, entry);
+        /**
+         * raw-scan 兜底模式下，新版重制的条目同样可能带 edz 头。
+         * 即便没有解密参数，至少把头剥掉、让真实魔数露出来 ——
+         * 有些 edz 条目可能只是「头 + 原始数据」而不加密。
+         */
+        if (raw.length >= 4 && raw.toString('latin1', 0, 3) === 'edz') {
+          entry.typeChar = String.fromCharCode(raw[3]);
+          return Buffer.from(raw.subarray(4));
+        }
+        return raw;
+      }
     }
   } catch {
     return null;

@@ -158,6 +158,9 @@ export const TH06_ROSTER: CharacterKnowledge[] = [
 /** 各作品的角色名单 */
 export const ROSTER_BY_GAME: Record<string, CharacterKnowledge[]> = {
   TH06: TH06_ROSTER,
+  // 红魔乡 New Classic 是原作重制：符卡命名体系与立绘编号完全同构，
+  // 直接复用 TH06 的角色知识库（符卡属性前缀识别、AI 立绘映射均成立）
+  TH06NC: TH06_ROSTER,
 };
 
 export function rosterOf(gameCode: string): CharacterKnowledge[] {
